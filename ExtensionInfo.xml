@@ -1,13 +1,26 @@
 <HacknetExtension>
+  <!-- Set your language first!
+  Current supported list:
+  English : en-us
+  German : de-de
+  French : fr-be
+  Russian : ru-ru
+  Spanish : es-ar
+  Korean : ko-kr
+  Japanese : ja-jp
+  Chinese, simplified : zh-cn
+  -->
+  <Language>en-us</Language>
+  
   <!-- Max name length is 128 characters -->
 	<Name>Wargames Extension</Name>
 	<AllowSaves>true</AllowSaves>
   
   <!-- a coma separated list of notes that start out as being visible-->
-	<StartingVisibleNodes></StartingVisibleNodes>
+	<StartingVisibleNodes>bbsNode</StartingVisibleNodes>
   
   <!-- the mission (if any) that loads in as soon as the player starts -->
-  <StartingMission>Missions/StartingMission.xml</StartingMission>
+  <StartingMission>Missions/IntroMission.xml</StartingMission>
 
   <!-- Conditional action set that is loaded in as soon as a new session is created
   This is useful to do setup stuff, like giving the player programs, assigning them a faction etc.
@@ -15,8 +28,9 @@
   <StartingActions>Actions/StartingActions.xml</StartingActions>
 
   <!-- Description that appears within Hacknet -->
-  <Description> --- Blank Extension ---
-Edit this with your own extension info and start building!</Description>
+  <Description> --- Wargames ---
+ Hacknet Extension with inpiration taken for the 1983 movie "Wargames"
+</Description>
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
   <Faction>Factions/StartingFaction.xml</Faction>
@@ -24,9 +38,9 @@ Edit this with your own extension info and start building!</Description>
   <StartsWithTutorial>False</StartsWithTutorial>
   
   <!-- this makes the extension start with the standard restart bootup sequence -->
-  <HasIntroStartup>false</HasIntroStartup>
+  <HasIntroStartup>true</HasIntroStartup>
   
-  <StartingTheme>Themes/ExampleTheme.xml</StartingTheme>
+  <StartingTheme>HacknetBlue</StartingTheme>
   <!-- 
   Base Themes are named:
   TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HackerGreen, HacknetWhite, HacknetPurple, HacknetMint
@@ -66,7 +80,7 @@ Edit this with your own extension info and start building!</Description>
   0 = public
   1 = friends only
   2 = private (self only)-->
-  <WorkshopVisibility>2</WorkshopVisibility>
+  <WorkshopVisibility>0</WorkshopVisibility>
 
   <!-- Comma separated list of tags that this should be listed under in the workshop. This is not currently used, as the only category
   of workshop item in Hacknet is "Extension", so leave this as-is for now.-->

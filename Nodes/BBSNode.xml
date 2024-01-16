@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bbsNode" name="BBS Seattle" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+
+  <file path="home" name="example.txt">Nothing here...</file>
+
+ <messageBoard name="Seattle news">
+    <thread>Docs/MessageBoardThreads/Thread1.txt</thread>
+</messageBoard>
+  
+</Computer>

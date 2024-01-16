@@ -1,0 +1,11 @@
+thread1
+------------------------------------------
+> Student123
+Any help about getting into school networks?
+------------------------------------------
+> JohnDoe
+Maybe try the Seattle High School District IP: 67.183.58.6
+------------------------------------------
+> Student123
+Thx!
+------------------------------------------
