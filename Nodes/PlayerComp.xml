@@ -1,5 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="playerComp" name="IMSAI 8080 Workstation" security="2" allowsDefaultBootModule="false" type="2" >
+<Computer id="playerComp" 
+name="IMSAI 8080"
+ip="67.183.58.7" 
+security="0" 
+allowsDefaultBootModule="false" 
+type="empty" >
 
 <adminPass pass="root" />
 <account username="#PLAYERNAME#" password="password" type="ADMIN" />
@@ -10,9 +15,11 @@
 <portsForCrack val="4" />
 <trace time="300" />
 
-<file path="home" name="seattle_school_pass.txt">
-ip: ?
-pass: pencil
+<file path="home" name="seattle_datanet_ip.txt">
+ip: 67.183.58.11
+pass: ?
 </file>
+
+<dlink target="jMail" />
 
 </Computer>

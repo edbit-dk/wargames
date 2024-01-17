@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ispComp" 
+name="ISP"
+ip="67.183.58.10" 
+security="0"
+type="3">
+
+<adminPass pass="987654321" />
+
+  <portsForCrack val="0" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+
+<ispSystem />
+
+<dlink target="playerComp" />
+<dlink target="seattleDatanet" />
+<dlink target="sunnyvaleDatanet" />
+<dlink target="relayHost" />
+<dlink target="jMail" />
+  
+</Computer>

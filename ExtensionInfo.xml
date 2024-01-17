@@ -17,10 +17,10 @@
 	<AllowSaves>true</AllowSaves>
   
   <!-- a coma separated list of notes that start out as being visible-->
-	<StartingVisibleNodes>bbsNode</StartingVisibleNodes>
+	<StartingVisibleNodes>bbss</StartingVisibleNodes>
   
   <!-- the mission (if any) that loads in as soon as the player starts -->
-  <StartingMission>Missions/IntroMission.xml</StartingMission>
+  <StartingMission>Missions/School/SchoolMission1.xml</StartingMission>
 
   <!-- Conditional action set that is loaded in as soon as a new session is created
   This is useful to do setup stuff, like giving the player programs, assigning them a faction etc.
@@ -38,9 +38,9 @@
   <StartsWithTutorial>False</StartsWithTutorial>
   
   <!-- this makes the extension start with the standard restart bootup sequence -->
-  <HasIntroStartup>true</HasIntroStartup>
+  <HasIntroStartup>false</HasIntroStartup>
   
-  <StartingTheme>HacknetBlue</StartingTheme>
+  <StartingTheme>Themes/Terminal.xml</StartingTheme>
   <!-- 
   Base Themes are named:
   TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HackerGreen, HacknetWhite, HacknetPurple, HacknetMint
@@ -53,7 +53,7 @@
   
   To Play your own songs, use the path to that song in your extension.
   For example, try changing the song name below to "Music/Chemical_Burns.ogg" - it'll start with that instead for new saves! -->
-  <IntroStartupSong>The_Quickening</IntroStartupSong>
+  <IntroStartupSong>AmbientDrone_Clipped</IntroStartupSong>
 
   <!-- Sequencer stuff. You won't need this till later.-->
   <!--

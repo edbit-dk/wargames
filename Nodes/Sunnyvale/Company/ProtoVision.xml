@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="protoVision" 
+name="PV INC"
+ip="999.999.999.999" 
+security="0" 
+type="1">
+
+  <portsForCrack val="1" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+
+<PointClicker />
+  
+</Computer>

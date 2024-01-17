@@ -1,11 +1,25 @@
-thread1
+testthread1
 ------------------------------------------
-> Student123
-Any help about getting into school networks?
+#Speech
+This is the defined format for a thread!
+Make sure you copy + paste the section, the
+number of dashes is important. It's also useful as
+a formatting guide.
 ------------------------------------------
-> JohnDoe
-Maybe try the Seattle High School District IP: 67.183.58.6
+>Text that starts with a right caret will be green
+Like above
 ------------------------------------------
-> Student123
-Thx!
+#Academic
+If you start the post with a #word it'll include an image with it. Valid words are:
+.Academic
+.Sun
+.Snake
+.Circle
+.Duck
+.Page
+.Speech
+.Mod
+.Chip
+------------------------------------------
+You must also end the file with a line of dashes
 ------------------------------------------

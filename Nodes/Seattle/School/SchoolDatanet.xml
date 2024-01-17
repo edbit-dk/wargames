@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="academic" 
+name="SEATTLE PUBLIC SCHOOL DISTRICT DATANET" 
+ip="67.183.58.13" 
+security="0"  
+type="3">
+
+ <!-- Accounts -->
+<adminPass pass="pencil" />
+
+  <portsForCrack val="1" />
+  <ports>21</ports>
+  <trace time="-1" />
+
+  <file path="home" name="new_password.txt">This month's password is: "pencil"</file>
+
+<academicDatabase />
+  
+</Computer>

@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="unionBank" 
+name="UNION MARINE BANK - SOUTHWEST REGIONAL DATA CENTER"
+ip="311.399.23.64" 
+security="0" 
+type="1">
+
+  <portsForCrack val="1" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+
+<PointClicker />
+  
+</Computer>

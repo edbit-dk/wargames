@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="sunnyvaleDatanet" 
+name="Seattle Datanet" 
+ip="55.58.63.2" 
+security="0" 
+type="3">
+
+ <!-- Accounts -->
+<adminPass pass="" />
+
+  <portsForCrack val="0" />
+  <ports></ports>
+  <trace time="-1" />
+
+  <dlink target="protoVision" />
+  <dlink target="flightTerminal" />
+  <dlink target="unionBank" />
+  
+  <dlink target="armyWOPR" />
+  
+</Computer>

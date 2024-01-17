@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="seattleDatanet" 
+name="Seattle Datanet" 
+ip="67.183.58.11" 
+security="0" 
+type="3">
+
+ <!-- Accounts -->
+<adminPass pass="000001" />
+
+  <portsForCrack val="0" />
+  <ports></ports>
+  <trace time="-1" />
+
+  <dlink target="academic" />
+  
+</Computer>
