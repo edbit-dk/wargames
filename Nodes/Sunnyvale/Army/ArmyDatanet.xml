@@ -5,13 +5,19 @@ security="0"
 type="3">
 
  <!-- Accounts -->
-<adminPass pass="defcon" />
+<adminPass pass="norad" />
+
+<admin type="progress" />
+
+<account username="admin" password="00000000" type="ALL" />
 
   <portsForCrack val="1" />
   <ports>21</ports>
-  <trace time="-1" />
+  <proxy time="1" />
+  <firewall level="6" solution="defcon" additionalTime="0.5"/>
+  <trace time="500" />
 
-  <file path="home" name="new_password.txt">This month's password is: "000001"</file>
+  <file path="home" name="new_password.txt">Password for missile codes is: "00000000"</file>
 
 <dlink target="armyWOPR" />
   

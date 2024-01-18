@@ -5,7 +5,7 @@ security="0"
 type="3">
 
  <!-- Accounts -->
-<adminPass pass="" />
+<adminPass pass="000002" />
 
   <portsForCrack val="0" />
   <ports></ports>

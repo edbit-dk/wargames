@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hackerMission3">
+  <goals>
+    <!-- Goals here -->
+    <goal type="getadmin" target="sunnyvaleDatanet"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Jim</sender>
+    <subject>Sunnyvale Datanet</subject>
+    <body>
+Hey again
+
+You talked about some games from ProtoVision in Sunnyvale, California.
+We have (or mor precisely Malvin) found Sunnyvale Datanet!
+
+Maybe you can get "admin" access to the server using some of our programs (PortHack etc.)
+
+When you are done, reply back and maybe you/we find something interesting!
+
+Sincerely, 
+- Jim (and Malvin)
+
+Seattle Tech Lab
+</body>
+    <attachments>
+      <!-- A link takes in the idName of a computer and links to it on the netmap -->
+      <link comp="sunnyvaleDatanet" />
+    </attachments>
+  </email>
+</mission>

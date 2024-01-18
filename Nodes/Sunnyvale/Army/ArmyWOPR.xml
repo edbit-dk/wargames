@@ -35,5 +35,6 @@ WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
   <portsForCrack val="999" />
   <ports></ports>
   <trace time="-1" />
+  <tracker />
   
 </Computer>
