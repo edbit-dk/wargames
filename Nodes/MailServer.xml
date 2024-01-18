@@ -2,7 +2,6 @@
 <Computer id="jmail" 
 name="MAIL" 
 allowsDefaultBootModule="true"
-ip="67.183.58.8"
 security="0"
 type="3" > 
 
@@ -18,5 +17,7 @@ type="3" >
   <mailServer name="Mail" color="50,237,212">
 
   </mailServer>  
+
+  <dlink target="ispComp" />
   
 </Computer>

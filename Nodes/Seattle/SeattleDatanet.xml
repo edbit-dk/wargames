@@ -1,7 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="seattleDatanet" 
-name="Seattle Datanet" 
-ip="67.183.58.11" 
+name="SEATTLE DATANET" 
 security="0" 
 type="3">
 
@@ -13,5 +12,6 @@ type="3">
   <trace time="-1" />
 
   <dlink target="academic" />
+  <dlink target="techLab" />
   
 </Computer>

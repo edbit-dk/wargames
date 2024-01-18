@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="schoolMission">
+<mission id="schoolMission1">
   <goals>
     <!-- Goals here -->
     <goal type="AddDegree" owner="David Lightman" degree="S-202 - BIOLOGY 2" uni="Seattle Public High School" gpa="2.0"/>
@@ -10,7 +10,7 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionEnd val="3">changeSong</missionEnd>
+  <missionStart val="3">changeSong</missionStart>
 
   <nextMission>Missions/School/SchoolMission2.xml</nextMission>
   <!-- 
@@ -20,9 +20,13 @@
     <sender>Jennifer Mack</sender>
     <subject>HELP CHANGE MY GRADES!</subject>
     <body>
-Those stupid grades. My father is gonna kill me!
+Those stupid grades in Biology. My father is gonna kill me!
     
-Maybe you can change our GPA from an F (0.0) to a C (2.0) with your wizard hacking skills?
+Maybe you can "change" OUR GPA from an "F" (0.0) to a "C" (2.0) with your wizard hacking skills?
+
+Btw, you told me the school password was "pencil" or something after you went to the principal's office? 
+What does that even mean??
+But maybe YOU can use it???
 
 Good luck, 
 - Mack

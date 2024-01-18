@@ -1,7 +1,7 @@
 <ConditionalActions>
   
   <Instantly>
- 
+     <SaveGame DelayHost="delayHost" Delay="20.5"/>
   </Instantly>
 
 </ConditionalActions>

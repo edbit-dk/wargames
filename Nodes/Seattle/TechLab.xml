@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="techLab" 
+name="SEATTLE TECH LAB"
+security="0" 
+type="3">
+
+  <portsForCrack val="1" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+
+<account username="#PLAYERNAME#" password="hacker" type="0" />
+
+
+   <!-- This is a special sort of server that allows you to upload files to it 
+       without admin permissions -->
+  <uploadServerDaemon name="FTP SERVER" folder="ftp" 
+                      needsAuth="false" color="204,116,212"/>
+
+  <file path="bin" name="PortHack.exe">#BINARY#</file>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+
+ <variableMissionListingServer name="IRC CHANNEL" iconPath="Logo.png" articleFolderPath="Docs/ListingServerArticles" color="120,200,2" assigner="true" public="false" title="SEATTLE TECH LAB"/>
+
+
+</Computer>

@@ -1,7 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="flightTerminal" 
 name="PAN-AM RESERVATION SYSTEM"
-ip="311.399.35.82" 
 security="0" 
 type="1">
 

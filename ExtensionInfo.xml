@@ -17,15 +17,15 @@
 	<AllowSaves>true</AllowSaves>
   
   <!-- a coma separated list of notes that start out as being visible-->
-	<StartingVisibleNodes>bbss</StartingVisibleNodes>
+	<StartingVisibleNodes></StartingVisibleNodes>
   
   <!-- the mission (if any) that loads in as soon as the player starts -->
-  <StartingMission>Missions/School/SchoolMission1.xml</StartingMission>
+  <StartingMission>Missions/Hacker/HackerMission1.xml</StartingMission>
 
   <!-- Conditional action set that is loaded in as soon as a new session is created
   This is useful to do setup stuff, like giving the player programs, assigning them a faction etc.
   If you don't need this, set it to "NONE", or just delete the tag.-->
-  <StartingActions>Actions/StartingActions.xml</StartingActions>
+  <StartingActions>Actions/StartActions.xml</StartingActions>
 
   <!-- Description that appears within Hacknet -->
   <Description> --- Wargames ---
@@ -33,7 +33,7 @@
 </Description>
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
-  <Faction>Factions/StartingFaction.xml</Faction>
+  <Faction>Factions/HackerFaction.xml</Faction>
   
   <StartsWithTutorial>False</StartsWithTutorial>
   

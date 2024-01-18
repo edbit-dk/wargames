@@ -1,7 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="sunnyvaleDatanet" 
-name="Seattle Datanet" 
-ip="55.58.63.2" 
+name="SUNNYVALE DATANET" 
 security="0" 
 type="3">
 
@@ -16,6 +15,6 @@ type="3">
   <dlink target="flightTerminal" />
   <dlink target="unionBank" />
   
-  <dlink target="armyWOPR" />
+  <dlink target="armyDatanet" />
   
 </Computer>

@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hackerMission2">
+  <goals>
+    <!-- Goals here -->
+    <goal type="filedownload" target="techLab" file="PortHack.exe" path="bin"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionEnd val="2">addRankSilent</missionEnd>
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Jim</sender>
+    <subject>Looking for tools?</subject>
+    <body>
+Hey
+
+If you are interested in some cool tools for hacking, look at our FTP server under uploads!
+
+We have developed a "PortHack"-tool that can find ANY password as long the ports on the target is open.
+AND some other cool executables!
+
+Download them and reply back - we may need your help with something...
+
+Btw, I have created an account for you on our server.
+
+
+Sincerely, 
+- Jim
+
+Seattle Tech Lab
+</body>
+    <attachments>
+      <!-- A link takes in the idName of a computer and links to it on the netmap -->
+      <link comp="techLab" />
+
+      <!-- this scans for the computer with ID "missionTestNode", then searches it's accounts for the provided username and password, and
+      adds it to the list of known accounts for auto completion. It's a good way of providing the password to a server. -->
+      <account comp="techLab" user="#PLAYERNAME#" pass="hacker" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="armyDatanet" 
+name="NORAD DATANET" 
+security="0"  
+type="3">
+
+ <!-- Accounts -->
+<adminPass pass="defcon" />
+
+  <portsForCrack val="1" />
+  <ports>21</ports>
+  <trace time="-1" />
+
+  <file path="home" name="new_password.txt">This month's password is: "000001"</file>
+
+<dlink target="armyWOPR" />
+  
+</Computer>

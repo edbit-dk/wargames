@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="schoolMission">
+<mission id="schoolMission3">
   <goals>
     <!-- Goals here -->
     <goal type="AddDegree" owner="Jennifer Mack" degree="S-202 - BIOLOGY 2" uni="Seattle Public High School" gpa="4.0"/>
@@ -9,17 +9,20 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <nextMission>NONE</nextMission>
+  <missionEnd val="1">changeSong</missionEnd>  
+  <nextMission>Missions/Hacker/HackerMission2.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
     <sender>Jennifer Mack</sender>
-    <subject>Sorry?</subject>
+    <subject>Sorry?!</subject>
     <body>
-Okay, okay I really need an A in Biology. 
+Okay, I was wrong...
 
-Just give me an A (4.0)!
+I don't need an "C" Biology...I need an "A" (4.0) in Biology to pass the semester!
+
+Please, will you change it ONE last time?
 
 Love, 
 - Mack

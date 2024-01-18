@@ -1,7 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="playerComp" 
 name="IMSAI 8080"
-ip="67.183.58.7" 
 security="0" 
 allowsDefaultBootModule="false" 
 type="empty" >
@@ -15,9 +14,14 @@ type="empty" >
 <portsForCrack val="4" />
 <trace time="300" />
 
-<file path="home" name="seattle_datanet_ip.txt">
-ip: 67.183.58.11
-pass: ?
+<file path="home" name="love_letter.txt">
+Dear Jennifer
+
+I really, really, really, really like you - as a friend.
+
+But maybe, one day, we can become more?
+
+- Your David
 </file>
 
 <dlink target="jMail" />

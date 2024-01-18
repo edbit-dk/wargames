@@ -1,7 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="armyWOPR" 
-name="" 
-ip="311.399.35.1" 
+name=""  
 security="0" 
 type="3">
 
@@ -10,17 +9,31 @@ type="3">
 
 <account username="games" password="help" type="1" />
 
+<file path="home" name="help_games.txt">
+'GAMES' REFERES TO MODELS, SIMULATIONS AND GAMES
+WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
+</file>
+
 <mailServer name="Games" color="50,237,212" generateJunk="false">
-  <email recipient="games" sender="Falken, Stephen" subject="Chess">
-This is how you add emails to the mail server - logging in with someone's account
-will show these just like the way the player gets emails.
-    </email>
+  <email recipient="games" sender="Falken, Stephen" subject="FALKEN'S MAZE"></email>
+  <email recipient="games" sender="Falken, Stephen" subject="BLACK JACK"></email>
+  <email recipient="games" sender="Falken, Stephen" subject="GIN RUMMY"></email>
+  <email recipient="games" sender="Falken, Stephen" subject="HEARTS"></email>
+  <email recipient="games" sender="Falken, Stephen" subject="BRIDGE"></email>
+  <email recipient="games" sender="Falken, Stephen" subject="CHECKERS"></email>
+  <email recipient="games" sender="Falken, Stephen" subject="CHESS"></email>
+  <email recipient="games" sender="Falken, Stephen" subject="POKER"></email>
+  <email recipient="games" sender="Falken, Stephen" subject="FIGHTER COMBAT"></email>
+  <email recipient="games" sender="Falken, Stephen" subject="GUERRILLA ENGAGEMENT"></email>
+  <email recipient="games" sender="Falken, Stephen" subject="DESERT WARFARE"></email>
+  <email recipient="games" sender="Falken, Stephen" subject="AIR-TO-GROUND ACTIONS"></email>
+  <email recipient="games" sender="Falken, Stephen" subject="THEATERWIDE TACTICAL WARFARE"></email>
+  <email recipient="games" sender="Falken, Stephen" subject="TEHATERWIDE BIOTOXIC AND CHEMICAL WARFARE"></email>
+  <email recipient="games" sender="Falken, Stephen" subject="GLOBAL THERMONUCLEAR WAR"></email>
 </mailServer>
 
   <portsForCrack val="999" />
   <ports></ports>
   <trace time="-1" />
-
-  <dlink target="sunnyvaleDatanet" />
   
 </Computer>

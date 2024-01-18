@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hackerMission1">
+  <goals>
+    <!-- Goals here -->
+    <goal type="getadmin" target="seattleDatanet"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>Missions/School/SchoolMission1.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Malvin</sender>
+    <subject>Hello there!</subject>
+    <body>
+Hey
+
+It was nice meeting your when you bought your custom built IMSAI 8080 from us!
+
+You told me you were into hacking and stuff, so...
+I was looking around when I found the local ISP "Seattle Datanet" server!!!
+
+I'm quite busy at the moment, but maybe you wanna check it out?
+Could come in handy if you need access to your school and stuff, haha!
+
+Most ISP use the back-door password: "000001"
+But I'm not 100% sure...
+
+Send a reply if you get access.
+
+AND maybe "scan" the network for other servers?
+
+Sincerely, 
+- Malvin
+
+Seattle Tech Lab
+</body>
+    <attachments>
+      <!-- A link takes in the idName of a computer and links to it on the netmap -->
+      <link comp="seattleDatanet" />
+    </attachments>
+  </email>
+</mission>
