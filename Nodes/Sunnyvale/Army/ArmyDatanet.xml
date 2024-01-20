@@ -5,11 +5,9 @@ security="0"
 type="3">
 
  <!-- Accounts -->
-<adminPass pass="norad" />
+<adminPass pass="defcon1" />
 
 <admin type="progress" />
-
-<account username="admin" password="00000000" type="ALL" />
 
   <portsForCrack val="1" />
   <ports>21</ports>
@@ -17,7 +15,15 @@ type="3">
   <firewall level="6" solution="defcon" additionalTime="0.5"/>
   <trace time="500" />
 
-  <file path="home" name="new_password.txt">Password for missile codes is: "00000000"</file>
+  <file path="home" name="MISSILE_LUNCH_SILOS.txt">
+ALPHA: 68.56.23.07
+BRAVO: 40.60.21.31
+CHARLIE: 31.63.19.87
+  </file>
+
+  <encryptedFile path="home" name="MISSILE_LUNCH_CODE.dec" extension=".txt" ip="armyDatanet" header="NORAD DATANET" pass="CPE1704TKS">
+00000000
+  </encryptedFile>
 
 <dlink target="armyWOPR" />
   
