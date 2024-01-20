@@ -5,7 +5,7 @@
   If you have lots of actions looping or in delay at once (more than 50, say) it might be worth moving them to be delay hosted on one of these instead if you encounter performance issues.-->
   <FastActionHost />
 
-<file path="home" name="credits.txt">
+<file path="home" name="CreditsData.txt">
 %---  Credits File  ---
 
 ^Why this exists
