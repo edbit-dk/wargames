@@ -15,6 +15,6 @@ type="3">
   <dlink target="flightTerminal" />
   <dlink target="unionBank" />
   
-  <dlink target="armyDatanet" />
+  <dlink target="armyWOPR" />
   
 </Computer>

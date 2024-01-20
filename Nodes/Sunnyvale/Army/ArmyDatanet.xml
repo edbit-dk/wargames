@@ -5,7 +5,7 @@ security="0"
 type="3">
 
  <!-- Accounts -->
-<adminPass pass="defcon1" />
+<adminPass pass="0000000" />
 
 <admin type="progress" />
 
@@ -24,7 +24,5 @@ CHARLIE: 31.63.19.87
   <encryptedFile path="home" name="MISSILE_LUNCH_CODE.dec" extension=".txt" ip="armyDatanet" header="NORAD DATANET" pass="CPE1704TKS">
 00000000
   </encryptedFile>
-
-<dlink target="armyWOPR" />
   
 </Computer>

@@ -9,7 +9,7 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionStart val="0">loadConditionalActions:Actions/WOPRActions.xml</missionStart>
+  <missionEnd val="0">loadConditionalActions:Actions/WOPRActions.xml</missionEnd>
   <nextMission>NONE</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>

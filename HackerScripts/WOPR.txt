@@ -1,0 +1,88 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+connect $#%#$
+clearTerminal $#%#$
+stopMusic $#%#$
+delay 1.0 $#%#$
+writel #BINARYSMALL# $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel -- CONNECTION AUTHENTICATED --$#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel GREETINGS PROFESSOR FALKEN. $#%#$
+delay 5.0 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel HOW ARE YOU FEELING TODAY? $#%#$
+writel  $#%#$
+writel  $#%#$
+delay 5.0 $#%#$
+writel I'M EXECELLENT. IT'S BEEN A LONG TIME. CAN YOU EXPLAIN $#%#$
+writel THE REMOVAL OF YOUR USER ACCOUNT NUMBER ON 6/23/73? $#%#$
+delay 10.0 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel MAYBE IT WAS A MISTAKE. PEOPLE SOMETIMES MAKE MISTAKES. $#%#$
+delay 10.0 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel SHALL WE PLAY A GAME? MAYBE YOU WOULD PREFER A GOOD GAME OF CHESS? $#%#$
+delay 5.0 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel NO, TOO EASY. LET'S PLAY GLOBAL THERMONUCLEAR WAR! $#%#$
+writel  $#%#$
+writel  $#%#$
+writel YOU WILL PLAY AS THE RUSSIANS. $#%#$
+delay 5.0 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel AWAITING FIRST STRIKE COMMAND $#%#$
+writel _____________________________ $#%#$
+writel  $#%#$
+writel  $#%#$
+writel PRIMARY TARGETS: LAS VEGAS, SEATTLE $#%#$
+delay 5.0 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel DEFCON 3 IN EFFECT $#%#$
+delay 5.0 $#%#$
+flash $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel -- CONNECTION TERMINATED --$#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel #BINARYSMALL# $#%#$
+delay 5.0 $#%#$
+clearTerminal $#%#$
+startMusic $#%#$
+forkbomb $#%#$

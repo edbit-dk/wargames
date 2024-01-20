@@ -1,14 +1,16 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="protoVision" 
-name="PV INC"
+<Computer id="medical" 
+name="SEATTLE HOSPITAL"
 security="0" 
-type="1">
+type="3">
 
   <portsForCrack val="1" />
   <ports>22, 21, 25</ports>
   <trace time="-1" />
-   <tracker />
 
-<PointClicker />
-  
+<adminPass pass="medicine" />
+
+<MedicalDatabase />
+
+
 </Computer>
