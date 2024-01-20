@@ -1,37 +1,38 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="armyWOPR" 
-name=""  
+name=""
+icon="chip"  
 security="0" 
-type="3">
+type="empty">
 
  <!-- Accounts -->
 <adminPass pass="joshua" />
 
 <account username="games" password="help" type="1" />
 
-<file path="home" name="help_games.txt">
+<file path="home" name="HELP_GAMES.txt">
 'GAMES' REFERES TO MODELS, SIMULATIONS AND GAMES
 WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
 </file>
 
-<mailServer name="Games" color="50,237,212" generateJunk="false">
-  <email recipient="games" sender="Falken, Stephen" subject="FALKEN'S MAZE"></email>
-  <email recipient="games" sender="Falken, Stephen" subject="BLACK JACK"></email>
-  <email recipient="games" sender="Falken, Stephen" subject="GIN RUMMY"></email>
-  <email recipient="games" sender="Falken, Stephen" subject="HEARTS"></email>
-  <email recipient="games" sender="Falken, Stephen" subject="BRIDGE"></email>
-  <email recipient="games" sender="Falken, Stephen" subject="CHECKERS"></email>
-  <email recipient="games" sender="Falken, Stephen" subject="CHESS"></email>
-  <email recipient="games" sender="Falken, Stephen" subject="POKER"></email>
-  <email recipient="games" sender="Falken, Stephen" subject="FIGHTER COMBAT"></email>
-  <email recipient="games" sender="Falken, Stephen" subject="GUERRILLA ENGAGEMENT"></email>
-  <email recipient="games" sender="Falken, Stephen" subject="DESERT WARFARE"></email>
-  <email recipient="games" sender="Falken, Stephen" subject="AIR-TO-GROUND ACTIONS"></email>
-  <email recipient="games" sender="Falken, Stephen" subject="THEATERWIDE TACTICAL WARFARE"></email>
-  <email recipient="games" sender="Falken, Stephen" subject="TEHATERWIDE BIOTOXIC AND CHEMICAL WARFARE"></email>
-  <email recipient="games" sender="Falken, Stephen" subject="GLOBAL THERMONUCLEAR WAR"></email>
-</mailServer>
+<variableMissionListingServer name="GAMES" iconPath="Logo.png" articleFolderPath="Docs/ListingServerArticles" color="120,200,2" assigner="true" public="false" title="GAMES"/>
 
+  <file path="bin" name="FALKEN_S_MAZE.exe">#BINARY#</file>
+  <file path="bin" name="BLACK_JACK.exe">#BINARY#</file>
+  <file path="bin" name="GIN_RUMMY.exe">#BINARY#</file>
+  <file path="bin" name="HEARTS.exe">#BINARY#</file>
+  <file path="bin" name="BRIDGE.exe">#BINARY#</file>
+  <file path="bin" name="CHECKERS.exe">#BINARY#</file>
+  <file path="bin" name="CHESS.exe">#BINARY#</file>
+  <file path="bin" name="POKER.exe">#BINARY#</file>
+  <file path="bin" name="FIGHTER_COMBAT.exe">#BINARY#</file>
+  <file path="bin" name="GUERRILLA_ENGAGEMENT.exe">#BINARY#</file>
+  <file path="bin" name="DESERT_WARFARE.exe">#BINARY#</file>
+  <file path="bin" name="AIR_TO_GROUND_ACTIONS.exe">#BINARY#</file>
+  <file path="bin" name="THEATERWIDE_TACTICAL_WARFARE.exe">#BINARY#</file>
+  <file path="bin" name="TEHATERWIDE_BIOTOXIC_AND_CHEMICAL_WARFARE.exe">#BINARY#</file>
+  <file path="bin" name="GLOBAL_THERMONUCLEAR_WAR.exe">#BINARY#</file>
+  
   <portsForCrack val="999" />
   <ports></ports>
   <trace time="-1" />

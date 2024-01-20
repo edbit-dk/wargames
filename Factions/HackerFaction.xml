@@ -1,7 +1,7 @@
 <CustomFaction name="Hacker Faction" id="hackerfac" playerVal="0">
   
-  <Action ValueRequired="2">
-    <RunFunction FunctionName="setHubServer:techLab" FunctionValue="0" />
+  <Action ValueRequired="1">
+
   </Action>
 
 </CustomFaction>

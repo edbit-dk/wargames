@@ -6,13 +6,11 @@ type="3">
 
 <adminPass pass="987654321" />
 
-  <portsForCrack val="0" />
+  <portsForCrack val="3" />
   <ports>22, 21, 25</ports>
-  <trace time="-1" />
+  <trace time="1000" />
 
 <ispSystem />
-
- <FastActionHost />
 
 <dlink target="playerComp" />
 <dlink target="seattleDatanet" />
