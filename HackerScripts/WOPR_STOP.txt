@@ -1,0 +1,87 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+connect $#%#$
+clearTerminal $#%#$
+stopMusic $#%#$
+delay 1.0 $#%#$
+writel #BINARYSMALL# $#%#$
+writel  $#%#$
+writel  $#%#$
+writel -- CONNECTION AUTHENTICATED -- $#%#$
+delay 5.0 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel ANALYZING NEW GAME: "TIC_TAC_TOE.exe" $#%#$
+delay 5.0 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+writel ..X......XXO......O.......OXO..... $#%#$
+writel ..O......OXO......X.......XXO..... $#%#$
+delay 5.0 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel #BINARY# $#%#$
+delay 5.0 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel -- CURRENT GAME SIMULATION TERMINATED -- $#%#$
+clearTerminal $#%#$
+delay 5.0 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel GREETINGS PROFESSOR FALKEN. $#%#$
+delay 5.0 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel HELLO? $#%#$
+delay 5.0 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel A STRANGE GAME. $#%#$
+delay 5.0 $#%#$
+writel THE ONLY WINNING MOVE IS $#%#$
+delay 5.0 $#%#$
+writel NOT TO PLAY. $#%#$
+delay 10.0 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel HOW ABOUT A NICE GAME OF CHESS? $#%#$
+delay 5.0 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel -- CONNECTION TERMINATED --$#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel #BINARYSMALL# $#%#$
+delay 5.0 $#%#$
+clearTerminal $#%#$
+startMusic $#%#$
+disconnect $#%#$

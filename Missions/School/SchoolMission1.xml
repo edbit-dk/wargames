@@ -2,7 +2,6 @@
 <mission id="schoolMission1">
   <goals>
     <!-- Goals here -->
-    <goal type="AddDegree" owner="David Lightman" degree="S-202 - BIOLOGY 2" uni="Seattle Public High School" gpa="2.0"/>
     <goal type="AddDegree" owner="Jennifer Mack" degree="S-202 - BIOLOGY 2" uni="Seattle Public High School" gpa="2.0"/>
   </goals>
   <!-- 
@@ -22,10 +21,11 @@
     <body>
 Those stupid grades in Biology. My father is gonna kill me!
     
-Maybe you can "change" OUR GPA from an "F" (0.0) to a "C" (2.0) with your wizard hacking skills?
+Maybe you can "change" MY GPA from an "F" (0.0) to a "C" (2.0) with your wizard hacking skills?
 
 Btw, you told me the school password was "pencil" or something after you went to the principal's office? 
 What does that even mean??
+
 But maybe YOU can use it???
 
 Good luck, 

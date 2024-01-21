@@ -2,39 +2,49 @@
 <mission id="hackerMission3">
   <goals>
     <!-- Goals here -->
+    <goal type="getadmin" target="ispComp"/>
     <goal type="getadmin" target="sunnyvaleDatanet"/>
+    
   </goals>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionEnd val="0">loadConditionalActions:Actions/WOPRActions.xml</missionEnd>
-  <nextMission>NONE</nextMission>
+  <missionEnd val="3">addRankSilent</missionEnd>
+  <nextMission>Missions/Hacker/HackerMission4.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
     <sender>Jim</sender>
-    <subject>Sunnyvale Datanet</subject>
+    <subject>ProtoVision Inc - games!</subject>
     <body>
 Hey again
 
-You talked about some games from ProtoVision in Sunnyvale, California.
-We have (or mor precisely Malvin) found Sunnyvale Datanet!
+You talked about you like games - like us - and the company "ProtoVision" in Sunnyvale, California
+is told to be working on "something" special. But the games are not released - yet!
 
-Maybe you can get "admin" access to the server using some of our programs (PortHack etc.)
+WE want YOU to find their "game-server"! 
 
-When you are done, reply back and maybe you/we find something interesting!
+You will have to get access to the regional "US ISP" first (look for servers connected on Seattle Datanet). 
+Then you need access to "Sunnyvale Datanet" before you can "scan" for companies in the area.
 
-Sincerely, 
+Anyway, you need "admin" access on BOTH the "US ISP" AND the "Sunnevale datanet" server. 
+The ISP is probaly more secure and you may need our cracking-tools to be able to login and "scan"
+the network.
+
+When you are done reply back.
+
+Btw, as a "hacker" you need to look out for "tracking" and on high-level computers - and remember to delete 
+"logs" on the remote computers you connect to!
+
+Good look, 
 - Jim (and Malvin)
 
 Seattle Tech Lab
 </body>
     <attachments>
-      <!-- A link takes in the idName of a computer and links to it on the netmap -->
-      <link comp="sunnyvaleDatanet" />
     </attachments>
   </email>
 </mission>

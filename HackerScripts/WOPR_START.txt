@@ -10,7 +10,16 @@ writel  $#%#$
 writel  $#%#$
 writel  $#%#$
 writel  $#%#$
-writel -- CONNECTION AUTHENTICATED --$#%#$
+writel -- CONNECTION AUTHENTICATED -- $#%#$
+delay 5.0 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel LAST LOGIN: 6/23/73 $#%#$
+delay 1.0 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -22,9 +31,9 @@ delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel HOW ARE YOU FEELING TODAY? $#%#$
-writel  $#%#$
-writel  $#%#$
 delay 5.0 $#%#$
+writel  $#%#$
+writel  $#%#$
 writel I'M EXECELLENT. IT'S BEEN A LONG TIME. CAN YOU EXPLAIN $#%#$
 writel THE REMOVAL OF YOUR USER ACCOUNT NUMBER ON 6/23/73? $#%#$
 delay 10.0 $#%#$
@@ -46,7 +55,12 @@ writel  $#%#$
 writel  $#%#$
 writel  $#%#$
 writel  $#%#$
-writel NO, TOO EASY. LET'S PLAY GLOBAL THERMONUCLEAR WAR! $#%#$
+writel NO, WE HAVE DONE THAT MANY TIMES BEFORE. $#%#$
+delay 5.0 $#%#$ 
+writel  $#%#$
+writel  $#%#$
+writel LET'S PLAY: GLOBAL THERMONUCLEAR WAR! $#%#$
+delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel YOU WILL PLAY AS THE RUSSIANS. $#%#$
@@ -67,14 +81,18 @@ writel  $#%#$
 writel  $#%#$
 writel DEFCON 3 IN EFFECT $#%#$
 delay 5.0 $#%#$
-flash $#%#$
+writel  $#%#$
+writel  $#%#$
+writel GAME TIME ELAPSED: 49 HRS 35 MIN 21 SEC $#%#$
+writel GAME TIME REMAINING: 23 HRS 57 MIN 03 SEC $#%#$
+delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel  $#%#$
 writel  $#%#$
 writel  $#%#$
 writel  $#%#$
-writel -- CONNECTION TERMINATED --$#%#$
+writel -- CONNECTION INTERRUPTED --$#%#$
 writel  $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -86,3 +104,4 @@ delay 5.0 $#%#$
 clearTerminal $#%#$
 startMusic $#%#$
 forkbomb $#%#$
+disconnect $#%#$

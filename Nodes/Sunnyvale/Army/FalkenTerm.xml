@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="falkenTerm" 
+name="FALKEN TERMINAL - OREGON"
+security="0" 
+type="3">
+
+    <portsForCrack val="999" />
+  <ports></ports>
+  <trace time="100" />
+
+  <account username="#PLAYERNAME#" password="Joshua" type="0" />
+
+
+<file path="bin" name="TIC_TAC_TOE.exe">#BINARY#</file>
+
+<dlink target="armyDatanet" />
+  
+</Computer>

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="jenMComp" 
+name="Apple Macintosh"
+security="0" 
+allowsDefaultBootModule="false" 
+type="empty" >
+
+<adminPass pass="root" />
+
+<ports>21, 22, 25</ports>
+<portsForCrack val="1" />
+
+  <encryptedFile path="home" name="diary.dec" extension=".txt" ip="jenMComp" header="encryptme.com">
+Dear diary
+
+I LOVE #PLAYERNAME#!
+
+I know he is a nerd. But a cute one.
+But I'm not ready to tell him yet...
+
+- Jen M
+  </encryptedFile>
+
+<dlink target="jmail" />
+<dlink target="seattleDatanet" />
+
+</Computer>

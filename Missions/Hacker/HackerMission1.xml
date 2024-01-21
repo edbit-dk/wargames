@@ -10,6 +10,7 @@
   missionEnd val="1">addRank</missionEnd> 
   -->
   <missionStart val="0">setFaction:hackerfac</missionStart>
+  <missionEnd val="0">addFlags:CSEC</missionEnd>
   <missionEnd val="1">addRankSilent</missionEnd>
   <nextMission>Missions/School/SchoolMission1.xml</nextMission>
   <!-- 
@@ -19,22 +20,22 @@
     <sender>Malvin</sender>
     <subject>Hello there!</subject>
     <body>
-Hey
-
 It was nice meeting your when you bought your custom built IMSAI 8080 from us!
 
 You told me you were into hacking and stuff, so...
-I was looking around when I found the local ISP "Seattle Datanet" server!!!
+Have you tried to "scan" your network? Maybe you will find something interesting
+- like the local Seattle Datanet!
 
 I'm quite busy at the moment, but maybe you wanna check it out?
-Could come in handy if you need access to your school and stuff, haha!
+Might come in handy if you need to access other computers in Seattle, haha!
 
-Most ISP use the "admin" password: "000001"
+Most Datanets use the "admin" password: "000001"
 But I'm not 100% sure...
 
 Send a reply if you get access.
 
-AND maybe "scan" the network for other servers?
+AND maybe "scan" the network for other servers, when you get access to the 
+Datanet?
 
 Sincerely, 
 - Malvin
@@ -42,8 +43,6 @@ Sincerely,
 Seattle Tech Lab
 </body>
     <attachments>
-      <!-- A link takes in the idName of a computer and links to it on the netmap -->
-      <link comp="seattleDatanet" />
     </attachments>
   </email>
 </mission>

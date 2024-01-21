@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hackerMission5">
+  <goals>
+    <!-- Goals here -->
+  <goal type="getstring" target="falken" /> 
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionEnd val="5">addRankSilent</missionEnd>
+  <nextMission>Missions/Hacker/HackerMission6.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Malvin</sender>
+    <subject>Interesting</subject>
+    <body>
+THIS server seems VERY secure - probaly military!
+
+I don't know what games you are looking for. 
+But maybe try to login with "help" and "games".
+
+Then MAYBE you can get more info about the designer 
+of the server and find an "admin" "back-door".
+
+If you get access to the "game files", then find some
+sort of "author name" and reply the name back.
+
+Watch out, 
+- Malvin (and Jim)
+
+Seattle Tech Lab
+</body>
+    <attachments>
+      <!-- A link takes in the idName of a computer and links to it on the netmap -->
+      <link comp="armyWOPR" />
+      <account comp="armyWOPR" user="help" pass="games" />
+    </attachments>
+  </email>
+</mission>

@@ -12,7 +12,7 @@ type="3">
   <trace time="-1" />
 
   <dlink target="academic" />
-  <dlink target="medical" />
   <dlink target="techLab" />
+  <dlink target="ispComp" />
   
 </Computer>

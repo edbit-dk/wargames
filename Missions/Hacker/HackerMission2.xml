@@ -3,12 +3,16 @@
   <goals>
     <!-- Goals here -->
     <goal type="filedownload" target="techLab" file="PortHack.exe" path="bin"/>
+    <goal type="filedownload" target="techLab" file="SSHCrack.exe" path="bin"/>
+    <goal type="filedownload" target="techLab" file="FTPBounce.exe" path="bin"/>
+    <goal type="filedownload" target="techLab" file="SMTPOverflow.exe" path="bin"/>
   </goals>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
+  <missionEnd val="2">addRankSilent</missionEnd>
   <nextMission>Missions/Hacker/HackerMission3.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
@@ -17,14 +21,14 @@
     <sender>Jim</sender>
     <subject>Looking for tools?</subject>
     <body>
-Hey
+Hey #PLAYERNAME#
 
-If you are interested in some cool tools for hacking, look at our FTP server under uploads!
+If you are interested in some cool tools for hacking, look at our server under "bin"!
 
-We have developed a "PortHack"-tool that can find ANY password as long the ports on the target is open.
-AND some other cool executables!
+We have developed a "PortHack"-tool (together with the other port-cracking tools) 
+that can crack ANY password as long the ports on the target is open!
 
-Download them and reply back - we may need your help with something...
+Download ALL the tools and reply back - we may need your help with something...
 
 Btw, I have created an account for you on our server.
 

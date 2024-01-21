@@ -6,8 +6,9 @@ type="1">
 
   <portsForCrack val="1" />
   <ports>22, 21, 25</ports>
-  <trace time="-1" />
+  <trace time="200" />
+  <tracker />
 
-<PointClicker />
+<dlink target="sunnyvaleDatanet" />
   
 </Computer>

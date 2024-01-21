@@ -11,9 +11,10 @@ type="3">
   <ports></ports>
   <trace time="-1" />
 
-  <dlink target="protoVision" />
+ <dlink target="ispComp" />
   <dlink target="flightTerminal" />
   <dlink target="unionBank" />
+  <dlink target="medical" />
   
   <dlink target="armyWOPR" />
   

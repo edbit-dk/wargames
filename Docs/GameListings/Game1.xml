@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="game01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="FALKENS'S MAZE">
+Falken'S Maze: Teaching a Machine to Think
+
+/bin/FALKENS_MAZE.exe
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hackerMission7">
+  <goals>
+    <!-- Goals here -->
+    <goal type="getadmin" target="armyWOPR"/>
+    
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionEnd val="7">addRankSilent</missionEnd>
+  <missionEnd val="0">loadConditionalActions:Actions/WOPR_START_Actions.xml</missionEnd>
+  <nextMission>Missions/Hacker/HackerMission8.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Malvin</sender>
+    <subject>TRY THIS!</subject>
+    <body>
+Seems this Falken is DEAD - together with his family.
+
+But the medical records tells us, that he had a VERY
+close bond with his son: "Joshua".
+
+Maybe THAT could be the "back-door" password?!
+
+Try it out and reply back...
+
+Watch out, 
+- Malvin (and Jim)
+
+Seattle Tech Lab
+</body>
+    <attachments>
+      <!-- A link takes in the idName of a computer and links to it on the netmap -->
+      <link comp="armyWOPR" />
+    </attachments>
+  </email>
+</mission>

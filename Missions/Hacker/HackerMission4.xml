@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hackerMission4">
+  <goals>
+    <!-- Goals here -->
+    <goal type="getadmin" target="flightTerminal"/>
+    <goal type="getadmin" target="medical"/>
+    <goal type="getadmin" target="unionBank"/>
+    
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionEnd val="4">addRankSilent</missionEnd>
+  <nextMission>Missions/Hacker/HackerMission5.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Jim</sender>
+    <subject>Good job!</subject>
+    <body>
+Wow, you have impressed us!
+
+Good job getting acces to those networks!
+Now is the time to look for that game-server (ProtoVision).
+
+You need "admin" access to all the other servers on the network first,
+if the game-server is hidden on a subnetwork.
+
+Good luck, 
+- Jim (and Malvin)
+
+Seattle Tech Lab
+</body>
+    <attachments>
+      <!-- A link takes in the idName of a computer and links to it on the netmap -->
+      <link comp="sunnyvaleDatanet" />
+    </attachments>
+  </email>
+</mission>

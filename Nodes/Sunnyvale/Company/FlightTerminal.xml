@@ -8,6 +8,6 @@ type="1">
   <ports>22, 21, 25</ports>
   <trace time="-1" />
 
-<PointClicker />
+<dlink target="sunnyvaleDatanet" />
   
 </Computer>

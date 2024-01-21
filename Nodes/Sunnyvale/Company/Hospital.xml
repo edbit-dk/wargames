@@ -1,8 +1,8 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="medical" 
-name="SEATTLE HOSPITAL"
+name="SUNNYVALE HOSPITAL"
 security="0" 
-type="3">
+type="1">
 
   <portsForCrack val="1" />
   <ports>22, 21, 25</ports>
@@ -12,5 +12,6 @@ type="3">
 
 <MedicalDatabase />
 
+<dlink target="sunnyvaleDatanet" />
 
 </Computer>

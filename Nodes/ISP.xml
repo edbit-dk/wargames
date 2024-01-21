@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="ispComp" 
-name="ISP"
+name="US ISP"
 security="0"
 type="3">
 
@@ -8,13 +8,15 @@ type="3">
 
   <portsForCrack val="3" />
   <ports>22, 21, 25</ports>
-  <trace time="1000" />
+  <trace time="100" />
+  <admin type="progress" />
+  <firewall level="7" solution="network" additionalTime="0.5"/>
 
 <ispSystem />
 
 <dlink target="playerComp" />
 <dlink target="seattleDatanet" />
 <dlink target="sunnyvaleDatanet" />
-<dlink target="jMail" />
+<dlink target="jmail" />
   
 </Computer>

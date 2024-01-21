@@ -14,5 +14,7 @@ type="3">
   <file path="home" name="new_password.txt">This month's password is: "pencil"</file>
 
 <academicDatabase />
+
+<dlink target="seattleDatanet" />
   
 </Computer>

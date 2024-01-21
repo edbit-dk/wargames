@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="game02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="TACTICAL GAMES">
+/bin/BLACK_JACK.exe
+/bin/GIN_RUMMY.exe
+/bin/HEARTS.exe
+/bin/BRIDGE.exe
+/bin/CHECKERS.exe
+/bin/CHESS.exe
+/bin/POKER.exe
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

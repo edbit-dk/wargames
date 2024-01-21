@@ -8,7 +8,7 @@ type="empty">
  <!-- Accounts -->
 <adminPass pass="Joshua" />
 
-<account username="games" password="help" type="1" />
+<account username="help" password="games" type="1" />
 
 <file path="home" name="HELP_GAMES.txt">
 'GAMES' REFERES TO MODELS, SIMULATIONS AND GAMES
@@ -16,7 +16,9 @@ WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
 </file>
 
 
-  <file path="bin" name="FALKEN_S_MAZE.exe">#BINARY#</file>
+ <variableMissionListingServer name="GAMES" iconPath="Logo.png" articleFolderPath="Docs/GameListings" color="120,200,2" assigner="false" public="false" title="GAMES"/>
+
+  <file path="bin" name="FALKENS_MAZE.exe">#BINARY#</file>
   <file path="bin" name="BLACK_JACK.exe">#BINARY#</file>
   <file path="bin" name="GIN_RUMMY.exe">#BINARY#</file>
   <file path="bin" name="HEARTS.exe">#BINARY#</file>
@@ -34,8 +36,10 @@ WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
   
   <portsForCrack val="999" />
   <ports></ports>
-  <trace time="-1" />
+  <trace time="100" />
 
+  <dlink target="sunnyvaleDatanet" />
   <dlink target="armyDatanet" />
+  
   
 </Computer>

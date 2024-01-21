@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="schoolMission5">
+  <goals>
+    <!-- Goals here -->
+    <goal type="delay" time="10.0"/>
+    <goal type="getadmin" target="armyDatanet"/>
+    <goal type="getstring" target="CPE1704TKS" /> 
+    <goal type="fileupload" target="falkenTerm" file="TIC_TAC_TOE.exe" path="bin" destTarget="armyWOPR" destPath="bin"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionEnd val="0">loadConditionalActions:Actions/WOPR_STOP_Actions.xml</missionEnd>
+  <nextMission>Missions/School/SchoolMission5.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Robert</sender>
+    <subject>Fix my Joshua</subject>
+    <body>
+My name is DR. Robert Hume - but you probaly already know my
+name as "Stephen Falken".
+
+It has come to my attention, that "Joshua" or "WOPR" (War Operation Plan Response)
+is running a "Global Thermonuclear War"-simulation - that you started!
+
+Unfortunately I never fixed the issues with that simulation before I left NORAD,
+and therefore Joshua still thinks it can "win the game". I no longer have access 
+to Joshua.
+
+BUT I have come up with the perfect game "Tic Tac Toe" to teach him about
+MAD (Mutual Assured Destruction) in a nuclear war.
+
+Please download the game from my terminal and upload it to WOPR in
+the "bin" folder, at the game should take care of the rest...
+
+Btw, you have to get the missile lunch code before WOPR and send them to me!
+
+Best of luck,
+- Falken
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+      <link comp="falkenTerm" />
+      <account comp="falkenTerm" user="#PLAYERNAME#" pass="Joshua" />
+    </attachments>
+  </email>
+</mission>

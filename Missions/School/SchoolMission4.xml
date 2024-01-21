@@ -1,29 +1,30 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="schoolMission3">
+<mission id="schoolMission4">
   <goals>
     <!-- Goals here -->
-    <goal type="AddDegree" owner="Jennifer Mack" degree="S-202 - BIOLOGY 2" uni="Seattle Public High School" gpa="4.0"/>
+    <goal type="delay" time="10.0"/>
   </goals>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionEnd val="1">changeSong</missionEnd>  
-  <nextMission>Missions/Hacker/HackerMission2.xml</nextMission>
+  <missionEnd val="0">loadConditionalActions:Actions/WOPR_GAME_Actions.xml</missionEnd>
+  <nextMission>Missions/School/SchoolMission5.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
     <sender>Jennifer Mack</sender>
-    <subject>Sorry?!</subject>
+    <subject>Have you seen the news?</subject>
     <body>
-Okay, I was wrong...
+The US Government thinks that is at war with the Soviets - 
+but it is all because of a computer malfunction?!
 
-I don't need an "C" Biology... 
-I need an "A" (4.0) in Biology to pass the semester!
+Have you something to do with this when we were together 
+the other day?
 
-Please, will you change it ONE last time?
+You should probaly calm down. Don't do anything stupid!
 
 Love, 
 - Mack

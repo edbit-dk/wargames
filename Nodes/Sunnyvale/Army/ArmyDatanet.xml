@@ -9,20 +9,26 @@ type="3">
 
 <admin type="progress" />
 
-  <portsForCrack val="1" />
-  <ports>21</ports>
+  <portsForCrack val="3" />
+  <ports>21, 22, 25</ports>
   <proxy time="1" />
   <firewall level="6" solution="defcon" additionalTime="0.5"/>
-  <trace time="500" />
+  <trace time="100" />
+  <tracker />
 
-  <file path="home" name="MISSILE_LUNCH_SILOS.txt">
-ALPHA: 68.56.23.07
-BRAVO: 40.60.21.31
-CHARLIE: 31.63.19.87
-  </file>
 
-  <encryptedFile path="home" name="MISSILE_LUNCH_CODE.dec" extension=".txt" ip="armyDatanet" header="NORAD DATANET" pass="CPE1704TKS">
-00000000
+  <encryptedFile path="home" name="MISSILE_LUNCH_CODE01.dec" extension=".txt" ip="68.56.23.07" header="ALHA1: NORAD MISSILE SILO MAINFRAME" pass="00000000">
+CPE17
   </encryptedFile>
+
+  <encryptedFile path="home" name="MISSILE_LUNCH_CODE02.dec" extension=".txt" ip="40.60.21.31" header="BRAVO2: NORAD MISSILE SILO MAINFRAME" pass="00000000">
+04TKS
+  </encryptedFile>
+
+  <dlink target="armyWOPR" />
+  <dlink target="sunnyvaleDatanet" />
+
+  <dlink target="armyAlpha" />
+  <dlink target="armyBravo" />
   
 </Computer>
