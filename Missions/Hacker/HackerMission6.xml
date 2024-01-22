@@ -1,8 +1,8 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="hackerMission6">
+<mission id="hackerMission7">
   <goals>
     <!-- Goals here -->
-    <goal type="sendemail" mailServer="jmail" recipient="Jim" subject="MedicalRecord - Falken_Stephen"/>
+    <goal type="getadmin" target="armyWOPR"/>
     
   </goals>
   <!-- 
@@ -10,37 +10,33 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionEnd val="6">addRankSilent</missionEnd>
+  <missionEnd val="7">addRankSilent</missionEnd>
+  <missionEnd val="0">loadConditionalActions:Actions/WOPR_START_Actions.xml</missionEnd>
   <nextMission>Missions/Hacker/HackerMission7.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
-    <sender>Jim</sender>
-    <subject>WOW - found something!</subject>
+    <sender>Malvin</sender>
+    <subject>TRY THIS!</subject>
     <body>
-This server IS military for sure!
-Just look at those game names...
+Seems this Falken is DEAD - together with his family.
 
-BUT you found an important game: "Falken's Maze". 
+But the medical records tells us, that he had a VERY
+close bond with his son: "Joshua".
 
-If I'm not mistaking "Stephen Falken" was a somewhat famous AI
-scientist who wrote a couple of books - some classified if you look them
-up on the libray!
+Maybe THAT could be the "back-door" password?!
 
-Maybe try find more information about him on the hospital server - maybe we can contact him.
-Send his record to ME.
+Try it out and reply back...
 
-Reply when you are done.
-
-Good luck, 
-- Jim (and Malvin)
+Watch out, 
+- Malvin (and Jim)
 
 Seattle Tech Lab
 </body>
     <attachments>
       <!-- A link takes in the idName of a computer and links to it on the netmap -->
-      <link comp="medical" />
+      <link comp="armyWOPR" />
     </attachments>
   </email>
 </mission>

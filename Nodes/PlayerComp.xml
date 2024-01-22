@@ -1,12 +1,12 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="playerComp" 
-name="IBM PC"
+name="IBM PC DOS"
 security="0" 
 allowsDefaultBootModule="false" 
 type="empty" >
 
 <adminPass pass="root" />
-<account username="#PLAYERNAME#" password="password" type="ADMIN" />
+<account username="#PLAYERNAME#" password="000001" type="ADMIN" />
 
 <ports>21, 22, 25, 80</ports>
 
@@ -14,14 +14,17 @@ type="empty" >
 <portsForCrack val="4" />
 <trace time="300" />
 
+
+<file path="home" name="your_password.txt">000001</file>
+
 <file path="home" name="love_letter.txt">
 Dear Jennifer
 
-I really, really, really, really like you - as a friend.
+You are my best friend.
 
 But maybe, one day, we can become more?
 
-- Your David
+- Yours truly
 </file>
 
 

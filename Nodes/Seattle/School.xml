@@ -5,13 +5,18 @@ security="0"
 type="3">
 
  <!-- Accounts -->
-<adminPass pass="pencil" />
+<adminPass pass="Pencil" />
 
   <portsForCrack val="1" />
   <ports>21</ports>
   <trace time="-1" />
 
-  <file path="home" name="new_password.txt">This month's password is: "pencil"</file>
+  <file path="home" name="admin_passwords.txt">
+EFFORT
+Points
+Double
+Pencil
+  </file>
 
 <academicDatabase />
 

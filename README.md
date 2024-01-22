@@ -13,3 +13,8 @@ war simulation computer and unintentionally almost start WW3.
 - IBM PC MS-DOS (1981)
 - DOOM by id Software (1993)
 - WWW (1989)
+
+# Missions
+1. A helping hand: Jim from Tech Lab helps getting you started with your new pc.
+2. A job offer: Malvin from Tech Lab contacts you about a job offer.
+3. A show of skill:

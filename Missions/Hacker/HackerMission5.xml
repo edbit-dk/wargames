@@ -1,43 +1,46 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="hackerMission5">
+<mission id="hackerMission6">
   <goals>
     <!-- Goals here -->
-  <goal type="getstring" target="falken" /> 
+    <goal type="sendemail" mailServer="jmail" recipient="Jim" subject="MedicalRecord - Falken_Stephen"/>
+    
   </goals>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionEnd val="5">addRankSilent</missionEnd>
+  <missionEnd val="6">addRankSilent</missionEnd>
   <nextMission>Missions/Hacker/HackerMission6.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
-    <sender>Malvin</sender>
-    <subject>Interesting</subject>
+    <sender>Jim</sender>
+    <subject>WOW - found something!</subject>
     <body>
-THIS server seems VERY secure - probaly military!
+This server IS military for sure!
+Just look at those game names...
 
-I don't know what games you are looking for. 
-But maybe try to login with "help" and "games".
+BUT you found an important game: "Falken's Maze". 
 
-Then MAYBE you can get more info about the designer 
-of the server and find an "admin" "back-door".
+If I'm not mistaking "Stephen Falken" was a somewhat famous AI
+scientist who wrote a couple of books - some classified if you look them
+up on the libray!
 
-If you get access to the "game files", then find some
-sort of "author name" and reply the name back.
+Maybe try find more information about him on the hospital server - maybe we can contact him.
+Send his record to ME.
 
-Watch out, 
-- Malvin (and Jim)
+Reply when you are done.
+
+Good luck, 
+- Jim (and Malvin)
 
 Seattle Tech Lab
 </body>
     <attachments>
       <!-- A link takes in the idName of a computer and links to it on the netmap -->
-      <link comp="armyWOPR" />
-      <account comp="armyWOPR" user="help" pass="games" />
+      <link comp="medical" />
     </attachments>
   </email>
 </mission>

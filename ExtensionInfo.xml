@@ -20,7 +20,7 @@
 	<StartingVisibleNodes></StartingVisibleNodes>
   
   <!-- the mission (if any) that loads in as soon as the player starts -->
-  <StartingMission>Missions/Hacker/HackerMission1.xml</StartingMission>
+  <StartingMission>Missions/Hacker/HackerMission0.xml</StartingMission>
 
   <!-- Conditional action set that is loaded in as soon as a new session is created
   This is useful to do setup stuff, like giving the player programs, assigning them a faction etc.

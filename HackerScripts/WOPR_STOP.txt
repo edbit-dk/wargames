@@ -19,8 +19,6 @@ delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XXO......O.......OXO..... $#%#$
-writel ..O......OXO......X.......XXO..... $#%#$
 delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -32,7 +30,7 @@ writel  $#%#$
 writel  $#%#$
 writel  $#%#$
 writel  $#%#$
-writel -- CURRENT GAME SIMULATION TERMINATED -- $#%#$
+writel -- ACTIVE GAME SIMULATION STATUS: TERMINATED -- $#%#$
 clearTerminal $#%#$
 delay 5.0 $#%#$
 writel  $#%#$
@@ -47,10 +45,6 @@ writel  $#%#$
 writel  $#%#$
 writel  $#%#$
 writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel HELLO? $#%#$
-delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel A STRANGE GAME. $#%#$

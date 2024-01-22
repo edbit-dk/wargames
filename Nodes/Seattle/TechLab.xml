@@ -11,6 +11,8 @@ type="3">
 <account username="#PLAYERNAME#" password="hacker" type="0" />
 
   <file path="bin" name="PortHack.exe">#BINARY#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
   <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
   <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
@@ -29,11 +31,27 @@ by Stephen Falken, with John McKittrick
   </encryptedFile>
 
 
+  <file path="home" name="password_list.txt">
+This is a list of the most common password I have 
+found companies use for their "extra secure" servers, haha!
+
+root
+toor
+uploader
+password
+admin
+12345678
+webmaster
+logon
+Passw@rd
+alpine
+  </file>
+
 
    <uploadServerDaemon name="FTP SERVER" folder="FTP" 
                       needsAuth="true" color="84,165,212"/>
 
- <variableMissionListingServer name="HELP" iconPath="Logo.png" articleFolderPath="Docs/TechArticles" color="120,200,2" assigner="false" public="true" title="SEATTLE TECH LAB"/>
+ <variableMissionListingServer name="USENET" iconPath="Logo.png" articleFolderPath="Docs/TechArticles" color="120,200,2" assigner="false" public="true" title="SEATTLE TECH LAB USENET"/>
 
 
 <dlink target="seattleDatanet" />

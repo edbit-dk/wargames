@@ -1,50 +1,43 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="hackerMission2">
+<mission id="hackerMission3">
   <goals>
     <!-- Goals here -->
-    <goal type="filedownload" target="techLab" file="PortHack.exe" path="bin"/>
-    <goal type="filedownload" target="techLab" file="SSHCrack.exe" path="bin"/>
-    <goal type="filedownload" target="techLab" file="FTPBounce.exe" path="bin"/>
-    <goal type="filedownload" target="techLab" file="SMTPOverflow.exe" path="bin"/>
+    <goal type="getadmin" target="ispComp"/>
+    
   </goals>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionEnd val="2">addRankSilent</missionEnd>
+  <missionEnd val="3">addRankSilent</missionEnd>
   <nextMission>Missions/Hacker/HackerMission3.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
-    <sender>Jim</sender>
-    <subject>Looking for tools?</subject>
+    <sender>Malvin</sender>
+    <subject>A show of skill</subject>
     <body>
-Hey #PLAYERNAME#
+Alright, and welcome to the wonderful world of hacking!
 
-If you are interested in some cool tools for hacking, look at our server under "bin"!
+BUT before we can get into something more serious, you have to
+show me your skills. Therefore, I want you to get access to
+"THE WORLD" ISP. From there you can access almost any network!
 
-We have developed a "PortHack"-tool (together with the other port-cracking tools) 
-that can crack ANY password as long the ports on the target is open!
+Use the TOOLS at your disposal and reply back, when you are done.
 
-Download ALL the tools and reply back - we may need your help with something...
+TIP: you need to look out for "tracking" on 
+high-level computers - and remember to delete "logs" on 
+remote computers you connect to. Otherwise the FBI (or other hackers) 
+may track you down!
 
-Btw, I have created an account for you on our server.
-
-
-Sincerely, 
-- Jim
+Good luck, 
+- Malvin
 
 Seattle Tech Lab
 </body>
     <attachments>
-      <!-- A link takes in the idName of a computer and links to it on the netmap -->
-      <link comp="techLab" />
-
-      <!-- this scans for the computer with ID "missionTestNode", then searches it's accounts for the provided username and password, and
-      adds it to the list of known accounts for auto completion. It's a good way of providing the password to a server. -->
-      <account comp="techLab" user="#PLAYERNAME#" pass="hacker" />
     </attachments>
   </email>
 </mission>
