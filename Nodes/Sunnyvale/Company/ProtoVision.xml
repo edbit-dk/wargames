@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="protoVision" 
-name="PV INC"
+name="id Software"
 security="0" 
 type="1">
 
@@ -12,6 +12,8 @@ type="1">
    <tracker />
 
 <PointClicker />
+
+ <file path="bin" name="DOOM.exe">#BINARY#</file>
 
 <dlink target="sunnyvaleDatanet" />
   
