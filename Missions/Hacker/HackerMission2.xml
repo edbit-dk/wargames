@@ -1,8 +1,8 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="hackerMission3">
+<mission id="hackerMission2">
   <goals>
     <!-- Goals here -->
-    <goal type="getadmin" target="ispComp"/>
+    <goal type="getadmin" target="seattleDatanet"/>
     
   </goals>
   <!-- 
@@ -10,8 +10,8 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionEnd val="3">addRankSilent</missionEnd>
-  <nextMission>Missions/Hacker/HackerMission3.xml</nextMission>
+  <missionEnd val="2">addRankSilent</missionEnd>
+  <nextMission>Missions/School/SchoolMission1.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
@@ -21,16 +21,19 @@
     <body>
 Alright, and welcome to the wonderful world of hacking!
 
-BUT before we can get into something more serious, you have to
-show me your skills. Therefore, I want you to get access to
-"THE WORLD" ISP. From there you can access almost any network!
+I know you have some experience with hacking.
+BUT before we can get into something serious, you have to
+show me your skills: 
+
+--------------------------------------------
+I want you to get access to "SEATTLE DATANET". 
+From there you can access ALL subnetworks and computers!
 
 Use the TOOLS at your disposal and reply back, when you are done.
+--------------------------------------------
 
-TIP: you need to look out for "tracking" on 
-high-level computers - and remember to delete "logs" on 
-remote computers you connect to. Otherwise the FBI (or other hackers) 
-may track you down!
+TIP: Always remember to use "scan", when you get access to a new computer.
+Maybe you will find something usefull?
 
 Good luck, 
 - Malvin
@@ -38,6 +41,7 @@ Good luck,
 Seattle Tech Lab
 </body>
     <attachments>
+    <link comp="seattleDatanet" />
     </attachments>
   </email>
 </mission>

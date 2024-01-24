@@ -1,57 +1,16 @@
 Errors Found. Writing report to Extensions/WargamesExtension/report.txt
 
-Load Error:
-System.FormatException 
- 
-Unexpected end of file! 
- 
-Source : Hacknet 
- 
-System.FormatException: Unexpected end of file! 
-   at Hacknet.SerializableAction.Deserialize(XmlReader rdr) 
-   at
-   Hacknet.SerializableConditionalActionSet.<>c__DisplayClass1.<Deserialize>b__0(XmlReader
-   xmlReader, String EndKeyName)
 
-   at Hacknet.SerializableCondition.Deserialize(XmlReader rdr, Action`2
-   bodyContentReadAction)
+START MISSION READ ERRORS:
 
-   at Hacknet.SerializableConditionalActionSet.Deserialize(XmlReader rdr) 
-   at Hacknet.RunnableConditionalActions.Deserialize(XmlReader rdr) 
-   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
-   at Hacknet.Extensions.ExtensionLoader.LoadNewExtensionSession(ExtensionInfo info, Object
-   os_obj)
-
-   at Hacknet.OS.LoadContent() 
-   at Hacknet.ScreenManager.AddScreen(GameScreen screen, Nullable`1 controllingPlayer) 
-   at Hacknet.ScreenManager.AddScreen(GameScreen screen) 
-   at Hacknet.Misc.ExtensionTests.SetupOSForTests(String ActiveExtensionFoldername,
-   ScreenManager screenMan)
-
-   at Hacknet.Misc.ExtensionTests.TestExtensionForRuntime(ScreenManager screenMan, String
-   path, Int32& errorsAdded)
- 
- 
- 
-   at Hacknet.SerializableAction.Deserialize(XmlReader rdr) 
-   at
-   Hacknet.SerializableConditionalActionSet.<>c__DisplayClass1.<Deserialize>b__0(XmlReader
-   xmlReader, String EndKeyName)
-
-   at Hacknet.SerializableCondition.Deserialize(XmlReader rdr, Action`2
-   bodyContentReadAction)
-
-   at Hacknet.SerializableConditionalActionSet.Deserialize(XmlReader rdr) 
-   at Hacknet.RunnableConditionalActions.Deserialize(XmlReader rdr) 
-   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
-   at Hacknet.Extensions.ExtensionLoader.LoadNewExtensionSession(ExtensionInfo info, Object
-   os_obj)
-
-   at Hacknet.OS.LoadContent() 
-   at Hacknet.ScreenManager.AddScreen(GameScreen screen, Nullable`1 controllingPlayer) 
-   at Hacknet.ScreenManager.AddScreen(GameScreen screen) 
-   at Hacknet.Misc.ExtensionTests.SetupOSForTests(String ActiveExtensionFoldername,
-   ScreenManager screenMan)
-
-   at Hacknet.Misc.ExtensionTests.TestExtensionForRuntime(ScreenManager screenMan, String
-   path, Int32& errorsAdded)
+NextMission Tag for mission "Extensions/WargamesExtension/Missions/Hacker/HackerMission0.xml" has nonexistent next mission path: Missions/School/HackerMission1.xml
+Invalid Mission Path! : Extensions/WargamesExtension/Missions/School/HackerMission1.xml
+Error Loading Extensions/WargamesExtension/Missions/School/HackerMission1.xml
+System.IO.FileNotFoundException: Could not find file 'D:\SteamLibrary\steamapps\common\Hacknet\Extensions\WargamesExtension\Missions\School\HackerMission1.xml'.
+File name: 'D:\SteamLibrary\steamapps\common\Hacknet\Extensions\WargamesExtension\Missions\School\HackerMission1.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.OpenRead(String path)
+   at Hacknet.ComputerLoader.readMission(String filename)
+   at Hacknet.Misc.TestSuite.TestMission(String missionName, Object os_obj)

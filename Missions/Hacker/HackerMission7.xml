@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="hackerMission8">
+<mission id="hackerMission7">
   <goals>
     <!-- Goals here -->
     <goal type="delay" time="10.0"/>

@@ -5,11 +5,11 @@ security="0"
 type="3">
 
  <!-- Accounts -->
-<adminPass pass="" />
+<adminPass pass="toor" />
 
-  <portsForCrack val="0" />
-  <ports></ports>
-  <trace time="-1" />
+  <portsForCrack val="1" />
+  <ports>22</ports>
+  <trace time="500" />
 
  <dlink target="ispComp" />
   <dlink target="flightTerminal" />
@@ -17,5 +17,5 @@ type="3">
   <dlink target="medical" />
   
   <dlink target="armyWOPR" />
-  
+
 </Computer>

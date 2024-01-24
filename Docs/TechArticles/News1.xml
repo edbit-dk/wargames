@@ -3,10 +3,12 @@
   <goals>
   </goals>
   <nextMission>NONE</nextMission>
-  <posting title="This is the title of the article">
-And Here is the body!
-You can write whatever here.
-It piggybacks off the mission format, because it's possible to make these servers actually assign these as missions.
+  <posting title="Proxy Server Quick Guide">
+Proxy servers function as a buffering layer between a target computer and a connecting counterpart that filters, caches and monitors incoming traffic to both optimize web performance for repeated queries, and prevent some kinds of attacks.
+
+The most well-recognized flaw in proxy servers is their upper memory limit - which reached will force them to allow unchecked traffic to pass through.
+
+To exploit this, hackers and testers will often run Shells on other computers that an attacker has access to (Often using the built in "shell" program), then, with a collection of shells on servant machines, will connect to a target computer, and use the shells "overload" functionality to flood the target's proxy server with junk data, allowing other, potentially harmful traffic through.ossible to make these servers actually assign these as missions.
   </posting>
   <email>
     <sender>NONE</sender>

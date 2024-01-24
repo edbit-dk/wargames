@@ -4,19 +4,18 @@ name="THE WORLD ISP"
 security="0"
 type="3">
 
-<adminPass pass="987654321" />
+<adminPass pass="root" />
 
   <portsForCrack val="3" />
   <ports>22, 21, 25</ports>
-  <trace time="100" />
+  <trace time="200" />
   <admin type="progress" />
   <firewall level="7" solution="network" additionalTime="0.5"/>
+  <proxy time="1" />
 
 <ispSystem />
 
-<dlink target="playerComp" />
 <dlink target="seattleDatanet" />
-<dlink target="sunnyvaleDatanet" />
 <dlink target="jmail" />
   
 </Computer>

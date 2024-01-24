@@ -10,13 +10,13 @@
   missionEnd val="1">addRank</missionEnd> 
   -->
   <missionEnd val="1">changeSong</missionEnd>  
-  <nextMission>Missions/Hacker/HackerMission2.xml</nextMission>
+  <nextMission>Missions/Hacker/HackerMission3.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
     <sender>Jennifer Mack</sender>
-    <subject>Sorry?!</subject>
+    <subject>A friend in need - sorry</subject>
     <body>
 Okay, I was wrong...
 

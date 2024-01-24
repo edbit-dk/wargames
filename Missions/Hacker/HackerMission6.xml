@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="hackerMission7">
+<mission id="hackerMission6">
   <goals>
     <!-- Goals here -->
     <goal type="getadmin" target="armyWOPR"/>

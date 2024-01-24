@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="academic" 
+name="SEATTLE PUBLIC SCHOOL MAINFRAME" 
+security="0"  
+type="3">
+
+ <!-- Accounts -->
+<adminPass pass="Pencil" />
+
+  <portsForCrack val="100" />
+  <ports>22</ports>
+  <trace time="-1" />
+
+<academicDatabase />
+
+<dlink target="schoolOffice" />
+
+</Computer>

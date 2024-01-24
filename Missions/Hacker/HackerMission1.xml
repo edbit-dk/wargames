@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="hackerMission2">
+<mission id="hackerMission1">
   <goals>
     <!-- Goals here -->
     <goal type="filedownload" target="techLab" file="PortHack.exe" path="bin"/>
@@ -32,19 +32,29 @@
     <body>
 Hey #PLAYERNAME#!
 
-Congrats with your new IBM PC.
-Jim told me about you and your past experiences with your old IMSAI 8080!
+Congrats with your new IBM PC!
+Jim told me about you and your past experiences as a hacker with your old IMSAI 8080!
 
-I'm a little bit of a "hacker" myself. Maybe we have a job offer for you?
-If you are interested, take a look at our server - I have setup an account for you!
+Did you REALLY send your computer password to Jim? 
+That is a big no-no in computer security - never do that again!
+
+I'm a little bit of a "hacker" myself, hehe. 
+
+Maybe we have a job offer for you?
+If you are interested, take a look at our server 
+- I have setup an account for you!
+We have some helpfull articles on there too.
 
 We have developed a "PortHack"-tool (and many other port-cracking tools) 
-that can crack ANY password if the ports on the target computer is open first!
+that can crack ANY password if the ports on the target computer is open!
 
-DOWNLOAD ALL the "tools" AND the "password_list.txt" and reply back, if you WANT the job!
+------------------------------------------------------------------------------
+DOWNLOAD ALL the "tools" AND the "password_list.txt" from our "Tech Lab" server 
+and reply back - IF you WANT the job!
+------------------------------------------------------------------------------
 
 Otherwise, just forget I send you this email... 
-Jim doesn't know, I have contacted you. This is our little secret, okay?!
+BTW, Jim doesn't know I have contacted you. This is our little secret, okay?!
 
 Sincerely, 
 - Malvin

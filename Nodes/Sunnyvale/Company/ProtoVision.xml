@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="protoVision" 
-name="id Software"
+name="id Software - ProtoVision Inc"
 security="0" 
 type="1">
 
@@ -16,5 +16,5 @@ type="1">
  <file path="bin" name="DOOM.exe">#BINARY#</file>
 
 <dlink target="sunnyvaleDatanet" />
-  
+
 </Computer>

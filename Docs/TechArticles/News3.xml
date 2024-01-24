@@ -1,11 +1,20 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="news02">
+<mission id="news03">
   <goals>
   </goals>
   <nextMission>NONE</nextMission>
-  <posting title="This color choice is kinda gross">
-For some reason I cant bring myself to change it though. It's that kind of gross-appealing.
-  </posting>
+  <posting title="Shells">
+Shells are compact, low memory remote processes running on a separate machine that can be controlled locally from any connection.
+These incredibly convenient processes are useful for many tasks, though what they are capable of is determined by the type of shell being run.
+Common functions across networks include:
+
+Overload:
+Designed to test networks and proxy servers, this functionality floods the target machine with junk network traffic from the node running the shell, filling up proxy server memory and soaking cpu time.
+
+Trap:
+A shell running this mode will notify the running user when a foreign user connects to the machine running the shell, and allow an emergency forkbomb flood to be executed on all other users connected to it remotely.
+This can be incredibly useful for maintaining the security of a remote networked computer while doing other work.
+</posting>
   <email>
     <sender>NONE</sender>
     <subject>NONE</subject>

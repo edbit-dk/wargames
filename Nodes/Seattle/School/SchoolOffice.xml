@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="schoolOffice" 
+name="SEATTLE PUBLIC SCHOOL DISTRICT DATANET" 
+security="0"  
+type="3">
+
+ <!-- Accounts -->
+  <firewall level="8" solution="12345678" additionalTime="0.5"/>
+  <portsForCrack val="2" />
+  <ports>22, 21</ports>
+  <trace time="-1" />
+
+  <file path="home" name="passwords.txt">
+-EFFORT-
+-Points-
+-Double-
+Pencil
+  </file>
+
+<dlink target="seattleDatanet" />
+<dlink target="academic" />
+
+</Computer>

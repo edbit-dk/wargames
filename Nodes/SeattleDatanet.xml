@@ -5,14 +5,14 @@ security="0"
 type="3">
 
  <!-- Accounts -->
-<adminPass pass="" />
+<adminPass pass="toor" />
 
-  <portsForCrack val="0" />
-  <ports></ports>
+  <portsForCrack val="1" />
+  <ports>22</ports>
   <trace time="-1" />
 
   <dlink target="academic" />
   <dlink target="techLab" />
   <dlink target="ispComp" />
-  
+
 </Computer>

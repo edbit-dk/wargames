@@ -40,7 +40,7 @@
   <!-- this makes the extension start with the standard restart bootup sequence -->
   <HasIntroStartup>false</HasIntroStartup>
   
-  <StartingTheme>HackerGreen</StartingTheme>
+  <StartingTheme>Themes/Terminal.xml</StartingTheme>
   <!-- 
   Base Themes are named:
   TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HackerGreen, HacknetWhite, HacknetPurple, HacknetMint
