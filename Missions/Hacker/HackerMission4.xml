@@ -2,42 +2,49 @@
 <mission id="hackerMission4">
   <goals>
     <!-- Goals here -->
-  <goal type="getstring" target="falken" /> 
+    <goal type="getadmin" target="sunnyvaleDatanet"/>
+
+    <goal type="fileupload" target="protoVision" 
+    file="DOOM.exe" path="bin" 
+    destTarget="techLab" destPath="FTP/Uploads"/>
+    
   </goals>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionEnd val="5">addRankSilent</missionEnd>
+  <missionEnd val="4">addRankSilent</missionEnd>
   <nextMission>Missions/Hacker/HackerMission5.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
     <sender>Malvin</sender>
-    <subject>Interesting</subject>
+    <subject>Time for fun</subject>
     <body>
-THIS server seems VERY secure - probaly military!
+Nice job!
 
-I don't know what games you are looking for. 
-But maybe try to login with "help" and "games".
+Now, what I really want your help with, is to: 
 
-Then MAYBE you can get more info about the designer 
-of the server and find an "admin" "back-door".
+---------------------------------------------------------
+- Find a game company called "ProtoVision Inc" located somewhere
+in Sunnevale, California. They have been working on a 
+cool game called "DOOM". 
+- Find the game server, hack it, and upload the game to our
+FTP server (se link).
+---------------------------------------------------------
 
-If you get access to the "game files", then find some
-sort of "author name" and reply the name back.
+TIP: You may have to get access to to "Synnevale Datanet" first,
+before you can find the game company...
 
-Watch out, 
-- Malvin (and Jim)
+Thx, 
+- Malvin
 
 Seattle Tech Lab
 </body>
     <attachments>
-      <!-- A link takes in the idName of a computer and links to it on the netmap -->
-      <link comp="armyWOPR" />
-      <account comp="armyWOPR" user="help" pass="games" />
+      <link comp="techLab" />
     </attachments>
   </email>
 </mission>

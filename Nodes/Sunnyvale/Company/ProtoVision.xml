@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="protoVision" 
-name="id Software - ProtoVision Inc"
+name="id Software Inc"
 security="0" 
 type="1">
 
@@ -12,6 +12,11 @@ type="1">
    <tracker />
 
 <PointClicker />
+
+ <file path="home" name="company_history.txt">
+ ProtoVision Inc: 1980-1991
+ id Sofware: 1991-
+ </file>
 
  <file path="bin" name="DOOM.exe">#BINARY#</file>
 

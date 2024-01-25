@@ -10,7 +10,7 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionEnd val="7">addRankSilent</missionEnd>
+  <missionEnd val="6">addRankSilent</missionEnd>
   <missionEnd val="0">loadConditionalActions:Actions/WOPR_START_Actions.xml</missionEnd>
   <nextMission>Missions/Hacker/HackerMission7.xml</nextMission>
   <!-- 

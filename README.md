@@ -17,14 +17,15 @@ war simulation computer and unintentionally almost start WW3.
 # Missions
 
 - Hacker missions
-0. HACKERMISSION0 - A helping hand: Jim from Tech Lab helps getting you started with your new pc.
-1. HACKERMISSION1 - A job offer: Malvin from Tech Lab contacts you about a job offer.
-2. HACKERMISSION2 - A show of skill: Get admin access to "SEATTLE DATANET"
+0. A helping hand: Jim from Tech Lab helps getting you started with your new pc.
+1. A job offer: Malvin from Tech Lab contacts you about a job offer.
+2. A show of skill: Get admin access to "SEATTLE DATANET"
 
 - School missions
-1. SCHOOLMISSION1 - A friend in need: Change classmates grades on school mainframe
-2. SCHOOLMISSION2 - A friend in need - nevermind: Change classmates grades back on school mainframe
-3. SCHOOLMISSION3 - A friend in need - sorry: Change classmates grades back on school mainframe
+1. A friend in need: Change classmates grades on school mainframe
+2. A friend in need - nevermind: Change classmates grades back on school mainframe
+3. A friend in need - sorry: Change classmates grades to higher on school mainframe
 
 - Hacker missions
-3. HACKERMISSION3 - Time for fun: Get admin access to "THE WORLD ISP"
+3. Time to get serious: Get admin access to "THE WORLD ISP"
+4. Time for fun: Get admin access to "THE WORLD ISP"

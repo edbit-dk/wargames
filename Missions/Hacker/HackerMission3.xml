@@ -9,14 +9,14 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionEnd val="4">addRankSilent</missionEnd>
+  <missionEnd val="3">addRankSilent</missionEnd>
   <nextMission>Missions/Hacker/HackerMission4.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
     <sender>Jim</sender>
-    <subject>Time for fun</subject>
+    <subject>Time to get serious</subject>
     <body>
 Wow, you have impressed me getting into SEATTLE DATANET. Good job!
 
@@ -24,7 +24,7 @@ Now, it's time to get serious:
 
 -----------------------------------------------------------------
 I want you to get access to "THE WORLD ISP"
-- from there, we can access all subnetworks on the US West Coast!
+- From there, we can access all subnetworks on the US West Coast!
 -----------------------------------------------------------------
 
 TIP: you need to look out for "tracking" on 

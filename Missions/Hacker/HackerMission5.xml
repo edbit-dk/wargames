@@ -10,7 +10,7 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionEnd val="6">addRankSilent</missionEnd>
+  <missionEnd val="5">addRankSilent</missionEnd>
   <nextMission>Missions/Hacker/HackerMission6.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
