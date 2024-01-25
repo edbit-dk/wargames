@@ -13,11 +13,11 @@
   <Language>en-us</Language>
   
   <!-- Max name length is 128 characters -->
-	<Name>Wargames Extension</Name>
+	<Name>WarGames</Name>
 	<AllowSaves>true</AllowSaves>
   
   <!-- a coma separated list of notes that start out as being visible-->
-	<StartingVisibleNodes></StartingVisibleNodes>
+	<StartingVisibleNodes>seattleDatanet</StartingVisibleNodes>
   
   <!-- the mission (if any) that loads in as soon as the player starts -->
   <StartingMission>Missions/Hacker/HackerMission0.xml</StartingMission>
@@ -25,11 +25,13 @@
   <!-- Conditional action set that is loaded in as soon as a new session is created
   This is useful to do setup stuff, like giving the player programs, assigning them a faction etc.
   If you don't need this, set it to "NONE", or just delete the tag.-->
-  <StartingActions>Actions/StartActions.xml</StartingActions>
+  <StartingActions>Actions/SaveActions.xml</StartingActions>
 
   <!-- Description that appears within Hacknet -->
-  <Description> --- Wargames ---
- Hacknet Extension with inpiration taken for the 1983 movie "Wargames"
+<Description>
+A story with inpiration taken for the 1983 movie "WarGames".
+The story takes place ten years after the original movie in 1993.
+You play as a random hacker who, with a little help, stumbels upon a military war simulation computer and almost start WW3.
 </Description>
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
@@ -38,7 +40,7 @@
   <StartsWithTutorial>False</StartsWithTutorial>
   
   <!-- this makes the extension start with the standard restart bootup sequence -->
-  <HasIntroStartup>false</HasIntroStartup>
+  <HasIntroStartup>False</HasIntroStartup>
   
   <StartingTheme>Themes/Terminal.xml</StartingTheme>
   <!-- 
@@ -71,7 +73,9 @@
         public string WorkshopTags;
         public string WorkshopPreviewImagePath;
   -->
-  <WorkshopDescription>Hacknet Extension with inpiration taken for the 1983 movie "Wargames"</WorkshopDescription>
+  <WorkshopDescription>The story takes place ten years after the original movie in 1993. 
+You play as a random hacker who, with a little help, stumbels upon a military 
+war simulation computer and unintentionally almost start WW3.</WorkshopDescription>
 
   <!-- Language that this is set to. -->
   <WorkshopLanguage>English</WorkshopLanguage>

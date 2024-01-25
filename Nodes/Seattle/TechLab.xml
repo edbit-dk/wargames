@@ -1,8 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="techLab" 
-name="SEATTLE TECH LAB USENET"
+name="SEATTLE TECH LAB"
 security="0" 
 type="3">
+
+<adminPass pass="hacknet" />
 
   <portsForCrack val="1" />
   <ports>22, 21, 25</ports>
@@ -49,11 +51,13 @@ alpine
 
 
    <uploadServerDaemon name="FTP SERVER" folder="FTP" 
-                      needsAuth="true" color="84,165,212"/>
+                      needsAuth="false" color="84,165,212"/>
 
- <variableMissionListingServer name="USENET" group="hackerfac" iconPath="Logo.png" articleFolderPath="Docs/TechArticles" color="84,165,212" assigner="false" public="true" title="SEATTLE TECH LAB USENET"/>
+ <variableMissionListingServer name="HACKNET" group="hackerfac" iconPath="Docs/Logo.png" articleFolderPath="Docs/TechArticles" color="84,165,212" assigner="false" public="true" title="SEATTLE TECH LAB"/>
 
 
 <dlink target="seattleDatanet" />
+
+  <positionNear target="seattleDatanet" position="0" total="1" />
 
 </Computer>

@@ -18,7 +18,5 @@ type="3" >
 
   </mailServer>  
 
-  <dlink target="ispComp" />
-
-
+  <positionNear target="playerComp" position="0" total="1" />
 </Computer>

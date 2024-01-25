@@ -6,7 +6,9 @@ security="0"
 type="empty">
 
  <!-- Accounts -->
-<adminPass pass="Joshua" />
+<admin type="progress" />
+
+<account username="" password="Joshua" type="0" />
 
 <account username="help" password="games" type="3" />
 
@@ -16,7 +18,7 @@ WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
 </file>
 
 
- <variableMissionListingServer name="GAMES" iconPath="Logo.png" articleFolderPath="Docs/GameListings" color="84,165,212" assigner="false" public="false" title="GAMES"/>
+ <variableMissionListingServer name="GAMES" iconPath="" articleFolderPath="Docs/GameListings" color="84,165,212" assigner="false" public="false" title="GAMES"/>
 
   <file path="bin" name="FALKENS_MAZE.exe">#BINARY#</file>
   <file path="bin" name="BLACK_JACK.exe">#BINARY#</file>
@@ -40,5 +42,7 @@ WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
 
   <dlink target="sunnyvaleDatanet" />
   <dlink target="armyDatanet" />
+
+    
 
 </Computer>

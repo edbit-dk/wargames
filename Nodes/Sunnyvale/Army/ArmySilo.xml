@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="armySilo" 
+ip="68.56.23.07"
+name="NORAD MISSILE SILO MAINFRAME"
+security="0" 
+type="empty">
+
+<admin type="progress" />
+
+<account username="" password="CPE-1704-TKS" type="0" />
+
+ <portsForCrack val="999" />
+  <ports></ports>
+
+<file path="bin" name="MISSILE_LUNCH.exe">#BINARY#</file>
+
+<dlink target="armyDatanet" />
+
+</Computer>

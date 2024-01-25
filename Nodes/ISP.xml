@@ -16,6 +16,6 @@ type="3">
 <ispSystem />
 
 <dlink target="seattleDatanet" />
-<dlink target="jmail" />
+<dlink target="sunnyvaleDatanet" />
   
 </Computer>

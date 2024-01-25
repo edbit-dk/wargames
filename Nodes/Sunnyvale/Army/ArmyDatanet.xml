@@ -5,9 +5,9 @@ security="0"
 type="3">
 
  <!-- Accounts -->
-<adminPass pass="0000000" />
-
 <admin type="progress" />
+
+<account username="" password="00000000" type="0" />
 
   <portsForCrack val="3" />
   <ports>21, 22, 25</ports>
@@ -17,18 +17,13 @@ type="3">
   <tracker />
 
 
-  <encryptedFile path="home" name="MISSILE_LUNCH_CODE01.dec" extension=".txt" ip="68.56.23.07" header="ALHA1: NORAD MISSILE SILO MAINFRAME" pass="00000000">
-CPE17
-  </encryptedFile>
-
-  <encryptedFile path="home" name="MISSILE_LUNCH_CODE02.dec" extension=".txt" ip="40.60.21.31" header="BRAVO2: NORAD MISSILE SILO MAINFRAME" pass="00000000">
-04TKS
+  <encryptedFile path="home" name="MISSILE_LUNCH_CODES.dec" extension=".txt" ip="68.56.23.07" header="NORAD MISSILE SILO" pass="00000000">
+CPE-1704-TKS
   </encryptedFile>
 
   <dlink target="armyWOPR" />
   <dlink target="sunnyvaleDatanet" />
 
-  <dlink target="armyAlpha" />
-  <dlink target="armyBravo" />
-  
+  <dlink target="armySilo" />
+    
 </Computer>
