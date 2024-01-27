@@ -28,4 +28,5 @@ war simulation computer and unintentionally almost start WW3.
 
 - Hacker missions
 3. Time to get serious: Get admin access to "THE WORLD ISP"
-4. Time for some fun: Get admin access to "SUNNYVALE DATANET"
+4. Time for some fun: Get admin access to "SUNNYVALE DATANET" and find a hidden game server with the game "DOOM"
+5. Dangerous times: Try find information about "Falken"
