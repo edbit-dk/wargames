@@ -4,12 +4,13 @@ name="UNION MARINE BANK - SOUTHWEST REGIONAL DATA CENTER"
 security="0" 
 type="1">
 
-  <portsForCrack val="1" />
+  <firewall level="5" solution="money" additionalTime="1.0"/>
+  <portsForCrack val="3" />
   <ports>22, 21, 25</ports>
   <trace time="200" />
   <tracker />
 
 <dlink target="sunnyvaleDatanet" />
 
-
+ <positionNear target="sunnyvaleDatanet" position="2" total="1" />
 </Computer>

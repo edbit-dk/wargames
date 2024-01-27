@@ -20,4 +20,6 @@ Pencil
 <dlink target="seattleDatanet" />
 <dlink target="academic" />
 
+ <positionNear target="seattleDatanet" position="1" total="1" />
+
 </Computer>

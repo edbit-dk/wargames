@@ -4,7 +4,7 @@ name="SUNNYVALE HOSPITAL"
 security="0" 
 type="1">
 
-  <portsForCrack val="1" />
+  <portsForCrack val="2" />
   <ports>22, 21, 25</ports>
   <trace time="-1" />
 
@@ -13,5 +13,5 @@ type="1">
 <MedicalDatabase />
 
 <dlink target="sunnyvaleDatanet" />
-
+ <positionNear target="sunnyvaleDatanet" position="2" total="1" />
 </Computer>

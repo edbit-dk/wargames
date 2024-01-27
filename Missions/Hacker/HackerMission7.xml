@@ -2,40 +2,41 @@
 <mission id="hackerMission7">
   <goals>
     <!-- Goals here -->
-    <goal type="delay" time="10.0"/>
+    <goal type="getadmin" target="armyWOPR"/>
+    
   </goals>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <nextMission>Missions/School/SchoolMission4.xml</nextMission>
+  <missionEnd val="6">addRankSilent</missionEnd>
+  <missionEnd val="0">loadConditionalActions:Actions/WOPR_START_Actions.xml</missionEnd>
+  <nextMission>Missions/Hacker/HackerMission8.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
-    <sender>Jim</sender>
-    <subject>WHAT HAVE YOU DONE?!</subject>
+    <sender>Malvin</sender>
+    <subject>TRY THIS!</subject>
     <body>
-It's ALL over the news!
+Seems this Falken is DEAD - together with his family.
 
-The US Government thought that was at war with the Soviets!
-They blame it on a computer malfunction!
-They say that the problem has been corrected!
+But the medical records tells us, that he had a VERY
+close bond with his son: "Joshua".
 
-WHAT HAVE YOU DONE!
+Maybe THAT could be the "back-door" password?!
 
-This is getting too dangerous. 
-The FBI is probaly looking for you now...
+Try it out and reply back...
 
-YOU are on your on from now on!
-
-Bye and best of luck, 
-- Jim and Malvin
+Watch out, 
+- Malvin (and Jim)
 
 Seattle Tech Lab
 </body>
     <attachments>
+      <!-- A link takes in the idName of a computer and links to it on the netmap -->
+      <link comp="armyWOPR" />
     </attachments>
   </email>
 </mission>

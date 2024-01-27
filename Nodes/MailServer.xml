@@ -14,7 +14,7 @@ type="3" >
   
   <account username="#PLAYERNAME#" password="pencil" type="mail" />
   
-  <mailServer name="Mail" color="50,237,212">
+  <mailServer name="MS" color="50,237,212">
 
   </mailServer>  
 

@@ -15,6 +15,6 @@ type="3">
   <dlink target="techLab" />
   <dlink target="ispComp" />
 
-    <positionNear target="playerComp" position="2" total="1" />
+     <positionNear target="playerComp" position="2" total="1" />
 
 </Computer>

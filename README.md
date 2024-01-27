@@ -28,4 +28,4 @@ war simulation computer and unintentionally almost start WW3.
 
 - Hacker missions
 3. Time to get serious: Get admin access to "THE WORLD ISP"
-4. Time for fun: Get admin access to "THE WORLD ISP"
+4. Time for some fun: Get admin access to "SUNNYVALE DATANET"

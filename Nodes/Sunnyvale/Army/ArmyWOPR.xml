@@ -1,12 +1,12 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="armyWOPR" 
-name=""
+name="WOPR"
 icon="chip"  
 security="0" 
 type="empty">
 
  <!-- Accounts -->
-<admin type="progress" />
+<admin type="fast" resetPassword="true" isSuper="true" />
 
 <account username="" password="Joshua" type="0" />
 
@@ -18,7 +18,7 @@ WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
 </file>
 
 
- <variableMissionListingServer name="GAMES" iconPath="" articleFolderPath="Docs/GameListings" color="84,165,212" assigner="false" public="false" title="GAMES"/>
+ <variableMissionListingServer name="Games" iconPath="Docs/GameListings/Logo.jpg" articleFolderPath="Docs/GameListings" color="84,165,212" assigner="false" public="false" title="WOPR (War Operation Plan Response)"/>
 
   <file path="bin" name="FALKENS_MAZE.exe">#BINARY#</file>
   <file path="bin" name="BLACK_JACK.exe">#BINARY#</file>
@@ -36,9 +36,11 @@ WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
   <file path="bin" name="TEHATERWIDE_BIOTOXIC_AND_CHEMICAL_WARFARE.exe">#BINARY#</file>
   <file path="bin" name="GLOBAL_THERMONUCLEAR_WAR.exe">#BINARY#</file>
   
-  <portsForCrack val="999" />
-  <ports></ports>
-  <trace time="100" />
+  <firewall level="6" solution="defcon" additionalTime="0.5"/>
+  <portRemap>ssh=23</portRemap>
+  <portsForCrack val="1" />
+  <ports>22</ports>
+  <trace time="50" />
 
   <dlink target="sunnyvaleDatanet" />
   <dlink target="armyDatanet" />

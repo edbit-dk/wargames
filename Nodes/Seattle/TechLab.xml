@@ -21,18 +21,6 @@ type="3">
   <file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
   <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
 
- <encryptedFile path="home" name="classified_books.dec" extension=".txt" ip="armyDatanet" header="Stephen Falken">
-FALKEN'S MAZE: Teaching a Machine to Think
-
-POKER AND ARMAGEDDON: THE ROLE OF BLUFFING IN A NUCLEAR STANDOFF 
-by Stephen Falken, with John McKittrick
-
------- INFORMATION CLASSIFIED ----------
------- INFORMATION CLASSIFIED ----------
------- INFORMATION CLASSIFIED ----------
-  </encryptedFile>
-
-
   <file path="home" name="password_list.txt">
 This is a list of the most common password I have 
 found companies use for their "extra secure" servers, haha!
@@ -50,14 +38,14 @@ alpine
   </file>
 
 
-   <uploadServerDaemon name="FTP SERVER" folder="FTP" 
+   <uploadServerDaemon name="FTP Server" folder="FTP" 
                       needsAuth="false" color="84,165,212"/>
 
- <variableMissionListingServer name="HACKNET" group="hackerfac" iconPath="Docs/Logo.png" articleFolderPath="Docs/TechArticles" color="84,165,212" assigner="false" public="true" title="SEATTLE TECH LAB"/>
+ <variableMissionListingServer name="Docs" group="hackerfac" iconPath="Docs/TechArticles/Logo.png" articleFolderPath="Docs/TechArticles" color="84,165,212" assigner="false" public="true" title="SEATTLE TECH LAB"/>
 
 
 <dlink target="seattleDatanet" />
 
-  <positionNear target="seattleDatanet" position="0" total="1" />
+  <positionNear target="seattleDatanet" position="1" total="1" />
 
 </Computer>

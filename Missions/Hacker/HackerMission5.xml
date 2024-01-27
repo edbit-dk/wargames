@@ -17,30 +17,22 @@
   -->
   <email>
     <sender>Jim</sender>
-    <subject>WOW - found something!</subject>
+    <subject>Something of interest</subject>
     <body>
-This server IS military for sure!
-Just look at those game names...
+THIS server seems VERY secure - probaly military!
 
-BUT you found an important game: "Falken's Maze". 
+I don't know what games you are looking for. 
+But maybe try to login with "help" and "games".
 
-If I'm not mistaking "Stephen Falken" was a somewhat famous AI
-scientist who wrote a couple of books - some classified if you look them
-up on the libray!
+Then MAYBE you can get more info about the designer 
+of the server and find an "admin" "back-door".
 
-Maybe try find more information about him on the hospital server - maybe we can contact him.
-Send his record to ME.
-
-Reply when you are done.
-
-Good luck, 
-- Jim (and Malvin)
-
-Seattle Tech Lab
+If you get access to the "game files", then find some
+sort of "author name" and reply the name back.
 </body>
     <attachments>
       <!-- A link takes in the idName of a computer and links to it on the netmap -->
-      <link comp="medical" />
+      <link comp="armyWOPR" />
     </attachments>
   </email>
 </mission>

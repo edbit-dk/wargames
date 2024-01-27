@@ -16,4 +16,6 @@ type="empty">
 
 <dlink target="armyDatanet" />
 
+   <positionNear target="armyDatanet" position="3" total="1" />
+
 </Computer>

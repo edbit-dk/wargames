@@ -5,10 +5,10 @@ security="0"
 type="1">
 
   <proxy time="1" />
-  <firewall level="5" solution="games" additionalTime="1.0"/>
+  <firewall level="5" solution="games" additionalTime="0.5"/>
   <portsForCrack val="3" />
   <ports>22, 21, 25</ports>
-  <trace time="500" />
+  <trace time="200" />
    <tracker />
 
 <PointClicker />
@@ -22,5 +22,5 @@ type="1">
 
 <dlink target="sunnyvaleDatanet" />
  
-
+ <positionNear target="sunnyvaleDatanet" position="2" total="1" />
 </Computer>

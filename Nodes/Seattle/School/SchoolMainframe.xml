@@ -15,6 +15,6 @@ type="empty" >
 
 <dlink target="schoolOffice" />
 
-  <positionNear target="playerComp" position="2" total="1" />
+  <positionNear target="schoolOffice" position="2" total="1" />
 
 </Computer>
