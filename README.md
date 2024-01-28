@@ -1,8 +1,7 @@
-# hacknet-wargames
+# Hacknet Extension: WarGames 1983
  Hacknet Extension with inpiration taken for the 1983 movie "Wargames"
 
 # Plot
-The story takes place ten years after the original movie in 1993. 
 You play as a random hacker who, with a little help, stumbels upon a military 
 war simulation computer and unintentionally almost start WW3.
 
@@ -27,6 +26,4 @@ war simulation computer and unintentionally almost start WW3.
 3. A friend in need - sorry: Change classmates grades to higher on school mainframe
 
 - Hacker missions
-3. Time to get serious: Get admin access to "THE WORLD ISP"
-4. Time for some fun: Get admin access to "SUNNYVALE DATANET" and find a hidden game server with the game "DOOM"
-5. Dangerous times: Try find information about "Falken"
+
