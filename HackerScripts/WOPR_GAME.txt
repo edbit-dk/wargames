@@ -17,7 +17,7 @@ writel  $#%#$
 writel  $#%#$
 writel  $#%#$
 writel  $#%#$
-writel GREETINGS PROFESSOR FALKEN. $#%#$
+writel I'M SORRY TO HEAR, THAT PROFESSOR FALKEN IS DEAD. $#%#$
 delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -72,10 +72,6 @@ writel  $#%#$
 writel 69% OF THE HOUSING DETROYED. $#%#$
 delay 1.0 $#%#$
 writel 72 MILLION PEOPLE DEAD. $#%#$
-delay 5.0 $#%#$
-writel  $#%#$
-writel  $#%#$
-writel BEGIN TRACKING OF MISSILE LUNCH CODES: *** **** *** $#%#$
 delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$

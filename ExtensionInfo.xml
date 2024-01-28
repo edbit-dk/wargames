@@ -13,7 +13,7 @@
   <Language>en-us</Language>
   
   <!-- Max name length is 128 characters -->
-	<Name>WarGames</Name>
+	<Name>WarGames 1983</Name>
 	<AllowSaves>true</AllowSaves>
   
   <!-- a coma separated list of notes that start out as being visible-->
@@ -30,7 +30,6 @@
   <!-- Description that appears within Hacknet -->
 <Description>
 A story with inpiration taken for the 1983 movie "WarGames".
-The story takes place ten years after the original movie in 1993.
 You play as a random hacker who, with a little help, stumbels upon a military war simulation computer and almost start WW3.
 </Description>
   

@@ -75,7 +75,12 @@ writel AWAITING FIRST STRIKE COMMAND $#%#$
 writel _____________________________ $#%#$
 writel  $#%#$
 writel  $#%#$
-writel PRIMARY TARGETS: LAS VEGAS, SEATTLE $#%#$
+writel PRIMARY TARGETS BY CITY AND/OR COUNTRY NAME: $#%#$
+writel LAS VEGAS, SEATTLE, NEW YORK, MIAMI $#%#$
+delay 5.0 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  TARGET SELECTION COMPLETE $#%#$
 delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$

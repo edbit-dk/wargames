@@ -7,7 +7,7 @@ type="empty">
 
 <admin type="progress" />
 
-<account username="" password="CPE-1704-TKS" type="0" />
+<account username="" password="CPE1704TKS" type="0" />
 
  <portsForCrack val="999" />
   <ports></ports>

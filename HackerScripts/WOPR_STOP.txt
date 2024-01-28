@@ -19,6 +19,37 @@ delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel ..X......XOO......X.......XOX..... $#%#$
+delay 1.0 $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+delay 1.0 $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+delay 0.5 $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+delay 0.5 $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+delay 0.5 $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  -- SYSTEM OVERLOAD -- $#%#$
+delay 5.0 $#%#$
+writel  -- MISSILE SYSTEMS OFF-LINE -- $#%#$
+writel  $#%#$
+writel  -- MISSILE SYSTEMS OFF-LINE -- $#%#$
+writel  $#%#$
+writel  -- MISSILE SYSTEMS OFF-LINE -- $#%#$
+writel  $#%#$
+delay 5.0 $#%#$
+clearTerminal $#%#$
 delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -51,7 +82,7 @@ writel A STRANGE GAME. $#%#$
 delay 5.0 $#%#$
 writel THE ONLY WINNING MOVE IS $#%#$
 delay 5.0 $#%#$
-writel NOT TO PLAY. $#%#$
+writel NOT TO PLAY! $#%#$
 delay 10.0 $#%#$
 writel  $#%#$
 writel  $#%#$
