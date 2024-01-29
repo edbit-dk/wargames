@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="armySilo" 
 ip="68.56.23.07"
-name="NORAD MISSILE SILO MAINFRAME"
+name="MISSILE SILO MAINFRAME"
 security="0" 
 type="empty">
 
@@ -9,12 +9,14 @@ type="empty">
 
 <account username="" password="CPE1704TKS" type="0" />
 
- <portsForCrack val="999" />
-  <ports></ports>
+ <firewall level="6" solution="defcon" additionalTime="0.5"/>
+  <portRemap>ssh=34, smtp=53, web=94, ftp=75</portRemap>
+  <portsForCrack val="4" />
+  <ports>22, 25, 80, 21</ports>
+  <trace time="100" />
 
-<file path="bin" name="MISSILE_LUNCH.exe">#BINARY#</file>
+<file path="bin" name="MissileLunch.exe">#BINARY#</file>
 
-<dlink target="armyDatanet" />
 
    <positionNear target="armyDatanet" position="3" total="1" />
 

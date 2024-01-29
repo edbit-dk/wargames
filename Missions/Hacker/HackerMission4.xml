@@ -2,8 +2,6 @@
 <mission id="hackerMission4">
   <goals>
     <!-- Goals here -->
-    <goal type="getadmin" target="sunnyvaleDatanet"/>
-
     <goal type="fileupload" target="protoVision" 
     file="DOOM.exe" path="bin" 
     destTarget="techLab" destPath="FTP/Uploads"/>
@@ -21,7 +19,7 @@
   -->
   <email>
     <sender>Malvin</sender>
-    <subject>Time for some fun</subject>
+    <subject>Time for fun</subject>
     <body>
 Nice job!
 
@@ -29,12 +27,14 @@ Now, time for some fun:
 
 ---------------------------------------------------------
 - Find a game company called "ProtoVision Inc" located somewhere
-in Sunnevale, California. They have been working on a cool game called "DOOM". 
+in Sunnevale, California (if you made a scan on the ARPANET Mainframe). 
+They have been working on a cool game called "DOOM.exe". 
+
 - Find the game server, hack it, and upload the game to our
 FTP server (se link).
 ---------------------------------------------------------
 
-TIP: You may have to get access to to "SUNNYVALE DATANET" first,
+TIP: You may need to get access to multiple terminals first,
 before you can find the game company...
 
 Thx, 
@@ -43,7 +43,8 @@ Thx,
 Seattle Tech Lab
 </body>
     <attachments>
-      <link comp="techLab" />
+    <link comp="techLab" />
+      <link comp="ispComp" />
     </attachments>
   </email>
 </mission>

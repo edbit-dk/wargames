@@ -15,9 +15,9 @@ type="empty" >
 <trace time="300" />
 
 
-<file path="home" name="your_password.txt">000001</file>
+<file path="home" name="password.txt">000001</file>
 
-<file path="home" name="love_letter.txt">
+<file path="home" name="letter.txt">
 Dear Jennifer
 
 You are my best friend.
@@ -29,6 +29,5 @@ But maybe, one day, we can become more?
 
 
 <dlink target="jmail" />
-<dlink target="seattleDatanet" />
 
 </Computer>

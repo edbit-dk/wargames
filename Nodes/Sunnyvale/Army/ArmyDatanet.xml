@@ -9,12 +9,12 @@ type="3">
 
 <account username="" password="00000000" type="0" />
 
-  <portsForCrack val="3" />
-  <ports>21, 22, 25</ports>
-  <proxy time="1" />
-  <firewall level="5" solution="norad" additionalTime="1"/>
+  <firewall level="6" solution="defcon" additionalTime="0.5"/>
+  <portRemap>ssh=34, smtp=53, web=94, ftp=75</portRemap>
+  <portsForCrack val="4" />
+  <ports>22, 25, 80, 21</ports>
   <trace time="100" />
-  <tracker />
+   <tracker />
 
    <encryptedFile path="home" name="classified.dec" extension=".txt" ip="armyDatanet" header="Stephen Falken">
 FALKEN'S MAZE: Teaching a Machine to Think
@@ -28,13 +28,10 @@ by Stephen Falken, with John McKittrick
   </encryptedFile>
 
 
-  <encryptedFile path="home" name="MISSILE_LUNCH_CODES.dec" extension=".txt" ip="68.56.23.07" header="NORAD MISSILE SILO" pass="00000000">
-CPE-1704-TKS
+  <encryptedFile path="home" name="mainframe.dec" extension=".txt" ip="68.56.23.07" header="MISSILE SILO MAINFRAME" pass="00000000">
+CPE1704TKS
   </encryptedFile>
 
-  <dlink target="armyWOPR" />
   <dlink target="armySilo" />
-
-   <positionNear target="armyWOPR" position="1" total="1" />
     
 </Computer>

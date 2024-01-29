@@ -6,19 +6,17 @@ security="0"
 type="empty">
 
  <!-- Accounts -->
-<admin type="fast" resetPassword="true" isSuper="true" />
-
 <account username="" password="Joshua" type="0" />
 
 <account username="help" password="games" type="3" />
 
-<file path="home" name="HELP_GAMES.txt">
+<file path="home" name="Help_Games.txt">
 'GAMES' REFERES TO MODELS, SIMULATIONS AND GAMES
 WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
 </file>
 
 
- <variableMissionListingServer name="Games" iconPath="Docs/GameListings/Logo.jpg" articleFolderPath="Docs/GameListings" color="84,165,212" assigner="false" public="false" title="WOPR (War Operation Plan Response)"/>
+ <variableMissionListingServer name="Games" iconPath="Docs/GameListings/Logo.jpg" articleFolderPath="Docs/GameListings" color="84,165,212" assigner="false" public="false" title="WOPR"/>
 
   <file path="bin" name="FALKENS_MAZE.exe">#BINARY#</file>
   <file path="bin" name="BLACK_JACK.exe">#BINARY#</file>
@@ -40,9 +38,8 @@ WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
   <portRemap>ssh=34, smtp=53, web=94, ftp=75</portRemap>
   <portsForCrack val="4" />
   <ports>22, 25, 80, 21</ports>
-  <trace time="50" />
+  <trace time="10" />
 
-  <dlink target="sunnyvaleDatanet" />
   <dlink target="armyDatanet" />
 
     

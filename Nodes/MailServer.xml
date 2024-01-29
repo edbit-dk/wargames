@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="jmail" 
-name="Mail version 1.1 6/6/83" 
+name="Mail" 
 allowsDefaultBootModule="true"
 security="0"
 type="3" > 
@@ -12,9 +12,9 @@ type="3" >
   <portsForCrack val="5" />
   
   
-  <account username="#PLAYERNAME#" password="pencil" type="mail" />
+  <account username="#PLAYERNAME#" password="mail" type="mail" />
   
-  <mailServer name="MAIL" color="50,237,212">
+  <mailServer name="" color="50,237,212">
 
   </mailServer>  
 

@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="ispComp" 
-name="THE WORLD ISP"
+name="ARPANET Mainframe"
 security="0"
 type="3">
 
@@ -11,12 +11,14 @@ type="3">
   <trace time="200" />
   <admin type="progress" />
   <firewall level="7" solution="network" additionalTime="0.5"/>
-  <proxy time="1" />
 
 <ispSystem />
 
-<dlink target="seattleDatanet" />
-<dlink target="sunnyvaleDatanet" />
+<dlink target="schoolDatanet" />
+ <dlink target="jmail" />
+
+<dlink target="unionBank" />
+
 
 
 </Computer>

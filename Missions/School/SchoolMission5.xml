@@ -13,7 +13,7 @@
   missionEnd val="1">addRank</missionEnd> 
   -->
   <missionEnd val="0">loadConditionalActions:Actions/WOPR_STOP_Actions.xml</missionEnd>
-  <nextMission>Missions/School/SchoolMission5.xml</nextMission>
+  <nextMission>NONE</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->

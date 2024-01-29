@@ -1,8 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="schoolOffice" 
+<Computer id="schoolDatanet" 
 name="SEATTLE PUBLIC SCHOOL DISTRICT DATANET" 
 security="0"  
 type="3">
+
+<adminPass pass="********" />
 
  <!-- Accounts -->
   <firewall level="8" solution="12345678" additionalTime="0.5"/>
@@ -17,9 +19,8 @@ type="3">
 Pencil
   </file>
 
-<dlink target="seattleDatanet" />
 <dlink target="academic" />
 
- <positionNear target="seattleDatanet" position="1" total="1" />
+<dlink target="ispComp" />
 
 </Computer>

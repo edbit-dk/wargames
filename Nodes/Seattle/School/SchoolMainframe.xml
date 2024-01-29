@@ -2,7 +2,7 @@
 <Computer id="academic" 
 name="SEATTLE PUBLIC SCHOOL MAINFRAME" 
 security="0"  
-type="empty" >
+type="3" >
 
  <!-- Accounts -->
 <adminPass pass="Pencil" />
@@ -13,8 +13,8 @@ type="empty" >
 
 <academicDatabase />
 
-<dlink target="schoolOffice" />
+<dlink target="schoolDatanet" />
 
-  <positionNear target="schoolOffice" position="2" total="1" />
+  <positionNear target="schoolDatanet" position="2" total="1" />
 
 </Computer>

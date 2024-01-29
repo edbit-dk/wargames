@@ -9,31 +9,32 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
+  <missionStart val="7">changeSong</missionStart>
   <missionEnd val="3">addRankSilent</missionEnd>
   <nextMission>Missions/Hacker/HackerMission4.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
-    <sender>Jim</sender>
+    <sender>Malvin</sender>
     <subject>Time to get serious</subject>
     <body>
-Wow, nice getting into SEATTLE DATANET. Good job!
+Wow, nice getting into the school network!
 
 Now, it's time to get serious:
 
 -----------------------------------------------------------------
-I want you to get access to "THE WORLD ISP"
-- From there, we can access all subnetworks on the US West Coast!
+I want you to get admin access to "ARPANET Mainframe" connected to the school.
+- From there, we can access all the terminals in the US!
 -----------------------------------------------------------------
 
-TIP: you need to look out for "tracking" on 
-high-level computers - and remember to delete "logs" on 
-remote computers you connect to. Otherwise the FBI (or other hackers) 
-may track you down!
+TIP: You need to look out for "tracking" on high-level terminals - and remember to delete "logs" on 
+remote terminals you connect to. 
+
+Otherwise the FBI (or other hackers) may track you down!
 
 Good luck, 
-- Jim (and Malvin)
+- Malvin
 
 Seattle Tech Lab
 </body>

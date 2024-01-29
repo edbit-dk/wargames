@@ -2,7 +2,7 @@
 <mission id="hackerMission6">
   <goals>
     <!-- Goals here -->
-    <goal type="sendemail" mailServer="jmail" recipient="Jim" subject="MedicalRecord - Falken_Stephen"/>
+    <goal type="sendemail" mailServer="jmail" recipient="Malvin" subject="MedicalRecord - Falken_Stephen"/>
     
   </goals>
   <!-- 
@@ -16,25 +16,19 @@
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
-    <sender>Jim</sender>
-    <subject>Something of interest</subject>
+    <sender>Malvin</sender>
+    <subject>Useful records</subject>
     <body>
-This server IS military for sure!
-Just look at those game names...
-
-BUT you found an important game: "Falken's Maze". 
-
 If I'm not mistaking "Stephen Falken" was a somewhat famous AI
 scientist who wrote a couple of books - some classified if you look them
-up on the libray!
+up!
 
-Maybe try find more information about him on the hospital server - maybe we can contact him.
-Send his record to ME.
+--------------------------------------------------------------------------------------
+Maybe try find more information about him at the hospital mainframe - maybe we can contact him.
+Send his records to ME. Reply when you are done.
+--------------------------------------------------------------------------------------
 
-Reply when you are done.
-
-Good luck, 
-- Jim (and Malvin)
+- Malvin
 
 Seattle Tech Lab
 </body>

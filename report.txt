@@ -1,27 +1,17 @@
 Errors Found. Writing report to Extensions/WargamesExtension/report.txt
 
-Extension Metadata Error:
-System.IO.FileNotFoundException 
- 
-Starting Mission File does not exist! 
- 
-Source : Hacknet 
- 
-System.IO.FileNotFoundException: Starting Mission File does not exist! 
-   at Hacknet.Extensions.ExtensionInfo.VerifyExtensionInfo(ExtensionInfo
-   info)
 
-   at
-   Hacknet.Screens.ExtensionsMenuScreen.DrawExtensionInfoDetail(Vector2
-   drawpos, Rectangle dest, SpriteBatch sb, ScreenManager screenMan,
-   ExtensionInfo info)
- 
- 
- 
-   at Hacknet.Extensions.ExtensionInfo.VerifyExtensionInfo(ExtensionInfo
-   info)
+START MISSION READ ERRORS:
+Error Loading Extensions/WargamesExtension/Missions/Hacker/HackerMission2.xml
+System.FormatException: Error loading mission Goal "getadmin"
+NullReferenceException - this means something referenced by an ID (probably a computer) or a filename (missions/scripts etc) was not found.
+   at Hacknet.ComputerLoader.readMission(String filename)
+   at Hacknet.Misc.TestSuite.TestMission(String missionName, Object os_obj)Error Loading Mission: Extensions/WargamesExtension/Missions\Hacker\HackerMission2.xml
 
-   at
-   Hacknet.Screens.ExtensionsMenuScreen.DrawExtensionInfoDetail(Vector2
-   drawpos, Rectangle dest, SpriteBatch sb, ScreenManager screenMan,
-   ExtensionInfo info)
+Error loading mission Goal "getadmin" 
+NullReferenceException - this means something referenced by an ID
+(probably a computer) or a filename (missions/scripts etc) was not found.
+
+ 
+Source : Hacknet  ::  System.FormatException
+

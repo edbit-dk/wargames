@@ -3,7 +3,7 @@
   <goals>
     <!-- Goals here -->
     <goal type="getadmin" target="armyWOPR"/>
-    
+    <goal type="delay" time="10.0"/>
   </goals>
   <!-- 
   Add your mission start and end items here
@@ -18,7 +18,7 @@
   -->
   <email>
     <sender>Malvin</sender>
-    <subject>TRY THIS!</subject>
+    <subject>Do or not do - there is no try</subject>
     <body>
 Seems this Falken is DEAD - together with his family.
 
@@ -27,10 +27,12 @@ close bond with his son: "Joshua".
 
 Maybe THAT could be the "back-door" password?!
 
-Try it out and reply back...
+-----------------------------------------
+Try login with "Joshua" and reply back...
+----------------------------------------
 
-Watch out, 
-- Malvin (and Jim)
+Watch out! 
+- Malvin
 
 Seattle Tech Lab
 </body>

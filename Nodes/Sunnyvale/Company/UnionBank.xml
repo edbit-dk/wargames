@@ -10,7 +10,9 @@ type="1">
   <trace time="200" />
   <tracker />
 
-<dlink target="sunnyvaleDatanet" />
+<dlink target="flightTerminal" />
+<dlink target="medical" />
+<dlink target="protoVision" />
+<dlink target="armyWOPR" />
 
- <positionNear target="sunnyvaleDatanet" position="2" total="1" />
 </Computer>
