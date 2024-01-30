@@ -11,6 +11,8 @@
   missionEnd val="1">addRank</missionEnd> 
   -->
   <missionEnd val="6">addRankSilent</missionEnd>
+  <missionStart val="3">changeSong</missionStart>
+  <missionEnd val="7">changeSong</missionEnd>
   <missionEnd val="0">loadConditionalActions:Actions/WOPR_START_Actions.xml</missionEnd>
   <nextMission>Missions/Hacker/HackerMission8.xml</nextMission>
   <!-- 
@@ -20,16 +22,15 @@
     <sender>Malvin</sender>
     <subject>Do or not do - there is no try</subject>
     <body>
-Seems this Falken is DEAD - together with his family.
+Seems this Falken is DEAD - together with his family in a car accident.
 
-But the medical records tells us, that he had a VERY
-close bond with his son: "Joshua".
+But the medical records tells us, that he had a VERY close bond with his son: "Joshua".
 
 Maybe THAT could be the "back-door" password?!
 
------------------------------------------
+-----
 Try login with "Joshua" and reply back...
-----------------------------------------
+-----
 
 Watch out! 
 - Malvin

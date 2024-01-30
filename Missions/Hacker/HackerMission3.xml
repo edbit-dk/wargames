@@ -9,7 +9,7 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionStart val="7">changeSong</missionStart>
+  <missionStart val="8">changeSong</missionStart>
   <missionEnd val="3">addRankSilent</missionEnd>
   <nextMission>Missions/Hacker/HackerMission4.xml</nextMission>
   <!-- 
@@ -23,15 +23,14 @@ Wow, nice getting into the school network!
 
 Now, it's time to get serious:
 
------------------------------------------------------------------
+-----
 I want you to get admin access to "ARPANET Mainframe" connected to the school.
 - From there, we can access all the terminals in the US!
------------------------------------------------------------------
+-----
 
-TIP: You need to look out for "tracking" on high-level terminals - and remember to delete "logs" on 
-remote terminals you connect to. 
+TIP: You need to look out for "tracking" on high-level terminals - and remember to delete "logs" on remote terminals you connect to. 
 
-Otherwise the FBI (or other hackers) may track you down!
+Otherwise the FBI (or other hackers) may try to track you down!
 
 Good luck, 
 - Malvin

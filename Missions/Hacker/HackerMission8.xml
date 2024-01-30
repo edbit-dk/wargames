@@ -9,6 +9,7 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
+  <missionStart val="0">playCustomSong:Music/Traced.ogg</missionStart>
   <nextMission>Missions/School/SchoolMission4.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
@@ -21,9 +22,10 @@ It's ALL over the news!
 
 Malvin told me, he has been working with you...
 
-The US Government thought they were at war with the Soviets!
+The US Government think they are at war with the Soviets!
+
 They blame it on a computer malfunction!
-They say that the problem has been corrected!
+But they say that the problem has been corrected!?
 
 WHAT HAVE YOU DONE!
 

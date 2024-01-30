@@ -8,7 +8,6 @@ type="1">
   <portsForCrack val="3" />
   <ports>22, 21, 25</ports>
   <trace time="200" />
-  <tracker />
 
 <dlink target="flightTerminal" />
 <dlink target="medical" />

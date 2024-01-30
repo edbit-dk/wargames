@@ -9,7 +9,6 @@ type="3">
   <portsForCrack val="1" />
   <ports>22, 21, 25</ports>
   <trace time="-1" />
-   <tracker />
 
 <account username="#PLAYERNAME#" password="hacker" type="0" />
 
