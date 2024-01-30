@@ -12,4 +12,6 @@ type="1">
 
 <MedicalDatabase />
 
+<dlink target="protoVision" />
+
 </Computer>

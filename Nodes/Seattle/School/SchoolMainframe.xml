@@ -1,20 +1,22 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="academic" 
-name="SEATTLE PUBLIC SCHOOL MAINFRAME" 
+name="SEATTLE SCHOOL MAINFRAME" 
 security="0"  
 type="3" >
 
  <!-- Accounts -->
-<adminPass pass="Pencil" />
+<admin type="progress" />
+
+<account username="" password="Pencil" type="0" />
 
   <portsForCrack val="1" />
-  <ports>22</ports>
+  <ports></ports>
   <trace time="-1" />
 
 <academicDatabase />
 
 <dlink target="schoolDatanet" />
 
-  <positionNear target="schoolDatanet" position="2" total="1" />
+  <positionNear target="schoolDatanet" position="0" total="1" />
 
 </Computer>

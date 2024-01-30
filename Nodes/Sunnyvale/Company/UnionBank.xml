@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="unionBank" 
-name="UNION MARINE BANK - SOUTHWEST REGIONAL DATA CENTER"
+name="UNION BANK - SOUTHWEST DATACENTER"
 security="0" 
 type="1">
 
@@ -10,8 +10,6 @@ type="1">
   <trace time="200" />
 
 <dlink target="flightTerminal" />
-<dlink target="medical" />
-<dlink target="protoVision" />
 <dlink target="armyWOPR" />
 
 </Computer>

@@ -4,6 +4,7 @@ name="ProtoVision Inc"
 security="0" 
 type="1">
 
+  <proxy time="1" />
   <firewall level="5" solution="games" additionalTime="0.5"/>
   <portsForCrack val="3" />
   <ports>22, 21, 25</ports>

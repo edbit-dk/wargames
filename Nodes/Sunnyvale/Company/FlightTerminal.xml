@@ -8,4 +8,7 @@ type="1">
   <ports>22, 21, 25</ports>
   <trace time="-1" />
 
+<dlink target="medical" />
+
+
 </Computer>

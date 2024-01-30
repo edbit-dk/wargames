@@ -10,7 +10,6 @@
   missionEnd val="1">addRank</missionEnd> 
   -->
   <missionStart val="3">changeSong</missionStart>
-
   <nextMission>Missions/School/SchoolMission2.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
@@ -19,12 +18,14 @@
     <sender>Jennifer Mack</sender>
     <subject>A friend in need</subject>
     <body>
-Those stupid grades in Biology. My father is gonna kill me!
+Heeeey #PLAYERNAME#!
 
-You told me something about the school password was "Pencil" some time ago? 
-Did you mean to break in and change your grades?
+Those stupid grades in Biology class. My father is gonna kill me!
 
-If so, maybe you can "change" my GPA from an "F" (0.0) to a "C" (2.0) with your wizard hacking skills?
+You told me something about breaking into the school server some time ago? 
+Did you mean to change your grades?!
+
+If so, maybe you can "change" my GPA in Biology from an "F" (0.0) to a "C" (2.0) with your wizard skills?
 
 Thx, 
 - Mack

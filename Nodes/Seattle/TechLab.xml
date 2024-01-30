@@ -6,9 +6,11 @@ type="3">
 
 <adminPass pass="hacknet" />
 
-  <portsForCrack val="1" />
+  <proxy time="1" />
+  <firewall level="6" solution="hacker" additionalTime="1"/>
+  <portsForCrack val="3" />
   <ports>22, 21, 25</ports>
-  <trace time="-1" />
+  <trace time="10" />
 
 <account username="#PLAYERNAME#" password="hacker" type="0" />
 
