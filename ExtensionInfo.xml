@@ -13,11 +13,11 @@
   <Language>en-us</Language>
   
   <!-- Max name length is 128 characters -->
-	<Name>WarGames 1983</Name>
+	<Name>WarGames</Name>
 	<AllowSaves>true</AllowSaves>
   
   <!-- a coma separated list of notes that start out as being visible-->
-	<StartingVisibleNodes>seattleDatanet</StartingVisibleNodes>
+	<StartingVisibleNodes></StartingVisibleNodes>
   
   <!-- the mission (if any) that loads in as soon as the player starts -->
   <StartingMission>Missions/Hacker/HackerMission0.xml</StartingMission>

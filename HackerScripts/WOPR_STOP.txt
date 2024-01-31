@@ -6,7 +6,8 @@ delay 1.0 $#%#$
 writel #BINARYSMALL# $#%#$
 writel  $#%#$
 writel  $#%#$
-writel -- CONNECTION AUTHENTICATED -- $#%#$
+writel -- INCOMING TRANSMISSION -- $#%#$
+writel -- PLEASE STANDBY... -- $#%#$
 delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -98,7 +99,7 @@ writel  $#%#$
 writel  $#%#$
 writel  $#%#$
 writel  $#%#$
-writel -- CONNECTION TERMINATED --$#%#$
+writel -- END OF TRANSMISSION -- $#%#$
 writel  $#%#$
 writel  $#%#$
 writel  $#%#$

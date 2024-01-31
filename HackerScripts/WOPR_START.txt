@@ -11,6 +11,8 @@ writel  $#%#$
 writel  $#%#$
 writel  $#%#$
 writel -- CONNECTION AUTHENTICATED -- $#%#$
+writel -- INCOMING TRANSMISSION -- $#%#$
+writel -- PLEASE STANDBY... -- $#%#$
 delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$

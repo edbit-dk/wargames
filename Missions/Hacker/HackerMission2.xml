@@ -10,7 +10,7 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionEnd val="2">addRankSilent</missionEnd>
+  <missionStart val="2">changeSong</missionStart>
   <nextMission>Missions/School/SchoolMission1.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
@@ -20,13 +20,11 @@
     <subject>A show of skill</subject>
     <body>
 Alright, and welcome to the wonderful world of hacking!
-
 Before we can get into something serious, you have to learn som skills: 
 
 -----
 I want you to get admin access to "Seattle School Datanet". 
 From there you can access to the rest of the ARPANET network!
-
 Use the TOOLS at your disposal and reply back, when you are done.
 -----
 

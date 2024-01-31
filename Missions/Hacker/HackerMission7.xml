@@ -2,7 +2,7 @@
 <mission id="hackerMission7">
   <goals>
     <!-- Goals here -->
-    <goal type="getadmin" target="armyWOPR"/>
+    <goal type="getstring" target="Joshua" />
     <goal type="delay" time="10.0"/>
   </goals>
   <!-- 
@@ -10,9 +10,7 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionEnd val="6">addRankSilent</missionEnd>
-  <missionStart val="3">changeSong</missionStart>
-  <missionEnd val="7">changeSong</missionEnd>
+  <missionStart val="7">changeSong</missionStart>
   <missionEnd val="0">loadConditionalActions:Actions/WOPR_START_Actions.xml</missionEnd>
   <nextMission>Missions/Hacker/HackerMission8.xml</nextMission>
   <!-- 
@@ -29,7 +27,7 @@ But the medical records tells us, that he had a VERY close bond with his son: "J
 Maybe THAT could be the "back-door" password?!
 
 -----
-Try login with "Joshua" and reply back...
+Try login with "Joshua" and reply the password back, if it works...
 -----
 
 Watch out! 

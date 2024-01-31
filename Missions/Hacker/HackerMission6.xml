@@ -3,14 +3,14 @@
   <goals>
     <!-- Goals here -->
     <goal type="sendemail" mailServer="jmail" recipient="Malvin" subject="MedicalRecord - Falken_Stephen"/>
-    
+  
   </goals>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionEnd val="5">addRankSilent</missionEnd>
+  <missionStart val="6">changeSong</missionStart>
   <nextMission>Missions/Hacker/HackerMission7.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
@@ -19,12 +19,15 @@
     <sender>Malvin</sender>
     <subject>Useful records</subject>
     <body>
-If I'm not mistaking "Stephen Falken" was a somewhat famous AI scientist who wrote a couple of books - some classified if you look them
-up!
+Nice
+    
+If I'm not mistaking "Stephen Falken" was a somewhat famous AI scientist.
+He wrote a couple of books - some classified if you look them up!
 
 -----
-Maybe try find more information about him at the hospital mainframe - maybe we can contact him.
-Send his records to ME. Reply when you are done.
+Maybe try find more information about him at the local "Hospital mainframe" - maybe we can contact him.
+Send his records to ME. 
+Reply when you are done.
 -----
 
 - Malvin

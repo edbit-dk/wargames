@@ -9,7 +9,8 @@ writel  $#%#$
 writel  $#%#$
 writel  $#%#$
 writel  $#%#$
-writel -- CONNECTION AUTHENTICATED -- $#%#$
+writel -- INCOMING TRANSMISSION -- $#%#$
+writel -- PLEASE STANDBY... -- $#%#$
 writel  $#%#$
 writel  $#%#$
 writel  $#%#$

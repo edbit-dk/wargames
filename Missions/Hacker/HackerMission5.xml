@@ -9,7 +9,7 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionEnd val="5">addRankSilent</missionEnd>
+  <missionStart val="5">changeSong</missionStart>
   <nextMission>Missions/Hacker/HackerMission6.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
@@ -20,19 +20,18 @@
     <body>
 Thx for the game! 
 
-The source code says, that the game release date is around 1993 - such a shame I have to wait that long...
+The game source code says, that the full release date is around 1993 - such a shame I have to wait that long...
 
 BUT, I found this server (see attachment) looking over your past network scans. 
 Seems VERY secure - probaly military!
 
-It has some sort of GAMES listed. But we need admin access to see/play the games... 
+It has some sort of "GAMES" listed. But we need admin access to see/play the games... 
 
 MAYBE you can get more info about the designer of the server and find an "admin" "back-door".
 
 -----
-- Try to login with "help" and "games".
-
-- If you get access to the "game files", then find some sort of "author name" (like Jim) and reply the name back to me.
+- Try to login with "help" and "games" - that sometimes works...
+- If you get access to the "game files", find some sort of "author name" (like "Jim") and reply the name back to me.
 -----
 
 - Malvin

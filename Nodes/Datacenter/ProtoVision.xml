@@ -13,6 +13,11 @@ type="1">
 
 <PointClicker />
 
- <file path="bin" name="DOOM.exe">#BINARY#</file>
+ <file path="bin" name="DOOM.exe">
+ Name: DOOM prototype
+ Version: 0.1
+ Full Release Date: 1993
+ #BINARY#
+ </file>
 
 </Computer>

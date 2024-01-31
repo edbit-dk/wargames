@@ -18,11 +18,7 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionStart val="2">changeSong</missionStart>
-  <missionStart val="0">setFaction:hackerfac</missionStart>
-  <missionEnd val="0">addFlags:CSEC</missionEnd>
-  <missionEnd val="1">addRankSilent</missionEnd>
-
+  <missionStart val="1">changeSong</missionStart>
   <nextMission>Missions/Hacker/HackerMission2.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
@@ -36,11 +32,8 @@ Hey #PLAYERNAME#!
 Congrats with your new PC!
 
 Maybe we have a job offer for you?
-
 If you are interested, take a look at our server - I have setup an account for you!
-
 We have some helpfull articles on there too.
-
 We have developed a "PortHack"-tool (and many other port-cracking tools) that can crack ANY password if the ports on the target computer is open!
 
 -----
@@ -48,7 +41,6 @@ DOWNLOAD (scp) ALL (*) the "tools" (.exe files) AND the "password-lists.txt" fro
 -----
 
 Otherwise, just forget I send you this email... 
-
 BTW, Jim doesn't know I have contacted you. This is our little secret, okay?!
 
 Sincerely, 

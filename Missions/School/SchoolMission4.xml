@@ -2,7 +2,6 @@
 <mission id="schoolMission4">
   <goals>
     <!-- Goals here -->
-    <goal type="delay" time="10.0"/>
   </goals>
   <!-- 
   Add your mission start and end items here

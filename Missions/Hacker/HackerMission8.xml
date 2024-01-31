@@ -2,14 +2,13 @@
 <mission id="hackerMission7">
   <goals>
     <!-- Goals here -->
-    <goal type="delay" time="10.0"/>
   </goals>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionStart val="0">playCustomSong:Music/Traced.ogg</missionStart>
+  <missionStart val="8">changeSong</missionStart>
   <nextMission>Missions/School/SchoolMission4.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
