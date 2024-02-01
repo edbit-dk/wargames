@@ -1,23 +1,23 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="jmail" 
-name="Mail" 
+name="MSMail" 
 allowsDefaultBootModule="true"
 security="0"
 type="3" > 
 
-  <adminPass pass="123456789" />
+<admin type="basic" />
+<adminPass pass="123456789" />
+<portsForCrack val="1" />
+<ports>80,22,21,25,1433</ports>
+<portsForCrack val="5" />
   
-    <portsForCrack val="1" />
-  <ports>80,22,21,25,1433</ports>
-  <portsForCrack val="5" />
   
-  
-  <account username="#PLAYERNAME#" password="mail" type="mail" />
+  <account username="#PLAYERNAME#" password="mail" type="2" />
 
-  <account username="Malvin" password="hacker" type="mail" />
-  <account username="Jim" password="techguy" type="mail" />
+  <account username="malvin" password="hacker" type="2" />
+  <account username="jim" password="techguy" type="2" />
   
-  <mailServer name="" color="50,237,212">
+  <mailServer name="MS" color="50,237,212">
 
   </mailServer>  
 

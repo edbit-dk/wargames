@@ -18,7 +18,7 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionStart val="1">changeSong</missionStart>
+  <missionEnd val="1">changeSong</missionEnd>
   <nextMission>Missions/Hacker/HackerMission2.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
@@ -51,7 +51,17 @@ Seattle Tech Lab
     <attachments>
       <!-- A link takes in the idName of a computer and links to it on the netmap -->
       <link comp="techLab" />
-
+      <note title="Tools">
+      PortHack.exe
+      SSHCrack.exe
+      FTPBounce.exe
+      SMTPOverflow.exe
+      WebServerWorm.exe
+      SQLBufferOverflow.exe
+      DECHead.exe
+      Decypher.exe
+      password-lists.txt
+      </note>
       <!-- this scans for the computer with ID "missionTestNode", then searches it's accounts for the provided username and password, and
       adds it to the list of known accounts for auto completion. It's a good way of providing the password to a server. -->
       <account comp="techLab" user="#PLAYERNAME#" pass="hacker" />

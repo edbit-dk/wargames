@@ -9,7 +9,7 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionStart val="3">changeSong</missionStart>
+  <missionEnd val="3">changeSong</missionEnd>
   <nextMission>Missions/Hacker/HackerMission4.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
@@ -23,7 +23,7 @@ Wow, nice getting into the school network!
 Now, it's time to get serious:
 
 -----
-I want you to get admin access to "ARPANET Mainframe" connected to the school.
+I want you to get admin access to "The World ISP" connected to the school.
 - From there, we can access all the terminals in the US!
 -----
 

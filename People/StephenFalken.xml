@@ -18,12 +18,12 @@
   <Medical>
     <Blood>0-</Blood>
     <Height>183</Height> <!-- Height in cm -->
-    <Notes>Died in 1973. Had a son named "Joshua" who died young together with his mother in a car crash.</Notes>
+    <Notes>Died together with his beloved son "Joshua" and wife "Lory" in a car crash.</Notes>
   </Medical>
   
   <!-- date and time of birth - used in medical records
   Format is: DD/MM/YYYY HH:MM:SS-->
-  <DOB>13/01/1970 01:00:00</DOB>
+  <DOB>13/01/1973 01:00:00</DOB>
   
   <Notes>Falken</Notes>
 </Person>

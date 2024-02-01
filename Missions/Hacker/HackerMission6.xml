@@ -2,7 +2,7 @@
 <mission id="hackerMission6">
   <goals>
     <!-- Goals here -->
-    <goal type="sendemail" mailServer="jmail" recipient="Malvin" subject="MedicalRecord - Falken_Stephen"/>
+    <goal type="sendemail" mailServer="jmail" recipient="malvin" subject="MedicalRecord - Falken_Stephen"/>
   
   </goals>
   <!-- 
@@ -10,7 +10,7 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-  <missionStart val="6">changeSong</missionStart>
+  <missionEnd val="6">changeSong</missionEnd>
   <nextMission>Missions/Hacker/HackerMission7.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>

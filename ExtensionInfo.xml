@@ -54,7 +54,7 @@ You play as a random hacker who, with a little help, stumbels upon a military wa
   
   To Play your own songs, use the path to that song in your extension.
   For example, try changing the song name below to "Music/Chemical_Burns.ogg" - it'll start with that instead for new saves! -->
-  <IntroStartupSong>AmbientDrone_Clipped</IntroStartupSong>
+  <IntroStartupSong>Music/80s_pop.ogg</IntroStartupSong>
 
   <!-- Sequencer stuff. You won't need this till later.-->
   <!--
