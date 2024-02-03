@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="armyDatanet" 
-name="NORAD SYSTEM COMMAND"
-ip="311.767.730.5"  
+<Computer id="armySoviet" 
+name="PUTIN PC"
+ip="100.43.64.0"  
 security="0"  
 type="3">
 
@@ -9,7 +9,7 @@ type="3">
 <adminPass pass="00000000" />
 
 <account username="mckittrick" password="sysman" type="0" />
-<account username="beringer" password="general" type="0" />
+<account username="vladimir" password="putin" type="0" />
 
   <proxy time="1" />
   <firewall level="6" solution="defcon" additionalTime="0.5"/>
@@ -19,13 +19,11 @@ type="3">
   <trace time="300" />
    <tracker />
 
- <file path="home" name="staff.txt">
-System manager: Mr. McKittrick
-Personal assistant: Miss. Pat Healy
-Command: General Beringer
+ <file path="home" name="STAFF.txt">
+
  </file>  
 
-   <encryptedFile path="home" name="classified.dec" extension=".txt" ip="armyDatanet" header="Stephen Falken">
+   <encryptedFile path="home" name="CLASSIFIED.dec" extension=".txt" ip="armyDatanet" header="Stephen Falken">
 FALKEN'S MAZE: Teaching a Machine to Think
 
 POKER AND ARMAGEDDON: THE ROLE OF BLUFFING IN A NUCLEAR STANDOFF 
@@ -42,9 +40,6 @@ CPE1704TKS
   </encryptedFile>
 
     <dlink target="arpanet" />
-
-  <dlink target="armySilo" />
-  <dlink target="armyWOPR" />
   <dlink target="armyRIPLEY" />
     
 </Computer>

@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="jenMComp" 
-name="Apple Macintosh"
+name="APPLE MACINTOSH"
 security="0" 
 allowsDefaultBootModule="false" 
 type="empty" >
@@ -9,6 +9,8 @@ type="empty" >
 
 <ports>21, 22, 25</ports>
 <portsForCrack val="-1" />
+
+  <account username="guest" password="" type="1" />
 
   <encryptedFile path="home" name="diary.dec" extension=".txt" ip="" header="">
 Dear diary

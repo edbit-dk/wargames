@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="unionBank" 
-name="UNION BANK - SOUTHWEST DATACENTER"
+name="UNION BANK"
 ip="311.399.236.4" 
 security="0" 
 type="1">
@@ -11,7 +11,6 @@ type="1">
   <trace time="200" />
 
 <dlink target="flightTerminal" />
-<dlink target="armyWOPR" />
 
 <file path="database" name="accounts.rec">
 500 US        : Lightman, David L.

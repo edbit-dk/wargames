@@ -20,7 +20,7 @@
 	<StartingVisibleNodes></StartingVisibleNodes>
   
   <!-- the mission (if any) that loads in as soon as the player starts -->
-  <StartingMission>Missions/Hacker/HackerMission0.xml</StartingMission>
+  <StartingMission>Missions/1-IMSAI.xml</StartingMission>
 
   <!-- Conditional action set that is loaded in as soon as a new session is created
   This is useful to do setup stuff, like giving the player programs, assigning them a faction etc.
@@ -29,7 +29,7 @@
 
   <!-- Description that appears within Hacknet -->
 <Description>
-A story set in 2023 with inpiration taken for the 1983 movie "WarGames".
+A story set in 1993 after the events in the 1983 movie "WarGames" where inspiration is taken from.
 You play as a random hacker who, with a little help, stumbels upon a military war simulation computer and almost start WW3.
 </Description>
   

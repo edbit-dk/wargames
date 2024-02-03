@@ -8,10 +8,10 @@
   
     <!-- You can add as many degrees as you like here - these show up on the academic database-->
    <Degrees>
-    <Degree uni="Seattle Public High School" gpa="0.0">S202 BIOLOGY 2</Degree>
-    <Degree uni="Seattle Public High School" gpa="1.0">E314 ENGLISH 11B</Degree>
-    <Degree uni="Seattle Public High School" gpa="2.0">H221 WORLD HISTORY 11B</Degree>
-    <Degree uni="Seattle Public High School" gpa="1.0">M106 TRIG 2</Degree>
+    <Degree uni="Seattle High School" gpa="0.0">S202 BIOLOGY 2</Degree>
+    <Degree uni="Seattle High School" gpa="1.0">E314 ENGLISH 11B</Degree>
+    <Degree uni="Seattle High School" gpa="2.0">H221 WORLD HISTORY 11B</Degree>
+    <Degree uni="Seattle High School" gpa="1.0">M106 TRIG 2</Degree>
   </Degrees>
 
   <!-- This info shows up in the medical database-->

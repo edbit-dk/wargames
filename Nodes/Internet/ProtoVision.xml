@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="protoVision" 
-name="ProtoVision Inc"
+name="PROTOVISION INC"
 security="0" 
 type="1">
 
@@ -15,9 +15,12 @@ type="1">
 
  <file path="bin" name="DOOM.exe">
 Name: DOOM by id Software
-Version: 0.1
+Version: 1.0
 Full Release: 1993
+
 #BINARY#
  </file>
+
+ <dlink target="armyWOPR" />
 
 </Computer>

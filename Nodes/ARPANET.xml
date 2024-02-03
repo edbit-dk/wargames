@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="ispComp" 
-name="INTERNET ISP"
+<Computer id="arpanet" 
+name="ARPANET"
 security="0"
 type="3">
 
@@ -12,13 +12,15 @@ type="3">
   <admin type="progress" />
   <firewall level="7" solution="network" additionalTime="0.5"/>
 
+    <account username="guest" password="" type="1" />
+
 <ispSystem />
 
-<dlink target="schoolDatanet" />
- <dlink target="jmail" />
+<dlink target="ispComp" />
 
-<dlink target="unionBank" />
 
+<dlink target="bbs" />
+<dlink target="techLab" />
 
 
 </Computer>

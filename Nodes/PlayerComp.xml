@@ -1,13 +1,14 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="playerComp" 
-name="PC"
-security="0"
-icon="laptop"   
+name="IMSAI 8080"
+security="0"   
 allowsDefaultBootModule="false" 
 type="2" >
 
 <adminPass pass="root" />
-<account username="#PLAYERNAME#" password="000001" type="ADMIN" />
+<account username="#PLAYERNAME#" password="000001" type="0" />
+
+  <account username="guest" password="" type="1" />
 
 <ports>21, 22, 25, 80</ports>
 
@@ -16,9 +17,37 @@ type="2" >
 <trace time="300" />
 
 
-<file path="home" name="password.txt">000001</file>
+  <file path="home" name="PASSWORD-LISTS.txt">
+This is a complete list of the most common usernames and passwords I have 
+found different terminals use. Some give ADMIN access, some don't. 
+Try at your own risk!
 
-<file path="home" name="letter.txt">
+USERNAMES:
+admin - (SUPERUSER)
+guest - (NO PASSWORD)
+help
+root - (SYSTEMUSER)
+ftp - (UPLOADS)
+
+PASSWORDS:
+000001 - (default)
+games
+root - (SYSTEMUSER)
+toor - (SYSTEMUSER)
+uploader - (FTP)
+password
+admin - (SUPERUSER)
+12345678 - (BBS)
+webmaster - (WEBSERVERS)
+logon
+Passw@rd
+alpine - (FAX AND DIALUP)
+
+
+- Malvin
+  </file>
+
+<file path="home" name="LETTER.txt">
 Dear Jennifer
 
 You are my best friend.

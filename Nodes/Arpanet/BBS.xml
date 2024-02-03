@@ -1,14 +1,15 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="bbs" 
 name="NIGHTOWL - BBS"
-ip="311.767.339.5" 
 security="0" 
 type="1">
+
+<adminPass pass="12345678" />
 
   <portsForCrack val="2" />
   <ports>22, 21, 25</ports>
   <trace time="-1" />
 
-<dlink target="medical" />
+    <account username="guest" password="" type="1" />
 
 </Computer>

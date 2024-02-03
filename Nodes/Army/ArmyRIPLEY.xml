@@ -6,7 +6,7 @@ security="0"
 type="empty">
 
  <!-- Accounts -->
-  <adminPass pass="joshua" />
+  <adminPass pass="deadcode" />
 <account username="help" password="games" type="3" />
 
 <file path="home" name="WAR_GAMES.txt">
@@ -15,7 +15,7 @@ WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
 </file>
 
 
- <variableMissionListingServer name="Games" iconPath="Docs/GameListings/Logo.jpg" articleFolderPath="Docs/WarListings" color="247,0,0" assigner="false" public="false" title="R.I.P.L.E.Y"/>
+ <variableMissionListingServer name="Games" iconPath="Docs/WarListings/Logo.jpg" articleFolderPath="Docs/WarListings" color="247,0,0" assigner="false" public="false" title="R.I.P.L.E.Y"/>
 
   <file path="bin" name="FIGHTER_COMBAT.exe">#BINARY#</file>
   <file path="bin" name="GUERRILLA_ENGAGEMENT.exe">#BINARY#</file>

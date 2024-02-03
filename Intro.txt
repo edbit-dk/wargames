@@ -1,11 +1,11 @@
-The year is 2023
+The year is 1993
                      
                      
-You are a 17 year old high school student from Seattle, USA.
+You play as David Lightman, a 15 year old high school student from Seattle, USA.
 
 
 You have just arrived home from school with your friend, Jennifer Mack. 
-Jennifer has given you a ride home on the back of her moped.
+Jennifer has given you a ride home on the back of her scooter.
 
 
 On the way home she said you would both be stuck in summer school because you both got an F grade in Biology.
@@ -13,6 +13,4 @@ You told her that you wouldn't be stuck in summer school, so she asked how that 
 You have offered to show her!
 
 
-Jennifer accompanies you up to your room and you show her your computer setup.
-
-You are now sat at the terminal of your computer.
+Jennifer accompanies you up to your room and you show her your IMSAI 8080 computer setup.

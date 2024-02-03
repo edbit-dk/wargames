@@ -1,10 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="techLab" 
-name="Seattle Tech Lab"
+name="SEATTLE TECH LAB"
 security="0" 
 type="3">
 
-<adminPass pass="hacknet" />
+<adminPass pass="root" />
 
   <proxy time="1" />
   <firewall level="6" solution="hacker" additionalTime="1"/>
@@ -12,16 +12,23 @@ type="3">
   <ports>22, 21, 25</ports>
   <trace time="10" />
 
-<account username="#PLAYERNAME#" password="hacker" type="0" />
+<account username="ftp" password="uploader" type="0" />
 
-  <file path="bin" name="PortHack.exe">#BINARY#</file>
-  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
-  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
-  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
-  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
-  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
-  <file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
-  <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <account username="guest" password="" type="1" />
+
+  <file path="bin" name="PROGRAMS.txt">
+All new programs are uploaded to the FTP server.
+Use SCP to download and UPLOAD to upload files.
+  </file>
+
+  <file path="FTP/Uploads" name="PortHack.exe">#BINARY#</file>
+  <file path="FTP/Uploads" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="FTP/Uploads" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <file path="FTP/Uploads" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="FTP/Uploads" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="FTP/Uploads" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="FTP/Uploads" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+  <file path="FTP/Uploads" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
 
   <file path="home" name="password-lists.txt">
 This is a complete list of the most common password I have 

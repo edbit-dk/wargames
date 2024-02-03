@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="jmail" 
-name="MSMail" 
+name="Mail" 
 allowsDefaultBootModule="true"
 security="0"
 type="3" > 
@@ -11,13 +11,16 @@ type="3" >
 <ports>80,22,21,25,1433</ports>
 <portsForCrack val="5" />
   
+  <account username="guest" password="" type="1" />
   
   <account username="#PLAYERNAME#" password="mail" type="2" />
 
   <account username="malvin" password="hacker" type="2" />
   <account username="jim" password="techguy" type="2" />
+
+  <account username="unknown" password="?" type="2" />
   
-  <mailServer name="MS" color="50,237,212">
+  <mailServer name="" color="50,237,212">
 
   </mailServer>  
 
