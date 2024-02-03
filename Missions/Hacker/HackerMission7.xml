@@ -2,7 +2,7 @@
 <mission id="hackerMission7">
   <goals>
     <!-- Goals here -->
-    <goal type="getstring" target="Joshua" />
+    <goal type="getstring" target="joshua" />
   </goals>
   <!-- 
   Add your mission start and end items here
@@ -26,7 +26,7 @@ But the medical records tells us, that he had a VERY close bond with his son: "J
 Maybe THAT could be the "back-door" password?!
 
 -----
-Try login with "Joshua" and reply the password back, if it works...
+Try login with "joshua" and reply the password back, if it works...
 -----
 
 Watch out! 

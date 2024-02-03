@@ -1,7 +1,14 @@
 <ConditionalActions>
+  
+  <Instantly>
+     <SaveGame DelayHost="delayHost" Delay="20.5"/>
+  </Instantly>
+
+
  <!-- triggered once the player gets admin access to the target machine -->
-  <OnAdminGained target="advExamplePC">
+  <OnAdminGained target="armyWOPR">
     <!--Actions here-->
       <LaunchHackScript Filepath="HackerScripts/WOPR_START.txt" DelayHost="delayHost" Delay="2.5" SourceComp="armyWOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
   </OnAdminGained>
+
 </ConditionalActions>

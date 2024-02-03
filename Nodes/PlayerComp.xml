@@ -1,9 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="playerComp" 
-name="IBM PC"
-security="0" 
+name="PC"
+security="0"
+icon="laptop"   
 allowsDefaultBootModule="false" 
-type="empty" >
+type="2" >
 
 <adminPass pass="root" />
 <account username="#PLAYERNAME#" password="000001" type="ADMIN" />

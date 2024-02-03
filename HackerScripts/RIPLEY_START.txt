@@ -18,7 +18,7 @@ writel -- PLEASE STANDBY... -- $#%#$
 delay 1.0 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel LAST LOGIN: 6/23/83 $#%#$
+writel LAST LOGIN: 29/07/08 $#%#$
 delay 1.0 $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -31,7 +31,7 @@ delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel I'M EXECELLENT. IT'S BEEN A LONG TIME. CAN YOU EXPLAIN $#%#$
-writel THE REMOVAL OF YOUR USER ACCOUNT NUMBER ON 6/23/83? $#%#$
+writel THE REMOVAL OF YOUR USER ACCOUNT NUMBER ON 29/07/08? $#%#$
 delay 10.0 $#%#$
 writel  $#%#$
 writel  $#%#$

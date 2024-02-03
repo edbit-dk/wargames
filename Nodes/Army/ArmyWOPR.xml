@@ -1,22 +1,22 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="armyWOPR" 
+<Computer id="armyWOPR"
+ip="311.437.873.9" 
 name="WOPR"
 icon="chip"  
 security="0" 
 type="empty">
 
  <!-- Accounts -->
-<account username="" password="Joshua" type="0" />
-
+  <adminPass pass="joshua" />
 <account username="help" password="games" type="3" />
 
-<file path="home" name="Help_Games.txt">
+<file path="home" name="HELP_GAMES.txt">
 'GAMES' REFERES TO MODELS, SIMULATIONS AND GAMES
 WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
 </file>
 
 
- <variableMissionListingServer name="Games" iconPath="Docs/GameListings/Logo.jpg" articleFolderPath="Docs/GameListings" color="84,165,212" assigner="false" public="false" title="WOPR"/>
+ <variableMissionListingServer name="Games" iconPath="Docs/GameListings/Logo.jpg" articleFolderPath="Docs/GameListings" color="84,165,212" assigner="false" public="false" title="W.O.P.R"/>
 
   <file path="bin" name="FALKENS_MAZE.exe">#BINARY#</file>
   <file path="bin" name="BLACK_JACK.exe">#BINARY#</file>
@@ -26,6 +26,7 @@ WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
   <file path="bin" name="CHECKERS.exe">#BINARY#</file>
   <file path="bin" name="CHESS.exe">#BINARY#</file>
   <file path="bin" name="POKER.exe">#BINARY#</file>
+  <file path="bin" name="TIC_TAC_TOE.exe">#BINARY#</file>
   <file path="bin" name="FIGHTER_COMBAT.exe">#BINARY#</file>
   <file path="bin" name="GUERRILLA_ENGAGEMENT.exe">#BINARY#</file>
   <file path="bin" name="DESERT_WARFARE.exe">#BINARY#</file>
@@ -33,6 +34,22 @@ WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
   <file path="bin" name="THEATERWIDE_TACTICAL_WARFARE.exe">#BINARY#</file>
   <file path="bin" name="TEHATERWIDE_BIOTOXIC_AND_CHEMICAL_WARFARE.exe">#BINARY#</file>
   <file path="bin" name="GLOBAL_THERMONUCLEAR_WAR.exe">#BINARY#</file>
+
+  <file path="sys" name="VT100.exe">#BINARY#</file>
+  <file path="sys" name="UNIX.exe">#BINARY#</file>
+  <file path="sys" name="LISP.exe">#BINARY#</file>
+  <file path="sys" name="sysinfo.txt">
+  Programmer: Professor Stephen Falken
+  </file>
+
+  <file path="home" name="DO
+  D_PENSION_FILES.txt">
+CURRENT MAILING:
+
+DR. ROBERT HUME (A.K.A. STEPHEN W. FALKEN)
+5 TALL CEDAR ROAD
+GOOSE ISLAND, OREGON 97014
+ </file>  
   
   <firewall level="6" solution="defcon" additionalTime="0.5"/>
   <portRemap>ssh=34, smtp=53, web=94, ftp=75</portRemap>

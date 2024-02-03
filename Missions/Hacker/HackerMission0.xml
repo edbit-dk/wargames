@@ -11,7 +11,7 @@
   -->
   <missionStart val="1">setFaction:hackerfac</missionStart>
   <missionEnd val="1">addFlags:CSEC</missionEnd>
-  <nextMission>Missions/Hacker/HackerMission1.xml</nextMission>
+ <nextMission>Missions/Hacker/HackerMission1.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
@@ -21,7 +21,7 @@
     <body>
 Hello #PLAYERNAME#
 
-Hope you like your new PC!
+Hope you like your new PC from Seattle Tech Lab!
 
 If you need help, you can always try typing "help" in the terminal. 
 It should give you a list of all available commands and options.

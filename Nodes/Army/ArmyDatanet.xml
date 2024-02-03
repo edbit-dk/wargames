@@ -1,13 +1,15 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="armyDatanet" 
-name="NORAD DATANET" 
+name="NORAD SYSTEM COMMAND"
+ip="311.767.730.5"  
 security="0"  
 type="3">
 
  <!-- Accounts -->
-<admin type="progress" />
+<adminPass pass="00000000" />
 
-<account username="" password="00000000" type="0" />
+<account username="mckittrick" password="sysman" type="0" />
+<account username="beringer" password="general" type="0" />
 
   <proxy time="1" />
   <firewall level="6" solution="defcon" additionalTime="0.5"/>
@@ -16,6 +18,12 @@ type="3">
   <ports>22, 25, 80, 21</ports>
   <trace time="300" />
    <tracker />
+
+ <file path="home" name="staff.txt">
+System manager: Mr. McKittrick
+Personal assistant: Miss. Pat Healy
+Command: General Beringer
+ </file>  
 
    <encryptedFile path="home" name="classified.dec" extension=".txt" ip="armyDatanet" header="Stephen Falken">
 FALKEN'S MAZE: Teaching a Machine to Think
@@ -34,5 +42,7 @@ CPE1704TKS
   </encryptedFile>
 
   <dlink target="armySilo" />
+  <dlink target="armyWOPR" />
+  <dlink target="armyRIPLEY" />
     
 </Computer>

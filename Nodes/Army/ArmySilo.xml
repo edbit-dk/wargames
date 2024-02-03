@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="armySilo" 
-ip="68.56.23.07"
+ip="68.56.23.7"
 name="MISSILE SILO MAINFRAME"
 security="0" 
 type="empty">

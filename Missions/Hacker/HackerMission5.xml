@@ -2,7 +2,7 @@
 <mission id="hackerMission5">
   <goals>
     <!-- Goals here -->
-<goal type="getstring" target="Falken" />
+<goal type="getstring" target="falken" />
   </goals>
   <!-- 
   Add your mission start and end items here
