@@ -1,9 +1,0 @@
-<ConditionalActions>
-  
-   <Instantly>
-<LaunchHackScript Filepath="HackerScripts/WOPR_GAME.txt" DelayHost="delayHost" Delay="2.5" SourceComp="armyWOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
-
-  <ShowNode DelayHost="delayHost" Delay="21.5" Target="falkenTerm" />
-  </Instantly>
-  
-</ConditionalActions>

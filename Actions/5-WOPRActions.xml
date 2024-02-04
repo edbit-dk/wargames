@@ -1,8 +1,0 @@
-<ConditionalActions>
-  
-  <Instantly>
-      <LoadMission MissionName="Missions/5-WOPR.xml" />
-      <AddConditionalActions Filepath="Actions/6-WOPRActions.xml" DelayHost="delayHost" Delay="21.5"/>
-  </Instantly>
-
-</ConditionalActions>

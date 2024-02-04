@@ -21,6 +21,24 @@ for the credits daemon to find and use it.
 
 </file>
 
-  <CreditsDaemon Title="Wargames Credits" ButtonText="Complete" ConditionalActionSetToRunOnButtonPressPath="Actions/CreditsRunActions.xml"/>
+<FastActionHost />
+
+  <CreditsDaemon Title="Wargames Credits" ButtonText="Complete" ConditionalActionSetToRunOnButtonPressPath="Actions/CREDITSActions.xml"/>
+
+   <file path="home" name="CreditsData.txt">
+%---  Credits File  ---
+
+^Why this exists
+This file contains the credits for the credits daemon below!
+
+%Starting a line with % makes the text super big
+^And starting it with ^ makes is kind of big.
+Lines starting with anything else are normal
+
+^Location
+This file must be in home/CreditsData.txt
+for the credits daemon to find and use it.
+
+</file>
   
 </Computer>

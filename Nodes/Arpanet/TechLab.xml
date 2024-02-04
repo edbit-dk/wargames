@@ -46,8 +46,6 @@ Passw@rd
 alpine
   </file>
 
-<dlink target="schoolDatanet" />
-
    <uploadServerDaemon name="FTP Server" folder="FTP" 
                       needsAuth="false" color="84,165,212"/>
 

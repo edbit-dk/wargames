@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="10-ENDGAME">
+  <goals>
+    <!-- Goals here -->
+      <goal type="fileupload" target="falkenTerm" file="TIC_TAC_TOE.exe" path="bin" destTarget="armyWOPR" destPath="bin"/>
+</goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+<missionStart val="10">changeSong</missionStart>
+<missionEnd val="0">loadConditionalActions:Actions/11-FINALActions.xml</missionEnd>
+ <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Falken</sender>
+    <subject>10. ENDGAME</subject>
+    <body>
+No impact! 
+
+We are still alive, but WOPR (Joshua) is still playing the game. 
+He is trying to find the launch codes so he can launch the missiles himself...
+
+We have to STOP him before he does!
+
+CONNECT to my terminal and DOWNLOAD (scp) the "TIC_TAC_TOE.exe" game,
+and UPLOAD it to WOPR (bin). 
+That is the only way we can teach him about MAD - something the ARMY never wanted me to do!
+
+Hurry and good luck!
+
+Remember to reply back when done!
+
+- Stephen Falken (UNKNOWN)
+</body>
+    <attachments>
+      <note title="FINAL COUNTDOWN">
+- CONNECT to Falken's terminal. 
+- DOWNLOAD (scp) the "TIC_TAC_TOE.exe" game.
+- UPLOAD game to WOPR (bin). 
+      </note>
+    <account comp="falkenTerm" user="admin" pass="joshua" />
+    </attachments>
+  </email>
+</mission>

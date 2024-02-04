@@ -1,8 +1,0 @@
-<ConditionalActions>
-  
-   <Instantly>
-   <LaunchHackScript Filepath="HackerScripts/WOPR_ADMIN.txt" DelayHost="delayHost" Delay="2.5" SourceComp="armyWOPR" TargetComp="armyWOPR" RequireLogsOnSource="false"/>
-    <LaunchHackScript Filepath="HackerScripts/WOPR_STOP.txt" DelayHost="delayHost" Delay="2.5" SourceComp="armyWOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
-  </Instantly>
-  
-</ConditionalActions>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="protoVision" 
+name="PROTOVISION INC"
+security="0" 
+type="1">
+
+  <proxy time="1" />
+  <firewall level="5" solution="games" additionalTime="0.5"/>
+  <portsForCrack val="3" />
+  <ports>22, 21, 25</ports>
+  <trace time="200" />
+   <tracker />
+
+<PointClicker />
+
+ <file path="bin" name="DOOM.exe">
+Name: DOOM by id Software
+Version: 1.0
+Full Release: 1993
+
+#BINARY#
+ </file>
+
+</Computer>

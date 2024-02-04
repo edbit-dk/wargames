@@ -24,6 +24,8 @@ Pencil
 
   <academicDatabase />
 
-<dlink target="arpanet" />
+<dlink target="bbs" />
+<dlink target="techLab" />
+<dlink target="ispComp" />
 
 </Computer>

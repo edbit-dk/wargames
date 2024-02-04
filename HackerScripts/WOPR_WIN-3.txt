@@ -1,0 +1,93 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$s
+connect $#%#$
+clearTerminal $#%#$
+delay 1.0 $#%#$
+writel #BINARYSMALL# $#%#$
+writel  $#%#$
+writel  $#%#$
+writel --CONNECTING-- $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel MISSILES TARGETED AND READY $#%#$
+writel ---------------------------
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel CHANGES LOCKED OUT $#%#$
+writel ------------------
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  LORING AIRFORCE BASE      : NO IMPACT $#%#$
+delay 1.0 $#%#$
+writel  $#%#$
+writel  ELMENDORF AIRFORCE BASE   : NO IMPACT $#%#$
+delay 1.0 $#%#$
+writel  $#%#$
+writel  GRAND FORKS AIRFORCE BASE : NO IMPACT $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel --LOCATING MISSILE LUNCH CODES-- $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel - - - - - - - - - - $#%#$
+delay 2.0 $#%#$
+writel C - - - - - - - - - $#%#$
+delay 2.0 $#%#$
+writel C P - - - - - - - - $#%#$
+delay 2.0 $#%#$
+writel C P E - - - - - - - $#%#$
+delay 2.0 $#%#$
+writel C P E 1 - - - - - - $#%#$
+delay 2.0 $#%#$
+writel C P E 1 7 - - - - - $#%#$
+delay 2.0 $#%#$
+writel C P E 1 7 0 - - - - $#%#$
+delay 2.0 $#%#$
+writel C P E 1 7 0 4 - - - $#%#$
+delay 2.0 $#%#$
+writel C P E 1 7 0 4 - - - $#%#$
+delay 2.0 $#%#$
+writel C P E 1 7 0 4 T - - $#%#$
+delay 2.0 $#%#$
+writel C P E 1 7 0 4 T K - $#%#$
+delay 2.0 $#%#$
+writel C P E 1 7 0 4 T K S $#%#$
+delay 2.0 $#%#$
+writel C P E 1 7 0 4 T K S $#%#$
+delay 1.0 $#%#$
+writel  $#%#$
+writel C P E 1 7 0 4 T K S $#%#$
+writel C P E 1 7 0 4 T K S $#%#$
+writel C P E 1 7 0 4 T K S $#%#$
+writel C P E 1 7 0 4 T K S $#%#$
+writel C P E 1 7 0 4 T K S $#%#$
+writel C P E 1 7 0 4 T K S $#%#$
+writel C P E 1 7 0 4 T K S $#%#$
+writel C P E 1 7 0 4 T K S $#%#$
+writel C P E 1 7 0 4 T K S $#%#$
+writel C P E 1 7 0 4 T K S $#%#$
+delay 2.5 $#%#$
+writel I GOT THE CODE NOW $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel I'M GOING TO LAUNCH! $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel GOODBYE. $#%#$
+writel  $#%#$
+writel  $#%#$
+writel --CONNECTION TERMINATED-- $#%#$
+writel  $#%#$
+writel  $#%#$
+writel #BINARYSMALL# $#%#$
+delay 2.5 $#%#$
+forkbomb $#%#$
+disconnect $#%#$

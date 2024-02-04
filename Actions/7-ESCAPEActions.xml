@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+  <Instantly>
+      <LoadMission MissionName="Missions/7-ESCAPE.xml" />
+      <AddConditionalActions Filepath="Actions/8-FALKENActions.xml" DelayHost="delayHost" Delay="60"/>
+  </Instantly>
+
+</ConditionalActions>

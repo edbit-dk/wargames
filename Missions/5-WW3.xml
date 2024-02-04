@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="5-WW3">
+  <goals>
+    <!-- Goals here -->
+</goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+<missionStart val="5">changeSong</missionStart>
+ <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>UNKNOWN</sender>
+    <subject>5. WW3</subject>
+    <body>
+The next day, your parents see a letter from the school with your grades. 
+Your father is very pleased! 
+
+You then see the news on TV, where they are reporting that someone 
+has hacked into NORAD and almost started WWIII. 
+
+Was that someone you? Worried that it is you (almost sure in fact), 
+you go up to your room and throw away all traces that you hacked 
+into the WOPR, phone numbers, printouts.  Everything! 
+
+Just when you think all is fine, the phone rings. 
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

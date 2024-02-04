@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="11-CREDITS">
+  <goals>
+    <!-- Goals here -->
+</goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+<missionStart val="0">playCustomSong:Music/80s_pop.ogg</missionStart>
+ <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Falken</sender>
+    <subject>11. CREDITS</subject>
+    <body>
+Thank you for all your help!
+
+And thank you for playing this War Game.
+
+Now you can view the credits.
+
+Goodbye.
+
+- Stephen Falken (UNKNOWN)
+</body>
+    <attachments>
+    <link comp="relayHost" />
+    </attachments>
+  </email>
+</mission>

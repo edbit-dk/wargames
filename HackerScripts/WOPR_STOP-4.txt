@@ -1,0 +1,88 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$s
+stopMusic $#%#$
+connect $#%#$
+clearTerminal $#%#$
+delay 1.0 $#%#$
+writel #BINARYSMALL# $#%#$
+writel  $#%#$
+writel  $#%#$
+writel --CONNECTING-- $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel ANALYZING NEW GAME: "TIC_TAC_TOE.exe" $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel LOADING GAME: "TIC TAC TOE" $#%#$
+writel ........................... $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+delay 1.0 $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+delay 1.0 $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+delay 0.5 $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+delay 0.5 $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+delay 0.5 $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  --SYSTEM OVERLOAD-- $#%#$
+delay 2.5 $#%#$
+writel  --MISSILE SYSTEMS OFF-LINE-- $#%#$
+delay 1.0 $#%#$
+writel  $#%#$
+writel  --MISSILE SYSTEMS OFF-LINE-- $#%#$
+delay 1.0 $#%#$
+writel  $#%#$
+writel  --MISSILE SYSTEMS OFF-LINE-- $#%#$
+delay 5.0 $#%#$
+clearTerminal $#%#$
+writel #BINARY# $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel GREETINGS PROFESSOR FALKEN. $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel A STRANGE GAME. $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel THE ONLY WINNING MOVE IS $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel NOT TO PLAY! $#%#$
+delay 5.0 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel HOW ABOUT A NICE GAME OF CHESS? $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel --CONNECTION TERMINATED-- $#%#$
+writel  $#%#$
+writel  $#%#$
+writel #BINARYSMALL# $#%#$
+delay 5.0 $#%#$
+startMusic $#%#$
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$
+startMusic $#%#$
+disconnect $#%#$

@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="6-NORAD">
+  <goals>
+    <!-- Goals here -->
+</goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+<missionStart val="6">changeSong</missionStart>
+ <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>UNKNOWN</sender>
+    <subject>6. NORAD</subject>
+    <body>
+You panic, almost certain that the authorities are coming to get you! 
+You disconnect your computer, just in case the WOPR (Joshua) tries to call you again.  
+
+Then you venture out to the Mall. Whilst at the Mall, you spot a government car (you know the sort). 
+You try to walk away, but they already have you in their sights and arrest you. 
+
+They take you to NORAD, where initially you are locked in the infirmary, 
+but later you are met by Mr. McKittrick - the computer facility manager at NORAD. 
+
+He takes you up to his office and questions you, but is called away - leaving you alone in his office. 
+There is a terminal near you, flashing cursor beckoning. 
+
+You wonder if the "backdoor" still works - so give it a try!
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

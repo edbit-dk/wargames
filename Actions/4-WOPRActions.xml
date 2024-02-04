@@ -2,7 +2,7 @@
   
   <Instantly>
       <LoadMission MissionName="Missions/4-WOPR.xml"/>
-      <AddConditionalActions Filepath="Actions/5-WOPRActions.xml" DelayHost="delayHost" Delay="21.5"/>
+      <AddConditionalActions Filepath="Actions/5-WW3Actions.xml" DelayHost="delayHost" Delay="60"/>
   </Instantly>
 
 </ConditionalActions>

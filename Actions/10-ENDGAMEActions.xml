@@ -1,0 +1,14 @@
+<ConditionalActions>
+  
+  <Instantly>
+      <LoadMission MissionName="Missions/10-ENDGAME.xml" />
+
+     <StartScreenBleedEffect AlertTitle="MISSILE LUNCH COUNTDOWN" CompleteAction="HackerScripts/WOPR_WIN-3.txt" TotalDurationSeconds="120" DelayHost="delayHost" Delay="21.5">
+    STOP WOPR BEFORE HE FINDS THE MISSILE LUNCH CODES!
+      </StartScreenBleedEffect>
+
+    <RunFunction FunctionName="playCustomSong:Music/Countdown.ogg" />
+
+  </Instantly>
+
+</ConditionalActions>

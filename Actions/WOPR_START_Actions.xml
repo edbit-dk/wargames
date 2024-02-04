@@ -1,7 +1,0 @@
-<ConditionalActions>
- <!-- triggered once the player gets admin access to the target machine -->
-  <OnAdminGained target="advExamplePC">
-    <!--Actions here-->
-      <LaunchHackScript Filepath="HackerScripts/WOPR_START.txt" DelayHost="delayHost" Delay="2.5" SourceComp="armyWOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
-  </OnAdminGained>
-</ConditionalActions>

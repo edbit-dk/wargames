@@ -1,14 +1,14 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="falkenTerm" 
-name="FALKEN TERMINAL - OREGON"
+name="FALKEN TERMINAL"
 security="0" 
 type="3">
 
-    <portsForCrack val="999" />
-  <ports></ports>
-  <trace time="100" />
+<adminPass pass="joshua" />
 
-  <account username="#PLAYERNAME#" password="Joshua" type="0" />
+  <portsForCrack val="999" />
+  <ports></ports>
+  <trace time="10" />
 
 
 <file path="bin" name="TIC_TAC_TOE.exe">#BINARY#</file>
