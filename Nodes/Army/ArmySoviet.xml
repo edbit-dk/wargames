@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="armySoviet" 
-name="PUTIN PC"
+name="USSR"
 ip="100.43.64.0"  
 security="0"  
 type="3">
@@ -8,11 +8,10 @@ type="3">
  <!-- Accounts -->
 <adminPass pass="00000000" />
 
-<account username="mckittrick" password="sysman" type="0" />
 <account username="vladimir" password="putin" type="0" />
 
   <proxy time="1" />
-  <firewall level="6" solution="defcon" additionalTime="0.5"/>
+  <firewall level="4" solution="ussr" additionalTime="0.5"/>
   <portRemap>ssh=34, smtp=53, web=94, ftp=75</portRemap>
   <portsForCrack val="4" />
   <ports>22, 25, 80, 21</ports>
@@ -20,26 +19,13 @@ type="3">
    <tracker />
 
  <file path="home" name="STAFF.txt">
-
+Vladimir Putin
  </file>  
-
-   <encryptedFile path="home" name="CLASSIFIED.dec" extension=".txt" ip="armyDatanet" header="Stephen Falken">
-FALKEN'S MAZE: Teaching a Machine to Think
-
-POKER AND ARMAGEDDON: THE ROLE OF BLUFFING IN A NUCLEAR STANDOFF 
-by Stephen Falken, with John McKittrick
-
------- INFORMATION CLASSIFIED ----------
------- INFORMATION CLASSIFIED ----------
------- INFORMATION CLASSIFIED ----------
-  </encryptedFile>
-
 
   <encryptedFile path="home" name="mainframe.dec" extension=".txt" ip="68.56.23.07" header="MISSILE SILO MAINFRAME" pass="00000000">
 CPE1704TKS
   </encryptedFile>
 
-    <dlink target="arpanet" />
   <dlink target="armyRIPLEY" />
     
 </Computer>

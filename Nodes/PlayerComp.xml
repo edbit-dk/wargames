@@ -18,19 +18,19 @@ type="2" >
 
 
   <file path="home" name="PASSWORD-LISTS.txt">
-This is a complete list of the most common usernames and passwords I have 
-found different terminals use. Some give ADMIN access, some don't. 
-Try at your own risk!
+This is a complete list of the most common usernames and passwords I have found different terminals use on (mainly ARPANET). 
+Some give ADMIN access, some don't. Try at your own risk!
 
 USERNAMES:
-admin - (SUPERUSER)
+admin - (DEFAULT SUPERUSER)
 guest - (NO PASSWORD)
 help
+user - (DEFAULT ACCOUNT)
 root - (SYSTEMUSER)
 ftp - (UPLOADS)
 
 PASSWORDS:
-000001 - (default)
+000001 - (DEFAULT ACCOUNT)
 games
 root - (SYSTEMUSER)
 toor - (SYSTEMUSER)
@@ -43,6 +43,8 @@ logon
 Passw@rd
 alpine - (FAX AND DIALUP)
 
+HINTS:
+Sometimes people use passwords with close relation to family and loved ones to make the password more unique.
 
 - Malvin
   </file>

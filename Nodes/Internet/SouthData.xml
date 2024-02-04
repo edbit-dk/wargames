@@ -11,5 +11,6 @@ type="1">
   <trace time="200" />
 
 <dlink target="unionBank" />
+<dlink target="medical" />
 
 </Computer>

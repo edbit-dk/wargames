@@ -2,16 +2,15 @@ Errors Found. Writing report to Extensions/WargamesExtension/report.txt
 
 
 START MISSION READ ERRORS:
-Error Loading Extensions/WargamesExtension/Missions/Hacker/HackerMission2.xml
-System.FormatException: Error loading mission Goal "getadmin"
-NullReferenceException - this means something referenced by an ID (probably a computer) or a filename (missions/scripts etc) was not found.
+
+NextMission Tag for mission "Extensions/WargamesExtension/Missions/2-GRADES.xml" has nonexistent next mission path: 2-GRADES.xml
+Invalid Mission Path! : Extensions/WargamesExtension/2-GRADES.xml
+Error Loading Extensions/WargamesExtension/2-GRADES.xml
+System.IO.FileNotFoundException: Could not find file 'D:\SteamLibrary\steamapps\common\Hacknet\Extensions\WargamesExtension\2-GRADES.xml'.
+File name: 'D:\SteamLibrary\steamapps\common\Hacknet\Extensions\WargamesExtension\2-GRADES.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.OpenRead(String path)
    at Hacknet.ComputerLoader.readMission(String filename)
-   at Hacknet.Misc.TestSuite.TestMission(String missionName, Object os_obj)Error Loading Mission: Extensions/WargamesExtension/Missions\Hacker\HackerMission2.xml
-
-Error loading mission Goal "getadmin" 
-NullReferenceException - this means something referenced by an ID
-(probably a computer) or a filename (missions/scripts etc) was not found.
-
- 
-Source : Hacknet  ::  System.FormatException
-
+   at Hacknet.Misc.TestSuite.TestMission(String missionName, Object os_obj)

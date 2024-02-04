@@ -7,7 +7,10 @@ type="empty">
 
  <!-- Accounts -->
   <adminPass pass="deadcode" />
+  
 <account username="help" password="games" type="3" />
+
+<admin type="fast" resetPassword="true" isSuper="true" />
 
 <file path="home" name="WAR_GAMES.txt">
 'GAMES' REFERES TO MODELS, SIMULATIONS AND GAMES
@@ -24,15 +27,16 @@ WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
   <file path="bin" name="THEATERWIDE_TACTICAL_WARFARE.exe">#BINARY#</file>
   <file path="bin" name="TEHATERWIDE_BIOTOXIC_AND_CHEMICAL_WARFARE.exe">#BINARY#</file>
   <file path="bin" name="GLOBAL_THERMONUCLEAR_WAR.exe">#BINARY#</file>
+  <file path="bin" name="DEAD_CODE.exe">#BINARY#</file>
   
   <firewall level="6" solution="defcon" additionalTime="0.5"/>
   <portRemap>ssh=34, smtp=53, web=94, ftp=75</portRemap>
   <portsForCrack val="4" />
   <ports>22, 25, 80, 21</ports>
-  <trace time="10" />
+  <trace time="100" />
 
   <dlink target="armyDatanet" />
-
+  <dlink target="armySoviet" />
     
 
 </Computer>

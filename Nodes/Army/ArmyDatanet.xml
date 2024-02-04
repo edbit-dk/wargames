@@ -41,8 +41,7 @@ by Stephen Falken, with John McKittrick
 CPE1704TKS
   </encryptedFile>
 
-    <dlink target="arpanet" />
-
+  <dlink target="arpanet" />
   <dlink target="armySilo" />
   <dlink target="armyWOPR" />
   <dlink target="armyRIPLEY" />

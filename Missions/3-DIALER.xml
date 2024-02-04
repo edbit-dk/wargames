@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="3-DIALER">
+  <goals>
+    <!-- Goals here -->
+</goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+<missionStart val="0">playCustomSong:Music/80s_pop.ogg</missionStart>
+ <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>UNKNOWN</sender>
+    <subject>3. DIALER</subject>
+    <body>
+Congratulations, you have successfully completed a SCAN for computer systems in Sunnyvale, California. 
+
+Now, before you attempt to hack into any of the systems you have found, it's time to take a break. 
+You decide to go to the arcade and play some Galaga - where you bump into Jennifer. 
+Jennifer says she changed her mind and does want you to change her grade after all (I did try and tell you).
+
+Jennifer comes back to your house where your computer screen is on the SCAN program. 
+She asks what it's doing, to which you reply, it's 'scanning IP adresses'. 
+Jennifer asks if it will take long as she is keen to get her grade changed (maybe you already changed it?). 
+
+Now check the scan results and try to connect to the systems you have found.
+</body>
+    <attachments>
+<note title="GAMES">
+Find the ProtoVision server or other games.
+</note>
+<link comp="southData" />
+    </attachments>
+  </email>
+</mission>

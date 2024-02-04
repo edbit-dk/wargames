@@ -9,6 +9,7 @@
   <OnAdminGained target="armyWOPR">
     <!--Actions here-->
       <LaunchHackScript Filepath="HackerScripts/WOPR_START.txt" DelayHost="delayHost" Delay="2.5" SourceComp="armyWOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
+      <AddConditionalActions Filepath="Actions/4-WOPRActions.xml" DelayHost="delayHost" Delay="60"/>
   </OnAdminGained>
 
 </ConditionalActions>

@@ -1,4 +1,6 @@
 config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+hideRam $#%#$
+hideDisplay $#%#$s
 connect $#%#$
 clearTerminal $#%#$
 stopMusic $#%#$
@@ -6,17 +8,12 @@ delay 1.0 $#%#$
 writel #BINARYSMALL# $#%#$
 writel  $#%#$
 writel  $#%#$
-writel -- INCOMING TRANSMISSION -- $#%#$
-writel -- PLEASE STANDBY... -- $#%#$
-delay 5.0 $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
+writel --CONNECTING-- $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel ANALYZING NEW GAME: "TIC_TAC_TOE.exe" $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel ..X......XOO......X.......XOX..... $#%#$
@@ -36,74 +33,46 @@ writel ..X......XOO......X.......XOX..... $#%#$
 writel ..X......XOO......X.......XOX..... $#%#$
 writel ..X......XOO......X.......XOX..... $#%#$
 writel ..X......XOO......X.......XOX..... $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
+writel  --SYSTEM OVERLOAD-- $#%#$
+delay 2.5 $#%#$
+writel  --MISSILE SYSTEMS OFF-LINE-- $#%#$
 writel  $#%#$
+writel  --MISSILE SYSTEMS OFF-LINE-- $#%#$
 writel  $#%#$
-writel  $#%#$
-writel  -- SYSTEM OVERLOAD -- $#%#$
-delay 5.0 $#%#$
-writel  -- MISSILE SYSTEMS OFF-LINE -- $#%#$
-writel  $#%#$
-writel  -- MISSILE SYSTEMS OFF-LINE -- $#%#$
-writel  $#%#$
-writel  -- MISSILE SYSTEMS OFF-LINE -- $#%#$
-writel  $#%#$
+writel  --MISSILE SYSTEMS OFF-LINE-- $#%#$
 delay 5.0 $#%#$
 clearTerminal $#%#$
-delay 5.0 $#%#$
-writel  $#%#$
-writel  $#%#$
 writel #BINARY# $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel -- ACTIVE GAME SIMULATION STATUS: TERMINATED -- $#%#$
+writel --ACTIVE GAME SIMULATION STATUS: TERMINATED-- $#%#$
 clearTerminal $#%#$
-delay 5.0 $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel GREETINGS PROFESSOR FALKEN. $#%#$
-delay 5.0 $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel A STRANGE GAME. $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
 writel THE ONLY WINNING MOVE IS $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
 writel NOT TO PLAY! $#%#$
-delay 10.0 $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
+delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel HOW ABOUT A NICE GAME OF CHESS? $#%#$
-delay 5.0 $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel -- END OF TRANSMISSION -- $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
 writel  $#%#$
 writel  $#%#$
 writel #BINARYSMALL# $#%#$

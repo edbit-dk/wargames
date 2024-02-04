@@ -8,6 +8,7 @@ type="empty">
 
  <!-- Accounts -->
   <adminPass pass="joshua" />
+  
 <account username="help" password="games" type="3" />
 
 <file path="home" name="HELP_GAMES.txt">
@@ -26,7 +27,6 @@ WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
   <file path="bin" name="CHECKERS.exe">#BINARY#</file>
   <file path="bin" name="CHESS.exe">#BINARY#</file>
   <file path="bin" name="POKER.exe">#BINARY#</file>
-  <file path="bin" name="TIC_TAC_TOE.exe">#BINARY#</file>
   <file path="bin" name="FIGHTER_COMBAT.exe">#BINARY#</file>
   <file path="bin" name="GUERRILLA_ENGAGEMENT.exe">#BINARY#</file>
   <file path="bin" name="DESERT_WARFARE.exe">#BINARY#</file>
@@ -38,12 +38,11 @@ WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
   <file path="sys" name="VT100.exe">#BINARY#</file>
   <file path="sys" name="UNIX.exe">#BINARY#</file>
   <file path="sys" name="LISP.exe">#BINARY#</file>
-  <file path="sys" name="sysinfo.txt">
+  <file path="sys" name="SYSINFO.txt">
   Programmer: Professor Stephen Falken
   </file>
 
-  <file path="home" name="DO
-  D_PENSION_FILES.txt">
+  <file path="home" name="DOD_PENSION_FILES.txt">
 CURRENT MAILING:
 
 DR. ROBERT HUME (A.K.A. STEPHEN W. FALKEN)

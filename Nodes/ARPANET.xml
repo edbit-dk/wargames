@@ -12,12 +12,11 @@ type="3">
   <admin type="progress" />
   <firewall level="7" solution="network" additionalTime="0.5"/>
 
-    <account username="guest" password="" type="1" />
+  <account username="guest" password="" type="1" />
 
 <ispSystem />
 
 <dlink target="ispComp" />
-
 
 <dlink target="bbs" />
 <dlink target="techLab" />

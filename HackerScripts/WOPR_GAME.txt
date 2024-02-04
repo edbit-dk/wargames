@@ -1,4 +1,6 @@
 config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+hideRam $#%#$
+hideDisplay $#%#$s
 connect $#%#$
 clearTerminal $#%#$
 stopMusic $#%#$
@@ -6,26 +8,18 @@ delay 1.0 $#%#$
 writel #BINARYSMALL# $#%#$
 writel  $#%#$
 writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel -- INCOMING TRANSMISSION -- $#%#$
-writel -- PLEASE STANDBY... -- $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
+writel --CONNECTING-- $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel I'M SORRY TO HEAR, THAT PROFESSOR FALKEN IS DEAD. $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel YOU ARE A HARD MAN TO REACH. COULD NOT FIND $#%#$
 writel YOU IN SEATTLE AND NO TERMINAL IS IN $#%#$
 writel OPERATION AT YOUR CLASSIFIED ADDRESS: $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel DOD PENSION FILES INDICATE $#%#$
@@ -35,68 +29,58 @@ writel  $#%#$
 writel DR. ROBERT HUME (A.K.A. STEPHEN W. FALKEN) $#%#$
 writel 5 TALL CEDAR ROAD $#%#$
 writel GOOSE ISLAND, OREGON 97014 $#%#$
-delay 5.0 $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel YESTERDAY'S GAME WAS INTERRUPTED. $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel ALTHOUGH PRIMARY GOAL HAS NOT YET $#%#$
 writel BEEN ACHIEVED, SOLUTION IS NEAR. $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel THE PRIMARY GOAL IS: $#%#$
 delay 1.0 $#%#$
 writel TO WIN THE GAME. $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel GAME TIME ELAPSED: 31 HRS 12 MIN 58 SEC $#%#$
 writel GAME TIME REMAINING: 52 HRS 17 MIN 04 SEC $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel I SHOULD REACH DEFCON 1 AND $#%#$
 writel LAUNCH MY MISSILES IN 28 HOURS. $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel PROJECTED KILL RATIOS: $#%#$
-delay 2.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel 69% OF THE HOUSING DETROYED. $#%#$
 delay 1.0 $#%#$
 writel 72 MILLION PEOPLE DEAD. $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel GAME OR REAL: WHAT'S THE DIFFERENCE? $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel GOODBYE, FALKEN. $#%#$
-delay 5.0 $#%#$
+writel GOODBYE. $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel -- TRANSMISSION TERMINATED --$#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
+writel --CONNECTION TERMINATED-- $#%#$
 writel  $#%#$
 writel  $#%#$
 writel #BINARYSMALL# $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 clearTerminal $#%#$
 startMusic $#%#$
+showRam $#%#$
+showDisplay $#%#$
 disconnect $#%#$

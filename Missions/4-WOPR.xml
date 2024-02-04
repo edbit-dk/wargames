@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="4-WOPR">
+  <goals>
+    <!-- Goals here -->
+</goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+<missionStart val="4">changeSong</missionStart>
+ <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>UNKNOWN</sender>
+    <subject>4. WOPR</subject>
+    <body>
+Well done! You have successfully hacked into the WOPR computer! 
+
+Your parents are nagging you to clean up the trash and 
+ask if "your little friend" Jennifer  wants to stay for tea. 
+
+Apparently they are BBQing tonight. 
+
+You disconnect your session and go downstairs.
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

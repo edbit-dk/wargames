@@ -1,109 +1,86 @@
 config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
 connect $#%#$
+hideRam $#%#$
+hideDisplay $#%#$s
 clearTerminal $#%#$
 stopMusic $#%#$
 delay 1.0 $#%#$
 writel #BINARYSMALL# $#%#$
 writel  $#%#$
 writel  $#%#$
+writel --CONNECTING-- $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel -- CONNECTION AUTHENTICATED -- $#%#$
-delay 1.0 $#%#$
-writel -- INCOMING TRANSMISSION -- $#%#$
-delay 1.0 $#%#$
-writel -- PLEASE STANDBY... -- $#%#$
-delay 1.0 $#%#$
-writel  $#%#$
-writel  $#%#$
-writel LAST LOGIN: 6/23/83 $#%#$
+writel LAST LOGIN: 6/23/73 $#%#$
 delay 1.0 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel GREETINGS PROFESSOR FALKEN. $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel HOW ARE YOU FEELING TODAY? $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel I'M EXECELLENT. IT'S BEEN A LONG TIME. CAN YOU EXPLAIN $#%#$
-writel THE REMOVAL OF YOUR USER ACCOUNT NUMBER ON 6/23/83? $#%#$
-delay 10.0 $#%#$
+writel I'M EXECELLENT. IT'S BEEN A LONG TIME. $#%#$
+writel CAN YOU EXPLAIN THE REMOVAL OF YOUR USER ACCOUNT NUMBER ON 6/23/83? $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel MAYBE IT WAS A MISTAKE. PEOPLE SOMETIMES MAKE MISTAKES. $#%#$
-delay 10.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
+writel SHALL WE PLAY A GAME? $#%#$
+writel MAYBE YOU WOULD PREFER A GOOD GAME OF CHESS? $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel SHALL WE PLAY A GAME? MAYBE YOU WOULD PREFER A GOOD GAME OF CHESS? $#%#$
-delay 5.0 $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel NO, WE HAVE DONE THAT MANY TIMES BEFORE. $#%#$
-delay 5.0 $#%#$ 
+writel NEW GAME: GLOBAL_THERMONUCLEAR_WAR.exe $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel LET'S PLAY: GLOBAL THERMONUCLEAR WAR! $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel YOU WILL PLAY AS THE RUSSIANS. $#%#$
-delay 5.0 $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel AWAITING FIRST STRIKE COMMAND $#%#$
 writel _____________________________ $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel PRIMARY TARGETS BY CITY AND/OR COUNTRY NAME: $#%#$
 writel  $#%#$
 writel LAS VEGAS, SEATTLE, NEW YORK, MIAMI $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel  TARGET SELECTION COMPLETE $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel DEFCON 3 IN EFFECT $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel GAME TIME ELAPSED: 49 HRS 35 MIN 21 SEC $#%#$
 writel GAME TIME REMAINING: 23 HRS 57 MIN 03 SEC $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel -- CONNECTION INTERRUPTED --$#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
+writel --CONNECTION TERMINATED-- $#%#$
 writel  $#%#$
 writel  $#%#$
 writel #BINARYSMALL# $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 clearTerminal $#%#$
 startMusic $#%#$
-forkbomb $#%#$
+showRam $#%#$
+showDisplay $#%#$
 disconnect $#%#$

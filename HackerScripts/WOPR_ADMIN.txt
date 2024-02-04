@@ -5,26 +5,18 @@ delay 1.0 $#%#$
 writel #BINARYSMALL# $#%#$
 writel  $#%#$
 writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel -- INCOMING TRANSMISSION -- $#%#$
-writel -- PLEASE STANDBY... -- $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
+writel --CONNECTING-- $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel MISSILES TARGETED AND READY $#%#$
 writel ---------------------------
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel CHANGES LOCKED OUT $#%#$
 writel ------------------
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel  LORING AIRFORCE BASE      : NO IMPACT $#%#$
@@ -34,11 +26,11 @@ writel  ELMENDORF AIRFORCE BASE   : NO IMPACT $#%#$
 delay 1.0 $#%#$
 writel  $#%#$
 writel  GRAND FORKS AIRFORCE BASE : NO IMPACT $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel -- TRACKING MISSILE LUNCH CODES -- $#%#$
-delay 5.0 $#%#$
+writel --LOCATING MISSILE LUNCH CODES-- $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel - - - - - - - - - - $#%#$
@@ -77,23 +69,16 @@ writel C P E 1 7 0 4 T K S $#%#$
 writel C P E 1 7 0 4 T K S $#%#$
 writel C P E 1 7 0 4 T K S $#%#$
 writel C P E 1 7 0 4 T K S $#%#$
-setAdminPass CPE1704TKS $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel -- CONNECTION TERMINATED --$#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
-writel  $#%#$
+writel --CONNECTION TERMINATED--$#%#$
 writel  $#%#$
 writel  $#%#$
 writel #BINARYSMALL# $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 clearTerminal $#%#$
+startMusic $#%#$
+showRam $#%#$
+showDisplay $#%#$
 disconnect $#%#$
