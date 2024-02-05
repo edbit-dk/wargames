@@ -23,22 +23,21 @@ for the credits daemon to find and use it.
 
 <FastActionHost />
 
-  <CreditsDaemon Title="Wargames Credits" ButtonText="Complete" ConditionalActionSetToRunOnButtonPressPath="Actions/CREDITSActions.xml"/>
+  <CreditsDaemon Title="Wargames Credits" ButtonText="Play credits" ConditionalActionSetToRunOnButtonPressPath="Actions/CREDITSActions.xml"/>
 
    <file path="home" name="CreditsData.txt">
-%---  Credits File  ---
+%---  WarGames (1983)  ---
 
-^Why this exists
-This file contains the credits for the credits daemon below!
+%A game created by:
+Thomas Elvin
+IT teacher
 
-%Starting a line with % makes the text super big
-^And starting it with ^ makes is kind of big.
-Lines starting with anything else are normal
+^Movie inspiration
+Loop up the movie "WarGames (1983)" og "WarGames: The Dead Code"
+if you want to learn more about the movies this game has taken inspiration from.
 
-^Location
-This file must be in home/CreditsData.txt
-for the credits daemon to find and use it.
-
+^THANK YOU
+Hope you learned something playing this game.
 </file>
   
 </Computer>

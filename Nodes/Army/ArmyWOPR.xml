@@ -7,9 +7,9 @@ security="0"
 type="empty">
 
  <!-- Accounts -->
-  <adminPass pass="joshua" />
+  <adminPass pass="Joshua" />
   
-<account username="help" password="games" type="3" />
+<account username="help" password="games" type="1" />
 
 <file path="home" name="HELP_GAMES.txt">
 'GAMES' REFERES TO MODELS, SIMULATIONS AND GAMES

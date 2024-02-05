@@ -19,6 +19,30 @@ type="3">
   <file path="bin" name="PROGRAMS.txt">
 All new programs are uploaded to the FTP server.
 Use SCP to download and UPLOAD to upload files.
+
+--PortHack--
+Experimental password-cracking tool that can find any password, if ALL required ports are open!
+
+--WebServerWorm--
+Cracks webserver ports
+
+--SQLBufferOverflow--
+Cracks SQL database ports
+
+--SSHCrack--
+Cracks Telnet/SSH ports
+
+--FTPBounce--
+Cracks FTP ports
+
+--SMTPOverflow--
+Cracks SMTP mail ports
+
+--DECHead--
+Reads info about encrypted files (.dec)
+
+--Decypher--
+Opens encrypted files, if correct password is given
   </file>
 
   <file path="FTP/Uploads" name="PortHack.exe">#BINARY#</file>
@@ -37,34 +61,33 @@ Some give ADMIN access, some don't. Try at your own risk!
 USERNAMES:
 admin - (DEFAULT SUPERUSER)
 guest - (NO PASSWORD)
-help
+help - (SYSTEM HELP)
 user - (DEFAULT ACCOUNT)
 root - (SYSTEMUSER)
 ftp - (UPLOADS)
 
 PASSWORDS:
-000001 - (DEFAULT ACCOUNT)
-games
+000001 - (DEFAULT)
+games - (GAME SERVERS)
 root - (SYSTEMUSER)
-toor - (SYSTEMUSER)
 uploader - (FTP)
-password
+password (STANDARD)
 admin - (SUPERUSER)
 12345678 - (BBS)
 webmaster - (WEBSERVERS)
-logon
-Passw@rd
 alpine - (FAX AND DIALUP)
 
 HINTS:
-Sometimes people use passwords with close relation to family and loved ones to make the password more unique.
+Sometimes people use passwords with close relation to their family and loved ones to make the password more unique.
 
-- Malvin
+- Malvin and Jim from Tech Lab
   </file>
 
    <uploadServerDaemon name="FTP Server" folder="FTP" 
                       needsAuth="false" color="84,165,212"/>
 
  <variableMissionListingServer name="Articles" group="hackerfac" iconPath="Docs/TechArticles/Logo.png" articleFolderPath="Docs/TechArticles" color="84,165,212" assigner="false" public="true" title="Seattle Tech Lab"/>
+
+<dlink target="ispComp" />
 
 </Computer>

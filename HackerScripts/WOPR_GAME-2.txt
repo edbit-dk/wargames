@@ -10,10 +10,6 @@ writel --CONNECTING-- $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel I'M SORRY TO HEAR, THAT PROFESSOR FALKEN IS DEAD. $#%#$
-delay 2.5 $#%#$
-writel  $#%#$
-writel  $#%#$
 writel YOU ARE A HARD MAN TO REACH. COULD NOT FIND $#%#$
 writel YOU IN SEATTLE AND NO TERMINAL IS IN $#%#$
 writel OPERATION AT YOUR CLASSIFIED ADDRESS: $#%#$

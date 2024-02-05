@@ -28,21 +28,23 @@ We have to STOP him before he does!
 
 CONNECT to my terminal and DOWNLOAD (scp) the "TIC_TAC_TOE.exe" game,
 and UPLOAD it to WOPR (bin). 
+
 That is the only way we can teach him about MAD - something the ARMY never wanted me to do!
 
 Hurry and good luck!
 
-Remember to reply back when done!
+Remember to REPLY back when done!
+
 
 - Stephen Falken (UNKNOWN)
 </body>
     <attachments>
       <note title="FINAL COUNTDOWN">
 - CONNECT to Falken's terminal. 
-- DOWNLOAD (scp) the "TIC_TAC_TOE.exe" game.
+- DOWNLOAD (scp) "TIC_TAC_TOE.exe" game.
 - UPLOAD game to WOPR (bin). 
       </note>
-    <account comp="falkenTerm" user="admin" pass="joshua" />
+    <account comp="falkenTerm" user="admin" pass="Joshua" />
     </attachments>
   </email>
 </mission>

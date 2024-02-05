@@ -1,7 +1,9 @@
 <ConditionalActions>
   
   <Instantly>
-     <RunFunction FunctionName="playCustomSong:Music/80s_pop.ogg" />
+      <RunFunction FunctionName="playCustomSong:Music/Doom.ogg" />
+     <LaunchHackScript Filepath="HackerScripts/WOPR_END-3.txt" DelayHost="delayHost" Delay="2" SourceComp="armyWOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
+     <AddConditionalActions Filepath="Actions/12-ENDActions.xml" DelayHost="delayHost" Delay="60"/>
   </Instantly>
 
 </ConditionalActions>

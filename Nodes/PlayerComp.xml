@@ -24,29 +24,26 @@ Some give ADMIN access, some don't. Try at your own risk!
 USERNAMES:
 admin - (DEFAULT SUPERUSER)
 guest - (NO PASSWORD)
-help
+help - (SYSTEM HELP)
 user - (DEFAULT ACCOUNT)
 root - (SYSTEMUSER)
 ftp - (UPLOADS)
 
 PASSWORDS:
-000001 - (DEFAULT ACCOUNT)
-games
+000001 - (DEFAULT)
+games - (GAME SERVERS)
 root - (SYSTEMUSER)
-toor - (SYSTEMUSER)
 uploader - (FTP)
-password
+password (STANDARD)
 admin - (SUPERUSER)
 12345678 - (BBS)
 webmaster - (WEBSERVERS)
-logon
-Passw@rd
 alpine - (FAX AND DIALUP)
 
 HINTS:
-Sometimes people use passwords with close relation to family and loved ones to make the password more unique.
+Sometimes people use passwords with close relation to their family and loved ones to make the password more unique.
 
-- Malvin
+- Malvin and Jim from Tech Lab
   </file>
 
 <file path="home" name="LETTER.txt">

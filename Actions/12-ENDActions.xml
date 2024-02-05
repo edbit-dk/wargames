@@ -1,0 +1,7 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <LoadMission MissionName="Missions/12-DOOM.xml" />
+  </Instantly>
+
+</ConditionalActions>

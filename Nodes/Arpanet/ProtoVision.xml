@@ -8,8 +8,7 @@ type="1">
   <firewall level="5" solution="games" additionalTime="0.5"/>
   <portsForCrack val="3" />
   <ports>22, 21, 25</ports>
-  <trace time="200" />
-   <tracker />
+  <trace time="300" />
 
 <PointClicker />
 

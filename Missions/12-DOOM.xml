@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="11-CREDITS">
+<mission id="12-DOOM">
   <goals>
     <!-- Goals here -->
 </goals>
@@ -8,27 +8,23 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-<missionStart val="0">playCustomSong:Music/80s_pop.ogg</missionStart>
  <nextMission>NONE</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
-    <sender>Falken</sender>
-    <subject>CREDITS</subject>
+    <sender>Joshua</sender>
+    <subject>12. DOOM</subject>
     <body>
-Thank you for all your help!
+I WON!
 
-And thank you for playing this "War Game".
+GAME OVER.
 
-Hope you liked it!
+HOW ABOUT A NICE GAME OF CHESS?
 
-Goodbye.
-
-- Stephen Falken (UNKNOWN)
+- Joshua
 </body>
     <attachments>
-    <link comp="relayHost" />
     </attachments>
   </email>
 </mission>

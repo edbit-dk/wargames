@@ -1,7 +1,6 @@
 config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
 hideNetMap $#%#$
 hideRam $#%#$
-hideDisplay $#%#$s
 connect $#%#$
 clearTerminal $#%#$
 delay 1.0 $#%#$
@@ -79,12 +78,12 @@ delay 2.0 $#%#$
 writel C P E  1 7 0 4  - K S $#%#$
 delay 2.0 $#%#$
 writel C P E  1 7 0 4  T K S $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 clearTerminal $#%#$
 delay 2.5 $#%#$
 writel LAUNCH STATUS: $#%#$
 delay 1.0 $#%#$
-writel ACTIVE
+writel ACTIVE $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -96,5 +95,6 @@ writel  $#%#$
 writel  $#%#$
 writel #BINARYSMALL# $#%#$
 delay 2.5 $#%#$
+clearTerminal $#%#$
 forkbomb $#%#$
 disconnect $#%#$

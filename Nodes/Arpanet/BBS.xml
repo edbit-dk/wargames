@@ -9,7 +9,10 @@ type="1">
   <portsForCrack val="2" />
   <ports>22, 21, 25</ports>
   <trace time="-1" />
+  
 
     <account username="guest" password="" type="1" />
+
+    <dlink target="techLab" />
 
 </Computer>

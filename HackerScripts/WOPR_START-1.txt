@@ -27,7 +27,7 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel I'M EXECELLENT. IT'S BEEN A LONG TIME. $#%#$
-writel CAN YOU EXPLAIN THE REMOVAL OF YOUR USER ACCOUNT NUMBER ON 6/23/83? $#%#$
+writel CAN YOU EXPLAIN THE REMOVAL OF YOUR USER ACCOUNT NUMBER ON 6/23/73? $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -64,7 +64,7 @@ writel LAS VEGAS, SEATTLE, NEW YORK, MIAMI $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel  TARGET SELECTION COMPLETE $#%#$
+writel ** TARGET SELECTION COMPLETE ** $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -88,6 +88,16 @@ showNetMap $#%#$
 showRam $#%#$
 showDisplay $#%#$
 writel --SESSION DISCONNECTED-- $#%#$
-delay 30 $#%#$
+delay 21.5 $#%#$
+writel  $#%#$
+writel REBOOT.....5 $#%#$
+delay 1 $#%#$
+writel REBOOT.....4 $#%#$
+delay 1 $#%#$
+writel REBOOT.....3 $#%#$
+delay 1 $#%#$
+writel REBOOT.....2 $#%#$
+delay 1 $#%#$
+writel REBOOT.....1 $#%#$
 reboot $#%#$
 disconnect $#%#$

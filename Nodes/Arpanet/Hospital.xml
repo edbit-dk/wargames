@@ -4,11 +4,10 @@ name="SOUTHWEST HOSPITAL"
 security="0" 
 type="1">
 
+  <firewall level="8" solution="medicine" additionalTime="1.0"/>
   <portsForCrack val="2" />
   <ports>22, 21, 25</ports>
-  <trace time="-1" />
-
-<adminPass pass="medicine" />
+  <trace time="200" />
 
 <MedicalDatabase />
 
