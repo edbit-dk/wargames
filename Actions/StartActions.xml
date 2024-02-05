@@ -12,4 +12,9 @@
       <AddConditionalActions Filepath="Actions/4-WOPRActions.xml" DelayHost="delayHost" Delay="60"/>
   </OnAdminGained>
 
+  <OnConnect target="academic" needsMissionComplete="false">
+      <RunFunction FunctionName="playCustomSongImmediatley:Music/Sample/dial_up.ogg" />
+    <AddConditionalActions Filepath="Actions/STOPActions.xml" DelayHost="delayHost" Delay="21.5"/>
+</OnConnect>
+
 </ConditionalActions>

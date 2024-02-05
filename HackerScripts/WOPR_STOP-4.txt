@@ -18,7 +18,9 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel LOADING GAME: "TIC TAC TOE" $#%#$
-writel ........................... $#%#$
+writel NUMBER OF PLAYERS?: $#%#$
+delay 1.0 $#%#$
+writel ZERO $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -39,18 +41,24 @@ writel ..X......XOO......X.......XOX..... $#%#$
 writel ..X......XOO......X.......XOX..... $#%#$
 writel ..X......XOO......X.......XOX..... $#%#$
 writel ..X......XOO......X.......XOX..... $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
+writel ..X......XOO......X.......XOX..... $#%#$
 delay 2.5 $#%#$
+writel NUMBER OF WINNERS: $#%#$
+delay 1.0 $#%#$
+writel NONE $#%#$
 writel  $#%#$
 writel  $#%#$
-writel  --SYSTEM OVERLOAD-- $#%#$
+writel --SYSTEM OVERLOAD-- $#%#$
 delay 2.5 $#%#$
-writel  --MISSILE SYSTEMS OFF-LINE-- $#%#$
+writel --MISSILE SYSTEMS OFF-LINE-- $#%#$
 delay 1.0 $#%#$
 writel  $#%#$
-writel  --MISSILE SYSTEMS OFF-LINE-- $#%#$
+writel --MISSILE SYSTEMS OFF-LINE-- $#%#$
 delay 1.0 $#%#$
 writel  $#%#$
-writel  --MISSILE SYSTEMS OFF-LINE-- $#%#$
+writel --MISSILE SYSTEMS OFF-LINE-- $#%#$
 delay 5.0 $#%#$
 clearTerminal $#%#$
 writel #BINARY# $#%#$
@@ -65,9 +73,8 @@ writel A STRANGE GAME. $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel THE ONLY WINNING MOVE IS $#%#$
-delay 2.5 $#%#$
-writel  $#%#$
-writel NOT TO PLAY! $#%#$
+delay 1.0 $#%#$
+writel NOT TO PLAY. $#%#$
 delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$

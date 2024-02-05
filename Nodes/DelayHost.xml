@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="delayHost" name="DELAY HOST" type="empty">
+<Computer id="delayHost" name="CREDITS" type="empty">
 
   <!-- An optimized Action host daemon - this daemon does nothing except host delayable actions - but it is much more efficient at doing that than other servers.
   If you have lots of actions looping or in delay at once (more than 50, say) it might be worth moving them to be delay hosted on one of these instead if you encounter performance issues.-->

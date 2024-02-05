@@ -8,7 +8,6 @@
       </StartScreenBleedEffect>
 
     <RunFunction FunctionName="playCustomSong:Music/Countdown.ogg" />
-
   </Instantly>
 
 </ConditionalActions>

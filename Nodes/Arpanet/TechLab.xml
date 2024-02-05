@@ -30,20 +30,36 @@ Use SCP to download and UPLOAD to upload files.
   <file path="FTP/Uploads" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
   <file path="FTP/Uploads" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
 
-  <file path="home" name="password-lists.txt">
-This is a complete list of the most common password I have 
-found companies use for their "extra secure" servers, haha!
+  <file path="home" name="PASSWORD-LISTS.txt">
+This is a complete list of the most common usernames and passwords I have found different terminals use on (mainly ARPANET). 
+Some give ADMIN access, some don't. Try at your own risk!
 
-root
-toor
-uploader
+USERNAMES:
+admin - (DEFAULT SUPERUSER)
+guest - (NO PASSWORD)
+help
+user - (DEFAULT ACCOUNT)
+root - (SYSTEMUSER)
+ftp - (UPLOADS)
+
+PASSWORDS:
+000001 - (DEFAULT ACCOUNT)
+games
+root - (SYSTEMUSER)
+toor - (SYSTEMUSER)
+uploader - (FTP)
 password
-admin
-12345678
-webmaster
+admin - (SUPERUSER)
+12345678 - (BBS)
+webmaster - (WEBSERVERS)
 logon
 Passw@rd
-alpine
+alpine - (FAX AND DIALUP)
+
+HINTS:
+Sometimes people use passwords with close relation to family and loved ones to make the password more unique.
+
+- Malvin
   </file>
 
    <uploadServerDaemon name="FTP Server" folder="FTP" 

@@ -3,7 +3,7 @@
   <Instantly>
       <LoadMission MissionName="Missions/5-WW3.xml" />
       <RunFunction FunctionName="playCustomSong:Music/Traced.ogg" />
-      <AddConditionalActions Filepath="Actions/6-NORADActions.xml" DelayHost="delayHost" Delay="21.5"/>
+      <AddConditionalActions Filepath="Actions/6-NORADActions.xml" DelayHost="delayHost" Delay="30"/>
   </Instantly>
 
 </ConditionalActions>

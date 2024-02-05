@@ -12,72 +12,79 @@ writel --CONNECTING-- $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel MISSILES TARGETED AND READY $#%#$
-writel ---------------------------
+writel ** MISSILES TARGETED AND READY ** $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel CHANGES LOCKED OUT $#%#$
-writel ------------------
+writel ** CHANGES LOCKED OUT ** $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel  LORING AIRFORCE BASE      : NO IMPACT $#%#$
+writel  LORING AIRFORCE BASE: $#%#$
+delay 1.0 $#%#$
+writel NO IMPACT $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel ELMENDORF AIRFORCE BASE: $#%#$
+delay 1.0 $#%#$
+writel NO IMPACT $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel GRAND FORKS AIRFORCE BASE: $#%#$
+delay 1.0 $#%#$
+writel NO IMPACT $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel ** IMPROPER REQUEST ** $#%#$
+writel ** GAME ROUTINE RUNNING ** $#%#$
+writel ** ROUTINE MUST COMPLETE BEFORE RESET ** $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel PASSWORD FILE: $#%#$
+delay 1.0 $#%#$
+writel DELETED $#%#$
+writel  $#%#$
+writel  $#%#$
+writel LOGON: 7KQ201 McKittrick $#%#$
 delay 1.0 $#%#$
 writel  $#%#$
-writel  ELMENDORF AIRFORCE BASE   : NO IMPACT $#%#$
+writel ** IDENTIFICATION NOT RECOGNIZED ** $#%#$
+writel ** ACCESS DENIED ** $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel LAUNCH TIME: >> AWAITING CODES << $#%#$
+delay 5.0 $#%#$
+clearTerminal $#%#$
+writel - - -  - - - -  - - - $#%#$
+delay 2.0 $#%#$
+writel - - -  - - - 4  - - - $#%#$
+delay 2.0 $#%#$
+writel - P -  1 - - 4  - - - $#%#$
+delay 2.0 $#%#$
+writel - P -  1 - - 4  - - - $#%#$
+delay 2.0 $#%#$
+writel - P -  1 - 0 4  - - - $#%#$
+delay 2.0 $#%#$
+writel C P -  1 - 0 4  - - - $#%#$
+delay 2.0 $#%#$
+writel C P -  1 7 0 4  - - - $#%#$
+delay 2.0 $#%#$
+writel C P E  1 7 0 4  - - - $#%#$
+delay 2.0 $#%#$
+writel C P E  1 7 0 4  - - S $#%#$
+delay 2.0 $#%#$
+writel C P E  1 7 0 4  - K S $#%#$
+delay 2.0 $#%#$
+writel C P E  1 7 0 4  T K S $#%#$
+delay 5.0 $#%#$
+clearTerminal $#%#$
+delay 2.5 $#%#$
+writel LAUNCH STATUS: $#%#$
 delay 1.0 $#%#$
-writel  $#%#$
-writel  GRAND FORKS AIRFORCE BASE : NO IMPACT $#%#$
-delay 2.5 $#%#$
-writel  $#%#$
-writel  $#%#$
-writel --LOCATING MISSILE LUNCH CODES-- $#%#$
-delay 2.5 $#%#$
-writel  $#%#$
-writel  $#%#$
-writel - - - - - - - - - - $#%#$
-delay 2.0 $#%#$
-writel C - - - - - - - - - $#%#$
-delay 2.0 $#%#$
-writel C P - - - - - - - - $#%#$
-delay 2.0 $#%#$
-writel C P E - - - - - - - $#%#$
-delay 2.0 $#%#$
-writel C P E 1 - - - - - - $#%#$
-delay 2.0 $#%#$
-writel C P E 1 7 - - - - - $#%#$
-delay 2.0 $#%#$
-writel C P E 1 7 0 - - - - $#%#$
-delay 2.0 $#%#$
-writel C P E 1 7 0 4 - - - $#%#$
-delay 2.0 $#%#$
-writel C P E 1 7 0 4 - - - $#%#$
-delay 2.0 $#%#$
-writel C P E 1 7 0 4 T - - $#%#$
-delay 2.0 $#%#$
-writel C P E 1 7 0 4 T K - $#%#$
-delay 2.0 $#%#$
-writel C P E 1 7 0 4 T K S $#%#$
-delay 2.0 $#%#$
-writel C P E 1 7 0 4 T K S $#%#$
-delay 1.0 $#%#$
-writel  $#%#$
-writel C P E 1 7 0 4 T K S $#%#$
-writel C P E 1 7 0 4 T K S $#%#$
-writel C P E 1 7 0 4 T K S $#%#$
-writel C P E 1 7 0 4 T K S $#%#$
-writel C P E 1 7 0 4 T K S $#%#$
-writel C P E 1 7 0 4 T K S $#%#$
-writel C P E 1 7 0 4 T K S $#%#$
-writel C P E 1 7 0 4 T K S $#%#$
-writel C P E 1 7 0 4 T K S $#%#$
-writel C P E 1 7 0 4 T K S $#%#$
-delay 2.5 $#%#$
-writel I GOT THE CODE NOW $#%#$
-delay 2.5 $#%#$
-writel  $#%#$
-writel I'M GOING TO LAUNCH! $#%#$
+writel ACTIVE
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$

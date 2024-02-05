@@ -87,8 +87,7 @@ startMusic $#%#$
 showNetMap $#%#$
 showRam $#%#$
 showDisplay $#%#$
-delay 30 $#%#$
 writel --SESSION DISCONNECTED-- $#%#$
-delay 2.5 $#%#$
+delay 30 $#%#$
 reboot $#%#$
 disconnect $#%#$
