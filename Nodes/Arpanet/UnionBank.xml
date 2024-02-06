@@ -5,10 +5,11 @@ ip="311.399.236.4"
 security="0" 
 type="1">
 
+  <admin type="progress" />
   <firewall level="5" solution="money" additionalTime="1.0"/>
   <portsForCrack val="3" />
   <ports>22, 21, 25</ports>
-  <trace time="100" />
+  <trace time="150" />
 
 <dlink target="flightTerm" />
 

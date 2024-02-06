@@ -4,6 +4,7 @@ name="SOUTHWEST HOSPITAL"
 security="0" 
 type="1">
 
+  <admin type="progress" />
   <firewall level="8" solution="medicine" additionalTime="1.0"/>
   <portsForCrack val="2" />
   <ports>22, 21, 25</ports>

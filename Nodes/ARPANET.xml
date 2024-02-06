@@ -4,9 +4,9 @@ name="ARPANET"
 security="0"
 type="3">
 
-  <portsForCrack val="3" />
+  <admin type="progress" />
+  <portsForCrack val="1" />
   <ports>22, 21, 25</ports>
-  <trace time="300" />
   <admin type="progress" />
   <firewall level="7" solution="network" additionalTime="0.5"/>
 

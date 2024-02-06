@@ -5,6 +5,7 @@ ip="311.399.357.2"
 security="0" 
 type="1">
 
+  <admin type="progress" />
   <portsForCrack val="2" />
   <ports>22, 21, 25</ports>
   <trace time="-1" />

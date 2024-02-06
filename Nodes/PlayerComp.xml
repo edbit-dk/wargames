@@ -18,7 +18,7 @@ type="2" >
 
 
   <file path="home" name="PASSWORD-LISTS.txt">
-This is a complete list of the most common usernames and passwords I have found different terminals use on (mainly ARPANET). 
+This is a complete list of the most common usernames and passwords I have found different terminals use on the ARPANET. 
 Some give ADMIN access, some don't. Try at your own risk!
 
 USERNAMES:
@@ -43,7 +43,8 @@ alpine - (FAX AND DIALUP)
 HINTS:
 Sometimes people use passwords with close relation to their family and loved ones to make the password more unique.
 
-- Malvin and Jim from Tech Lab
+- Malvin and Jim, 
+Seattle Tech Lab
   </file>
 
 <file path="home" name="LETTER.txt">

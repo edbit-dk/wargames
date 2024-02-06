@@ -12,8 +12,4 @@
       <AddConditionalActions Filepath="Actions/4-WOPRActions.xml" DelayHost="delayHost" Delay="60"/>
   </OnAdminGained>
 
-  <OnAdminGained target="techLab">
-    <LaunchHackScript Filepath="HackerScripts/TrapHack.txt" Delay="21.5" DelayHost="delayHost" SourceComp="techLab" TargetComp="playerComp" RequireLogsOnSource="true"/>
-  </OnAdminGained>
-
 </ConditionalActions>

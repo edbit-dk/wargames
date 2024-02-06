@@ -9,6 +9,7 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
+<missionStart>addFlags:CSEC_Member</missionStart>
 <missionEnd val="2">changeSong</missionEnd>
 <nextMission>Missions/3-DIALER.xml</nextMission>
   <!-- 
@@ -22,13 +23,13 @@ Congratulations, you have successfully changed your Biology grades.
 Now you and Jennifer won't be stuck in summer school! 
 
 Jennifer asked you to change her grade back, before she left in a bit of a mood. 
-
 You can change it back if you like, but girls have a habit of changing their minds - so you might choose to leave it.
-
 Besides, you like her and don't want her to flunk in school! 
-Now use the SCAN program from the school datanet to look for other systems. 
 
+Now use the SCAN program from the school datanet to look for other systems. 
 You are looking for ProtoVision in Sunnyvale (California) because you want to play their new games - but who knows what else you might find.
+
+You have to find a way from Seattle to California by "hacking" your way through different systems on the ARPANET.
 
 Reply back when done.
 
@@ -36,11 +37,11 @@ Reply back when done.
 </body>
     <attachments>
 <note title="SCAN">
-FIND GAMES:
-1. SCAN the school network
+HACKING:
+1. SCAN the school network for other systems
 2. Use "PASSWORD-LISTS.txt" to brute-force computers
-3. Look for usefull programs with the extension ".exe"
-4. Get access to "SOUTHWEST DATACENTER" in California
+3. Look for (LS/DIR) usefull programs on hacked systems with the ".exe" extension
+4. Get access to "SOUTHWEST DATACENTER" in California and reply back
 5. If in doubt use the HELP program
 </note>
 <link comp="academic" />

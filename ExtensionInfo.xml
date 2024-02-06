@@ -38,7 +38,7 @@ A story set in 1983 with inspiration taken from the movie "WarGames". You play a
   <StartsWithTutorial>False</StartsWithTutorial>
   
   <!-- this makes the extension start with the standard restart bootup sequence -->
-  <HasIntroStartup>False</HasIntroStartup>
+  <HasIntroStartup>True</HasIntroStartup>
   
   <StartingTheme>Themes/Terminal.xml</StartingTheme>
   <!-- 
@@ -80,7 +80,7 @@ A story set in 1983 with inspiration taken from the movie "WarGames". You play a
   0 = public
   1 = friends only
   2 = private (self only)-->
-  <WorkshopVisibility>0</WorkshopVisibility>
+  <WorkshopVisibility>2</WorkshopVisibility>
 
   <!-- Comma separated list of tags that this should be listed under in the workshop. This is not currently used, as the only category
   of workshop item in Hacknet is "Extension", so leave this as-is for now.-->

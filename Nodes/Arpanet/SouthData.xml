@@ -5,8 +5,9 @@ ip="311.255.255.255"
 security="0" 
 type="1">
 
+  <admin type="progress" />
   <firewall level="4" solution="data" additionalTime="1.0"/>
-  <portsForCrack val="3" />
+  <portsForCrack val="2" />
   <ports>22, 21, 25</ports>
   <trace time="200" />
 
