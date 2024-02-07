@@ -10,7 +10,7 @@ type="3">
   <firewall level="6" solution="hacker" additionalTime="1"/>
   <portsForCrack val="3" />
   <ports>22, 21, 25</ports>
-  <trace time="100" />
+  <trace time="10" />
   <tracker />
 
 <account username="ftp" password="uploader" type="0" />
@@ -50,7 +50,7 @@ Opens encrypted files, if correct password is given
 
   <file path="home" name="PASSWORD-LISTS.txt">
 This is a complete list of the most common usernames and passwords I have found different terminals use on the ARPANET. 
-Some give ADMIN access, some don't. Try at your own risk!
+Some give (backdoor) ADMIN access, some don't. Try at your own risk!
 
 USERNAMES:
 admin - (DEFAULT SUPERUSER)
@@ -79,7 +79,7 @@ Seattle Tech Lab
   </file>
 
    <uploadServerDaemon name="FTP Server" folder="FTP" 
-                      needsAuth="false" color="84,165,212"/>
+                      needsAuth="true" color="84,165,212"/>
 
  <variableMissionListingServer name="Articles" group="hackerfac" iconPath="Docs/TechArticles/Logo.png" articleFolderPath="Docs/TechArticles" color="84,165,212" assigner="false" public="true" title="Seattle Tech Lab"/>
 

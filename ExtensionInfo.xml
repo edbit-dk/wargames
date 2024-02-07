@@ -13,7 +13,7 @@
   <Language>en-us</Language>
   
   <!-- Max name length is 128 characters -->
-	<Name>WarGames</Name>
+	<Name>WarGames (1983)</Name>
 	<AllowSaves>true</AllowSaves>
   
   <!-- a coma separated list of notes that start out as being visible-->
@@ -29,7 +29,7 @@
 
   <!-- Description that appears within Hacknet -->
 <Description>
-A story set in 1983 with inspiration taken from the movie "WarGames". You play as a hacker who, with a little help, stumbels upon a military war simulation computer and almost start WW3.
+A young man finds a back door into a military central computer in which reality is confused with game-playing, possibly starting World War III.
 </Description>
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
@@ -71,7 +71,7 @@ A story set in 1983 with inspiration taken from the movie "WarGames". You play a
         public string WorkshopTags;
         public string WorkshopPreviewImagePath;
   -->
-  <WorkshopDescription>A story set in 1983 with inspiration taken from the movie "WarGames". You play as a hacker who, with a little help, stumbels upon a military war simulation computer and almost start WW3.</WorkshopDescription>
+  <WorkshopDescription>A young man finds a back door into a military central computer in which reality is confused with game-playing, possibly starting World War III.</WorkshopDescription>
 
   <!-- Language that this is set to. -->
   <WorkshopLanguage>English</WorkshopLanguage>

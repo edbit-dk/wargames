@@ -14,7 +14,7 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel ** CHANGES LOCKED OUT ** $#%#$
-delay 2.5 $#%#$
+delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel  LORING AIRFORCE BASE: $#%#$
@@ -39,9 +39,8 @@ writel ** ROUTINE MUST COMPLETE BEFORE RESET ** $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel PASSWORD FILE: $#%#$
+writel RUN COMMAND: RM /etc/passwd $#%#$
 delay 1.0 $#%#$
-write  DELETED $#%#$
 writel  $#%#$
 writel  $#%#$
 writel LOGON: $#%#$
@@ -94,7 +93,7 @@ delay 2.5 $#%#$
 writel LAUNCH STATUS: $#%#$
 delay 1.0 $#%#$
 write  ACTIVE $#%#$
-delay 21.5 $#%#$
+delay 10 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel GOODBYE. $#%#$
@@ -104,7 +103,7 @@ writel --CONNECTION TERMINATED-- $#%#$
 writel  $#%#$
 writel  $#%#$
 writel #BINARYSMALL# $#%#$
-delay 21.5 $#%#$
+delay 10 $#%#$
 clearTerminal $#%#$
 forkbomb $#%#$
 disconnect $#%#$

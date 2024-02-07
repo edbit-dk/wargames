@@ -2,7 +2,6 @@
 <mission id="2-GRADES">
   <goals>
     <!-- Goals here -->
-    <goal type="getadmin" target="southData"/>
 </goals>
   <!-- 
   Add your mission start and end items here
@@ -11,7 +10,7 @@
   -->
 <missionStart>addFlags:CSEC_Member</missionStart>
 <missionEnd val="2">changeSong</missionEnd>
-<nextMission>Missions/3-DIALER.xml</nextMission>
+<nextMission>NONE</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
@@ -30,8 +29,6 @@ Now use the SCAN program from the school datanet to look for other systems.
 You are looking for ProtoVision in Sunnyvale (California) because you want to play their new games - but who knows what else you might find.
 
 You have to find a way from Seattle to California by "hacking" your way through different systems on the ARPANET.
-
-Reply back when done.
 </body>
     <attachments>
 <note title="HACKING">

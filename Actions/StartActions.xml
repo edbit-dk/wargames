@@ -12,4 +12,10 @@
       <AddConditionalActions Filepath="Actions/4-WOPRActions.xml" DelayHost="delayHost" Delay="60"/>
   </OnAdminGained>
 
+   <!-- triggered once the player gets admin access to the target machine -->
+  <OnAdminGained target="southData">
+    <!--Actions here-->
+    <LoadMission MissionName="Missions/3-DIALER.xml" />
+  </OnAdminGained>
+
 </ConditionalActions>

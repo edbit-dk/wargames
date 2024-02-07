@@ -19,7 +19,7 @@ type="2" >
 
   <file path="home" name="PASSWORD-LISTS.txt">
 This is a complete list of the most common usernames and passwords I have found different terminals use on the ARPANET. 
-Some give ADMIN access, some don't. Try at your own risk!
+Some give (backdoor) ADMIN access, some don't. Try at your own risk!
 
 USERNAMES:
 admin - (DEFAULT SUPERUSER)
@@ -47,7 +47,7 @@ Sometimes people use passwords with close relation to their family and loved one
 Seattle Tech Lab
   </file>
 
-<file path="home" name="LETTER.txt">
+<file path="home" name="Letter.txt">
 Dear Jennifer
 
 You are my best friend.

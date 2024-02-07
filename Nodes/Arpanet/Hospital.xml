@@ -6,7 +6,7 @@ type="1">
 
   <admin type="progress" />
   <firewall level="8" solution="medicine" additionalTime="1.0"/>
-  <portsForCrack val="2" />
+  <portsForCrack val="3" />
   <ports>22, 21, 25</ports>
   <trace time="200" />
 

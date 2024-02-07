@@ -2,7 +2,7 @@
   
   <Instantly>
       <LoadMission MissionName="Missions/8-FALKEN.xml" />
-      <ShowNode DelayHost="delayHost" Delay="2.5" Target="falkenTerm" />
+      <ShowNode DelayHost="delayHost" Delay="2.5" Target="armyFalken" />
 
       <AddConditionalActions Filepath="Actions/9-ATTACKActions.xml" DelayHost="delayHost" Delay="60"/>
   </Instantly>

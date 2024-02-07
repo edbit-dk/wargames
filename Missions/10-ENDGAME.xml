@@ -44,7 +44,7 @@ Remember to REPLY back when done!
 - DOWNLOAD (scp) "TIC_TAC_TOE.exe" game.
 - UPLOAD game to WOPR (bin). 
       </note>
-    <account comp="falkenTerm" user="admin" pass="Joshua" />
+    <account comp="armyFalken" user="admin" pass="Joshua" />
     </attachments>
   </email>
 </mission>

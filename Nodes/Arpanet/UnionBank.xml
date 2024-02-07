@@ -9,7 +9,7 @@ type="1">
   <firewall level="5" solution="money" additionalTime="1.0"/>
   <portsForCrack val="3" />
   <ports>22, 21, 25</ports>
-  <trace time="150" />
+  <trace time="200" />
 
 <dlink target="flightTerm" />
 

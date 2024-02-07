@@ -59,7 +59,6 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel PRIMARY TARGETS BY CITY AND/OR COUNTRY NAME: $#%#$
-writel  $#%#$
 write  LAS VEGAS, SEATTLE, NEW YORK, MIAMI $#%#$
 delay 2.5 $#%#$
 writel  $#%#$

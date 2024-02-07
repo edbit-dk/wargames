@@ -1,10 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="falkenTerm" 
+<Computer id="armyFalken" 
 name="FALKEN TERMINAL"
 security="0" 
 type="3">
 
-<adminPass pass="joshua" />
+<adminPass pass="Joshua" />
 
   <portsForCrack val="999" />
   <ports></ports>
