@@ -7,9 +7,6 @@ connect $#%#$
 clearTerminal $#%#$
 stopMusic $#%#$
 delay 1.0 $#%#$
-writel #BINARYSMALL# $#%#$
-writel  $#%#$
-writel  $#%#$
 writel --CONNECTING-- $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
@@ -17,6 +14,10 @@ writel  $#%#$
 writel LOGON: $#%#$
 delay 1.0 $#%#$
 write  Joshua $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel #BINARY# $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$

@@ -13,7 +13,7 @@ writel  $#%#$
 writel LOADING GAME: "TIC TAC TOE" $#%#$
 writel NUMBER OF PLAYERS?: $#%#$
 delay 1.0 $#%#$
-writel ZERO $#%#$
+write  ZERO $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -38,7 +38,7 @@ writel  $#%#$
 writel  $#%#$
 writel NUMBER OF WINNERS: $#%#$
 delay 1.0 $#%#$
-writel NONE $#%#$
+write  NONE $#%#$
 writel  $#%#$
 writel  $#%#$
 writel --SYSTEM OVERLOAD-- $#%#$
@@ -53,7 +53,6 @@ writel  $#%#$
 writel --MISSILE SYSTEMS OFF-LINE-- $#%#$
 delay 5.0 $#%#$
 clearTerminal $#%#$
-writel #BINARYSMALL# $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$

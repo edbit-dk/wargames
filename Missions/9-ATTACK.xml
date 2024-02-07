@@ -9,7 +9,7 @@
   missionEnd val="1">addRank</missionEnd> 
   -->
 <missionStart val="9">changeSong</missionStart>
-<nextMission>Missions/10-ENDGAME.xml</nextMission>
+<nextMission>NONE</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
