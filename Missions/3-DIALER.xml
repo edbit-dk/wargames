@@ -10,8 +10,7 @@
   missionEnd val="1">addRank</missionEnd> 
   -->
 <missionEnd val="3">changeSong</missionEnd>
-<missionEnd val="0">loadConditionalActions:Actions/4-WOPRActions.xml</missionEnd>
-<nextMission>NONE</nextMission>
+<nextMission>Missions/4-WOPR.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->

@@ -11,7 +11,7 @@
   -->
 <missionStart val="10">changeSong</missionStart>
 <missionEnd val="0">loadConditionalActions:Actions/11-FINALActions.xml</missionEnd>
-<nextMission>NONE</nextMission>
+<nextMission>Missions/11-CREDITS.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
@@ -44,7 +44,7 @@ Remember to REPLY back when done!
 - DOWNLOAD (scp) "TIC_TAC_TOE.exe" game.
 - UPLOAD game to WOPR (bin). 
       </note>
-    <account comp="armyFalken" user="admin" pass="Joshua" />
+    <account comp="armyFalken" user="admin" pass="Lory" />
     </attachments>
   </email>
 </mission>

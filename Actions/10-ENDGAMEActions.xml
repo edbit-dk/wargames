@@ -3,7 +3,7 @@
   <Instantly>
       <LoadMission MissionName="Missions/10-ENDGAME.xml" />
 
-     <StartScreenBleedEffect AlertTitle="MISSILE LAUNCH COUNTDOWN" CompleteAction="Actions/STOPActions.xml" TotalDurationSeconds="120" DelayHost="delayHost" Delay="21.5">
+     <StartScreenBleedEffect AlertTitle="MISSILE LAUNCH COUNTDOWN" CompleteAction="Actions/STOPActions.xml" TotalDurationSeconds="120" DelayHost="delayHost" Delay="60">
     STOP WOPR BEFORE HE LAUNCHES THE MISSILES!
       </StartScreenBleedEffect>
 
