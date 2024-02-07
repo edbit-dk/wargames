@@ -6,13 +6,6 @@ connect $#%#$
 stopMusic $#%#$
 clearTerminal $#%#$
 delay 1.0 $#%#$
-writel #BINARYSMALL# $#%#$
-writel  $#%#$
-writel  $#%#$
-writel --CONNECTING-- $#%#$
-delay 2.5 $#%#$
-writel  $#%#$
-writel  $#%#$
 writel ANALYZING NEW GAME: "TIC_TAC_TOE.exe" $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
@@ -34,27 +27,14 @@ writel ..X......XOO......X.......XOX..... $#%#$
 delay 0.5 $#%#$
 writel ..X......XOO......X.......XOX..... $#%#$
 delay 0.5 $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
-writel ..X......XOO......X.......XOX..... $#%#$
+writel #BINARYSMALL# $#%#$
+writel #BINARYSMALL# $#%#$
+writel #BINARYSMALL# $#%#$
+writel #BINARYSMALL# $#%#$
+writel #BINARYSMALL# $#%#$
 delay 2.5 $#%#$
+clearTerminal $#%#$
+writel  $#%#$
 writel  $#%#$
 writel NUMBER OF WINNERS: $#%#$
 delay 1.0 $#%#$
@@ -91,13 +71,6 @@ delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel HOW ABOUT A NICE GAME OF CHESS? $#%#$
-delay 2.5 $#%#$
-writel  $#%#$
-writel  $#%#$
-writel --GAME TERMINATED-- $#%#$
-writel  $#%#$
-writel  $#%#$
-writel #BINARYSMALL# $#%#$
 delay 5.0 $#%#$
 startMusic $#%#$
 showNetMap $#%#$

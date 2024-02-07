@@ -2,7 +2,7 @@
 <mission id="10-ENDGAME">
   <goals>
     <!-- Goals here -->
-      <goal type="fileupload" target="falkenTerm" file="TIC_TAC_TOE.exe" path="bin" destTarget="armyWOPR" destPath="bin"/>
+      <goal type="fileupload" target="armyFalken" file="TIC_TAC_TOE.exe" path="bin" destTarget="armyWOPR" destPath="bin"/>
 </goals>
   <!-- 
   Add your mission start and end items here
@@ -11,7 +11,7 @@
   -->
 <missionStart val="10">changeSong</missionStart>
 <missionEnd val="0">loadConditionalActions:Actions/11-FINALActions.xml</missionEnd>
- <nextMission>NONE</nextMission>
+<nextMission>NONE</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
