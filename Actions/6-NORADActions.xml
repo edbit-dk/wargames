@@ -9,7 +9,7 @@
       <ShowNode DelayHost="delayHost" Delay="21.5" Target="armyDatanet" />
       <ShowNode DelayHost="delayHost" Delay="21.5" Target="armyWOPR" />
 
-      <LaunchHackScript Filepath="HackerScripts/WOPR_GAME-2.txt" DelayHost="delayHost" Delay="30" SourceComp="armyWOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
+      <LaunchHackScript Filepath="HackerScripts/WOPR_GAME-2.txt" DelayHost="delayHost" Delay="60" SourceComp="armyWOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
       <AddConditionalActions Filepath="Actions/7-ESCAPEActions.xml" DelayHost="delayHost" Delay="60"/>
   </Instantly>
 

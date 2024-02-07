@@ -37,7 +37,7 @@ writel  $#%#$
 writel  $#%#$
 writel THE PRIMARY GOAL IS: $#%#$
 delay 1.0 $#%#$
-writel TO WIN THE GAME. $#%#$
+write  TO WIN THE GAME. $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -60,7 +60,9 @@ writel 72 MILLION PEOPLE DEAD. $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel GAME OR REAL: WHAT'S THE DIFFERENCE? $#%#$
+writel GAME OR REAL: $#%#$
+delay 1.0 $#%#$
+write  WHAT'S THE DIFFERENCE? $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -68,8 +70,7 @@ writel --CONNECTION TERMINATED-- $#%#$
 writel  $#%#$
 writel  $#%#$
 writel #BINARYSMALL# $#%#$
-delay 2.5 $#%#$
+delay 5.0 $#%#$
 clearTerminal $#%#$
 startMusic $#%#$
-showRam $#%#$
 disconnect $#%#$

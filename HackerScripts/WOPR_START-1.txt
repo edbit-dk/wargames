@@ -60,7 +60,7 @@ writel  $#%#$
 writel  $#%#$
 writel PRIMARY TARGETS BY CITY AND/OR COUNTRY NAME: $#%#$
 writel  $#%#$
-writel LAS VEGAS, SEATTLE, NEW YORK, MIAMI $#%#$
+write  LAS VEGAS, SEATTLE, NEW YORK, MIAMI $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -68,7 +68,7 @@ writel ** TARGET SELECTION COMPLETE ** $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel DEFCON 3 IN EFFECT $#%#$
+writel ** DEFCON: 3 ** $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -90,14 +90,14 @@ showDisplay $#%#$
 writel --SESSION DISCONNECTED-- $#%#$
 delay 21.5 $#%#$
 writel  $#%#$
-writel REBOOT.....5 $#%#$
+writel REBOOTING.....5 $#%#$
 delay 1 $#%#$
-writel REBOOT.....4 $#%#$
+writel REBOOTING.....4 $#%#$
 delay 1 $#%#$
-writel REBOOT.....3 $#%#$
+writel REBOOTING.....3 $#%#$
 delay 1 $#%#$
-writel REBOOT.....2 $#%#$
+writel REBOOTING.....2 $#%#$
 delay 1 $#%#$
-writel REBOOT.....1 $#%#$
+writel REBOOTING.....1 $#%#$
 reboot $#%#$
 disconnect $#%#$

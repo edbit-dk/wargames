@@ -8,7 +8,7 @@ type="3">
  <!-- Accounts -->
 <adminPass pass="00000000" />
 
-<account username="mckittrick" password="sysman" type="0" />
+<account username="mckittrick" password="sysop" type="0" />
 <account username="beringer" password="general" type="0" />
 
   <proxy time="1" />
@@ -17,7 +17,6 @@ type="3">
   <portsForCrack val="4" />
   <ports>22, 25, 80, 21</ports>
   <trace time="300" />
-   <tracker />
 
  <file path="home" name="WAR_ROOM.txt">
 System manager: Mr. McKittrick
@@ -25,7 +24,7 @@ Personal assistant: Miss. Pat Healy
 Command: General Beringer
  </file>  
 
-   <encryptedFile path="home" name="classified.dec" extension=".txt" ip="armyDatanet" header="Stephen Falken">
+   <encryptedFile path="home" name="TOP_SECRET.dec" extension=".txt" ip="armyDatanet" header="Stephen Falken">
 FALKEN'S MAZE: Teaching a Machine to Think
 
 POKER AND ARMAGEDDON: THE ROLE OF BLUFFING IN A NUCLEAR STANDOFF 
@@ -37,7 +36,7 @@ by Stephen Falken, with John McKittrick
   </encryptedFile>
 
 
-  <encryptedFile path="home" name="LUNCH_CODES.dec" extension=".txt" ip="311.767.730.5" header="DOD" pass="00000000">
+  <encryptedFile path="home" name="LAUNCH_CODES.dec" extension=".txt" ip="311.767.730.5" header="DOD" pass="00000000">
 CPE1704TKS
   </encryptedFile>
 

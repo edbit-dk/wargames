@@ -1,6 +1,4 @@
 config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
-hideNetMap $#%#$
-hideRam $#%#$
 connect $#%#$
 clearTerminal $#%#$
 delay 1.0 $#%#$
@@ -21,17 +19,17 @@ writel  $#%#$
 writel  $#%#$
 writel  LORING AIRFORCE BASE: $#%#$
 delay 1.0 $#%#$
-writel NO IMPACT $#%#$
+write  NO IMPACT $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel ELMENDORF AIRFORCE BASE: $#%#$
 delay 1.0 $#%#$
-writel NO IMPACT $#%#$
+write  NO IMPACT $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel GRAND FORKS AIRFORCE BASE: $#%#$
 delay 1.0 $#%#$
-writel NO IMPACT $#%#$
+write  NO IMPACT $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -43,11 +41,12 @@ writel  $#%#$
 writel  $#%#$
 writel PASSWORD FILE: $#%#$
 delay 1.0 $#%#$
-writel DELETED $#%#$
+write  DELETED $#%#$
 writel  $#%#$
 writel  $#%#$
-writel LOGON: 7KQ201 McKittrick $#%#$
+writel LOGON: $#%#$
 delay 1.0 $#%#$
+write  7KQ201 McKittrick $#%#$
 writel  $#%#$
 writel ** IDENTIFICATION NOT RECOGNIZED ** $#%#$
 writel ** ACCESS DENIED ** $#%#$
@@ -55,36 +54,47 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel LAUNCH TIME: >> AWAITING CODES << $#%#$
+delay 21.5 $#%#$
+clearTerminal $#%#$
+writel 000-0000-000 $#%#$
 delay 5.0 $#%#$
 clearTerminal $#%#$
-writel - - -  - - - -  - - - $#%#$
-delay 2.0 $#%#$
-writel - - -  - - - 4  - - - $#%#$
-delay 2.0 $#%#$
-writel - P -  1 - - 4  - - - $#%#$
-delay 2.0 $#%#$
-writel - P -  1 - - 4  - - - $#%#$
-delay 2.0 $#%#$
-writel - P -  1 - 0 4  - - - $#%#$
-delay 2.0 $#%#$
-writel C P -  1 - 0 4  - - - $#%#$
-delay 2.0 $#%#$
-writel C P -  1 7 0 4  - - - $#%#$
-delay 2.0 $#%#$
-writel C P E  1 7 0 4  - - - $#%#$
-delay 2.0 $#%#$
-writel C P E  1 7 0 4  - - S $#%#$
-delay 2.0 $#%#$
-writel C P E  1 7 0 4  - K S $#%#$
-delay 2.0 $#%#$
-writel C P E  1 7 0 4  T K S $#%#$
+writel 000-0004-000 $#%#$
+delay 5.0 $#%#$
+clearTerminal $#%#$
+writel 0P0-0004-000 $#%#$
+delay 5.0 $#%#$
+clearTerminal $#%#$
+writel 0P0-1004-000 $#%#$
+delay 5.0 $#%#$
+clearTerminal $#%#$
+writel CP0-1004-000 $#%#$
+delay 5.0 $#%#$
+clearTerminal $#%#$
+writel CP0-1704-00S $#%#$
+delay 5.0 $#%#$
+clearTerminal $#%#$
+writel CPE-1704-00S $#%#$
+delay 5.0 $#%#$
+clearTerminal $#%#$
+writel CPE-1704-00S $#%#$
+delay 5.0 $#%#$
+clearTerminal $#%#$
+writel CPE-1704-TKS $#%#$
+delay 5.0 $#%#$
+clearTerminal $#%#$
+writel CPE-1704-TKS $#%#$
+delay 5.0 $#%#$
+clearTerminal $#%#$
+writel LAUNCH CODE: $#%#$
+write CPE-1704-TKS $#%#$
 delay 2.5 $#%#$
 clearTerminal $#%#$
 delay 2.5 $#%#$
 writel LAUNCH STATUS: $#%#$
 delay 1.0 $#%#$
-writel ACTIVE $#%#$
-delay 2.5 $#%#$
+write  ACTIVE $#%#$
+delay 21.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel GOODBYE. $#%#$
@@ -94,7 +104,7 @@ writel --CONNECTION TERMINATED-- $#%#$
 writel  $#%#$
 writel  $#%#$
 writel #BINARYSMALL# $#%#$
-delay 2.5 $#%#$
+delay 21.5 $#%#$
 clearTerminal $#%#$
 forkbomb $#%#$
 disconnect $#%#$

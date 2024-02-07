@@ -17,18 +17,19 @@
     <sender>Falken</sender>
     <subject>CREDITS</subject>
     <body>
-Thank you for all your help!
+Congratulations, you have completed "WarGames"!
 
-And thank you for playing this "War Game".
+Thank you for defeating WOPR and preventing WW3.
+Hope you liked the game(s)!
 
-Hope you liked it!
+Goodbye, and maybe we meet again.
 
-Goodbye.
+Now, roll credits!
 
 - Stephen Falken (UNKNOWN)
 </body>
     <attachments>
-    <link comp="relayHost" />
+    <link comp="delayHost" />
     </attachments>
   </email>
 </mission>

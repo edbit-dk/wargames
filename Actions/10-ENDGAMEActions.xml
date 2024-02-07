@@ -8,6 +8,8 @@
       </StartScreenBleedEffect>
 
     <RunFunction FunctionName="playCustomSong:Music/Countdown.ogg" />
+    
+         <LaunchHackScript Filepath="HackerScripts/WOPR_END-3.txt" DelayHost="delayHost" Delay="2" SourceComp="armyWOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
   </Instantly>
 
 </ConditionalActions>
