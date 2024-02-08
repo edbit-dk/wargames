@@ -2,14 +2,16 @@
 <mission id="8-FALKEN">
   <goals>
     <!-- Goals here -->
+    <goal type="delay" time="10.0"/>
 </goals>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
+<missionStart val="0">loadConditionalActions:Actions/8-FALKENActions.xml</missionStart> 
 <missionStart val="8">changeSong</missionStart>
-<nextMission>NONE</nextMission>
+<nextMission>Missions/9-ATTACK.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
@@ -36,6 +38,8 @@ When you get to Goose Island, you meet a man who is flying a remote control Pter
 You ask the man if he knows where you can find Dr. Robert Hume. 
 The man asks you to leave his land, but then you ask him if he's Stephen Falken 
 - and tell him you've come because of Joshua...
+
+Reply when you have talked with Falken.
 </body>
     <attachments>
     </attachments>

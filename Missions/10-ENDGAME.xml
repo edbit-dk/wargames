@@ -2,15 +2,16 @@
 <mission id="10-ENDGAME">
   <goals>
     <!-- Goals here -->
-      <goal type="fileupload" target="armyFalken" file="TIC_TAC_TOE.exe" path="bin" destTarget="armyWOPR" destPath="bin"/>
+      <goal type="fileupload" target="falken" file="TIC_TAC_TOE.exe" path="bin" destTarget="WOPR" destPath="bin"/>
 </goals>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-<missionStart val="10">changeSong</missionStart>
-<missionStart val="0">loadConditionalActions:Actions/11-FINALActions.xml</missionStart>
+<missionStart val="0">playCustomSong:Music/Countdown.ogg</missionStart>
+<missionEnd val="0">loadConditionalActions:Actions/11-FINALActions.xml</missionEnd>
+<missionEnd val="10">changeSong</missionEnd>
 <nextMission>Missions/11-CREDITS.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
@@ -44,7 +45,7 @@ Remember to REPLY back when done!
 - DOWNLOAD (scp) "TIC_TAC_TOE.exe" game.
 - UPLOAD game to WOPR (bin). 
       </note>
-    <account comp="armyFalken" user="admin" pass="Lory" />
+    <account comp="falken" user="admin" pass="Lory" />
     </attachments>
   </email>
 </mission>

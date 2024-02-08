@@ -2,6 +2,7 @@
 <mission id="4-WOPR">
   <goals>
     <!-- Goals here -->
+    <goal type="delay" time="10.0"/>
 </goals>
   <!-- 
   Add your mission start and end items here
@@ -9,7 +10,7 @@
   missionEnd val="1">addRank</missionEnd> 
   -->
 <missionStart val="4">changeSong</missionStart>
-<nextMission>NONE</nextMission>
+<nextMission>Missions/5-WW3.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
@@ -25,6 +26,8 @@ ask if "your little friend" Jennifer  wants to stay for tea.
 Apparently they are BBQing tonight. 
 
 You disconnect your session and go downstairs.
+
+Reply back when rebooted.
 </body>
     <attachments>
     </attachments>

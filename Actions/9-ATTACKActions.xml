@@ -1,8 +1,0 @@
-<ConditionalActions>
-  
-  <Instantly>
-      <LoadMission MissionName="Missions/9-ATTACK.xml" />
-      <AddConditionalActions Filepath="Actions/10-ENDGAMEActions.xml" DelayHost="delayHost" Delay="60"/>
-  </Instantly>
-
-</ConditionalActions>

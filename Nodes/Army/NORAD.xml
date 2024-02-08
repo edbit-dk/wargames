@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="armyDatanet" 
+<Computer id="NORAD" 
 name="NORAD SYSTEM COMMAND"
 ip="311.767.730.5"  
 security="0"  
@@ -8,8 +8,8 @@ type="3">
  <!-- Accounts -->
 <adminPass pass="00000000" />
 
-<account username="mckittrick" password="sysop" type="0" />
-<account username="beringer" password="general" type="0" />
+<account username="McKittrick" password="7KQ201" type="0" />
+<account username="Beringer" password="2KFC49" type="0" />
 
   <proxy time="1" />
   <firewall level="6" solution="defcon" additionalTime="0.5"/>
@@ -24,7 +24,7 @@ Personal assistant: Miss. Pat Healy
 Command: General Beringer
  </file>  
 
-   <encryptedFile path="home" name="TOP_SECRET.dec" extension=".txt" ip="armyDatanet" header="Stephen Falken">
+   <encryptedFile path="home" name="TOP_SECRET.dec" extension=".txt" ip="armyNORAD" header="Stephen Falken">
 FALKEN'S MAZE: Teaching a Machine to Think
 
 POKER AND ARMAGEDDON: THE ROLE OF BLUFFING IN A NUCLEAR STANDOFF 
@@ -40,7 +40,13 @@ by Stephen Falken, with John McKittrick
 CPE1704TKS
   </encryptedFile>
 
-  <dlink target="arpanet" />
-  <dlink target="armyWOPR" />
+   <file path="sys" name="passwd">
+  admin:00000000:0:0:/:/bin
+  McKittrick:7KQ201:0:0:/:/bin
+  Beringer:2KFC49:0:0:/:/bin
+  </file>
+
+  <dlink target="ispComp" />
+  <dlink target="WOPR" />
     
 </Computer>

@@ -4,6 +4,7 @@ name="PROTOVISION INC"
 security="0" 
 type="1">
 
+  <admin type="progress" />
   <proxy time="1" />
   <firewall level="5" solution="games" additionalTime="0.5"/>
   <portsForCrack val="3" />

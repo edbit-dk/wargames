@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="bbs" 
+<Computer id="BBS" 
 name="NIGHTOWL - BBS"
 security="0" 
 type="1">
@@ -14,5 +14,9 @@ type="1">
     <account username="guest" password="" type="1" />
 
     <dlink target="techLab" />
+
+  <file path="sys" name="passwd">
+  admin:12345678:0:0:/:/bin
+  </file>
 
 </Computer>

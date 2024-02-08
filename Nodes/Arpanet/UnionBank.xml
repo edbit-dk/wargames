@@ -11,7 +11,7 @@ type="1">
   <ports>22, 21, 25</ports>
   <trace time="200" />
 
-<dlink target="flightTerm" />
+<dlink target="PAN-AM" />
 
 <file path="database" name="accounts.rec">
 500 US        : Lightman, David L.

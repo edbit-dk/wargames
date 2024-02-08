@@ -1,10 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="armyFalken" 
+<Computer id="falken" 
 name="FALKEN TERMINAL"
 security="0" 
 type="3">
 
-<adminPass pass="Joshua" />
+<adminPass pass="Lory" />
 
   <portsForCrack val="999" />
   <ports></ports>
@@ -13,6 +13,11 @@ type="3">
 
 <file path="bin" name="TIC_TAC_TOE.exe">#BINARY#</file>
 
-<dlink target="armyDatanet" />
+
+<file path="sys" name="passwd">
+  admin:Lory:35:35:/:/bin
+  </file>
+
+<dlink target="NORAD" />
   
 </Computer>

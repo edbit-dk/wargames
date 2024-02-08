@@ -23,6 +23,10 @@ But I'm not ready to tell him yet...
 - Jen M
   </encryptedFile>
 
+<file path="sys" name="passwd">
+admin:000001:0:0:/:/bin
+</file>
+
 <dlink target="jmail" />
 
 </Computer>

@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="armyWOPR"
+<Computer id="WOPR"
 ip="311.437.873.9" 
 name="WOPR"
 icon="chip"  
@@ -38,8 +38,13 @@ WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
   <file path="sys" name="VT100.exe">#BINARY#</file>
   <file path="sys" name="UNIX.exe">#BINARY#</file>
   <file path="sys" name="LISP.exe">#BINARY#</file>
-  <file path="sys" name="SYSINFO.txt">
-  Programmer: Professor Stephen Falken
+  <file path="sys" name="SYSINFO.txt"> Programmer: Professor Stephen Falken</file>
+
+  <file path="sys" name="passwd">
+  admin:Joshua:0:0:/:/bin
+  help:games:35:35:Games:/bin
+  McKittrick:7KQ201:0:0:/:/bin
+  Beringer:2KFC49:0:0:/:/bin
   </file>
 
   <file path="home" name="DOD_PENSION_FILES.txt">
@@ -55,9 +60,5 @@ GOOSE ISLAND, OREGON 97014
   <portsForCrack val="4" />
   <ports>22, 25, 80, 21</ports>
   <trace time="10" />
-
-  <dlink target="armyDatanet" />
-
-    
 
 </Computer>

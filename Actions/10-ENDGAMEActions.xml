@@ -1,15 +1,11 @@
 <ConditionalActions>
   
   <Instantly>
-      <LoadMission MissionName="Missions/10-ENDGAME.xml" />
-
      <StartScreenBleedEffect AlertTitle="MISSILE LAUNCH COUNTDOWN" CompleteAction="Actions/STOPActions.xml" TotalDurationSeconds="120" DelayHost="delayHost" Delay="60">
     STOP WOPR BEFORE HE LAUNCHES THE MISSILES!
       </StartScreenBleedEffect>
-
-    <RunFunction FunctionName="playCustomSong:Music/Countdown.ogg" />
     
-         <LaunchHackScript Filepath="HackerScripts/WOPR_END-3.txt" DelayHost="delayHost" Delay="2" SourceComp="armyWOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
+      <LaunchHackScript Filepath="HackerScripts/WOPR_END-3.txt" DelayHost="delayHost" Delay="2.5" SourceComp="WOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
   </Instantly>
 
 </ConditionalActions>

@@ -22,8 +22,12 @@ type="3">
 Pencil
   </file>
 
+<file path="sys" name="passwd">
+admin:Pencil:0:0:/:/bin
+</file>
+
   <academicDatabase />
 
-<dlink target="bbs" />
+<dlink target="BBS" />
 
 </Computer>

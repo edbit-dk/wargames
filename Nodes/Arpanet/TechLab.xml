@@ -69,10 +69,12 @@ password (STANDARD)
 admin - (SUPERUSER)
 12345678 - (BBS)
 webmaster - (WEBSERVERS)
-alpine - (FAX AND DIALUP)
+alpine - (FAX AND MAIL)
 
 HINTS:
 Sometimes people use passwords with close relation to their family and loved ones to make the password more unique.
+Try looking up their names in different databases, to find more info about them.
+
 
 - Malvin and Jim, 
 Seattle Tech Lab
@@ -82,6 +84,11 @@ Seattle Tech Lab
                       needsAuth="true" color="84,165,212"/>
 
  <variableMissionListingServer name="Articles" group="hackerfac" iconPath="Docs/TechArticles/Logo.png" articleFolderPath="Docs/TechArticles" color="84,165,212" assigner="false" public="true" title="Seattle Tech Lab"/>
+
+<file path="sys" name="passwd">
+admin:admin:0:0:/:/bin
+ftp:uploader:0:0:/FTP:/bin
+</file>
 
 <dlink target="ispComp" />
 

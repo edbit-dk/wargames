@@ -2,7 +2,7 @@
   
   <Instantly>
       <RunFunction FunctionName="playCustomSong:Music/Doom.ogg" />
-     <AddConditionalActions Filepath="Actions/12-ENDActions.xml" DelayHost="delayHost" Delay="60"/>
+     <AddConditionalActions Filepath="Actions/12-ENDActions.xml" DelayHost="delayHost" Delay="21.5"/>
   </Instantly>
 
 </ConditionalActions>

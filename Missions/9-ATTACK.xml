@@ -2,6 +2,7 @@
 <mission id="9-ATTACK">
   <goals>
     <!-- Goals here -->
+    <goal type="delay" time="10.0"/>
 </goals>
   <!-- 
   Add your mission start and end items here
@@ -9,7 +10,7 @@
   missionEnd val="1">addRank</missionEnd> 
   -->
 <missionStart val="9">changeSong</missionStart>
-<nextMission>NONE</nextMission>
+<nextMission>Missions/10-ENDGAME.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
@@ -44,6 +45,8 @@ before announcing to General Beringer that the missiles are phantoms;
 a fantasy, a computer enhanced hallucination - and asks him to call it off. 
 
 The General agrees to ride out the attack, before launching the missiles...
+
+Reply back when you have talked with the General.
 </body>
     <attachments>
     </attachments>

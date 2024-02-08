@@ -2,14 +2,16 @@
 <mission id="6-NORAD">
   <goals>
     <!-- Goals here -->
+     <goal type="getadmin" target="NORAD"/>
 </goals>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-<missionStart val="6">changeSong</missionStart>
-<nextMission>NONE</nextMission>
+<missionStart val="0">loadConditionalActions:Actions/6-NORADActions.xml</missionStart>
+<missionEnd val="6">changeSong</missionEnd>
+<nextMission>Missions/7-ESCAPE.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
@@ -29,7 +31,11 @@ but later you are met by Mr. McKittrick - the computer facility manager at NORAD
 He takes you up to his office and questions you, but is called away - leaving you alone in his office. 
 There is a terminal near you, flashing cursor beckoning. 
 
-You wonder if the "backdoor" still works - so give it a try!
+You wonder if the "backdoor" to WOPR still works - so give it a try!
+
+But you have to hack the NORAD network first...
+
+Reply when done.
 </body>
     <attachments>
     </attachments>

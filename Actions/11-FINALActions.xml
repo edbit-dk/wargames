@@ -2,8 +2,7 @@
   
   <Instantly>
       <CancelScreenBleedEffect DelayHost="delayHost" Delay="2.5" />
-      <LaunchHackScript Filepath="HackerScripts/WOPR_STOP-4.txt" DelayHost="delayHost" Delay="2.5" SourceComp="armyWOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
-      <LoadMission MissionName="Missions/11-CREDITS.xml" />
+      <LaunchHackScript Filepath="HackerScripts/WOPR_STOP-4.txt" DelayHost="delayHost" Delay="2.5" SourceComp="WOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
   </Instantly>
 
 </ConditionalActions>

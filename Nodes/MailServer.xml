@@ -6,7 +6,7 @@ security="0"
 type="3" > 
 
 <admin type="basic" />
-<adminPass pass="123456789" />
+<adminPass pass="alpine" />
 <portsForCrack val="1" />
 <ports>80,22,21,25,1433</ports>
 <portsForCrack val="5" />
@@ -15,14 +15,25 @@ type="3" >
   
   <account username="#PLAYERNAME#" password="mail" type="2" />
 
-  <account username="malvin" password="hacker" type="2" />
-  <account username="jim" password="techguy" type="2" />
+  <account username="Malvin" password="hacker" type="2" />
+  <account username="Jim" password="techguy" type="2" />
 
-  <account username="unknown" password="?" type="2" />
+  <account username="UNKNOWN" password="?" type="2" />
+
+    <account username="Falken" password="Joshua" type="2" />
   
   <mailServer name="" color="50,237,212">
 
-  </mailServer>  
+  </mailServer> 
+
+<file path="sys" name="passwd">
+admin:alpine:0:0:/:/bin
+#PLAYERNAME#:mail:3:3:/:/Mail
+Malvin:hacker:3:3:/:/Mail
+Jim:techguy:3:3:/:/Mail
+UNKNOWN:?:3:3:/:/Mail
+Falken:Joshua:3:3:/:/Mail
+</file> 
 
   <positionNear target="playerComp" position="0" total="1" />
 </Computer>

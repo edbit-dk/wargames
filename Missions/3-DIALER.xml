@@ -2,7 +2,7 @@
 <mission id="3-DIALER">
   <goals>
     <!-- Goals here -->
-    <goal type="getadmin" target="armyWOPR"/>
+    <goal type="getadmin" target="WOPR"/>
 </goals>
   <!-- 
   Add your mission start and end items here
@@ -28,12 +28,15 @@ Jennifer comes back to your house where your computer screen is on the SCAN prog
 She asks what it's doing, to which you reply, it's 'scanning IP adresses'. 
 Jennifer asks if it will take long as she is keen to get her grade changed (maybe you already changed it?). 
 
-Now check the SCAN results and try to CONNECT to the systems you have found.
+Now check the SCAN results and try to CONNECT to all the systems you have found.
+
+Reply back when you think you are done.
 </body>
     <attachments>
 <note title="GAMES">
-Find the ProtoVision game server.
-It may be hidden.
+- Find the ProtoVision game server.
+- And anything else interesting.
+- Try to get access to all the systems you find.
 </note>
 <link comp="southData" />
     </attachments>

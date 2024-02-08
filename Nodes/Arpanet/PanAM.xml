@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="flightTerm" 
+<Computer id="PAN-AM" 
 name="PAN-AM RESERVATION SYSTEM"
 ip="311.399.357.2" 
 security="0" 
@@ -10,7 +10,7 @@ type="1">
   <ports>22, 21, 25</ports>
   <trace time="-1" />
 
- <dlink target="armyWOPR" />
+ <dlink target="WOPR" />
 
 <file path="database" name="reservations.rec">
 PASSENGER NAME: Lightman, David L.
