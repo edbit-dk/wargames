@@ -1,35 +1,38 @@
 config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$s
 connect $#%#$
 clearTerminal $#%#$
 delay 1.0 $#%#$
 writel --CONNECTING-- $#%#$
-delay 2.5 $#%#$
+delay 1.0 $#%#$
 writel 000-0000-000 $#%#$
-delay 2.5 $#%#$
+delay 1.0 $#%#$
 clearTerminal $#%#$
 writel 000-0004-000 $#%#$
-delay 2.5 $#%#$
+delay 1.0 $#%#$
 clearTerminal $#%#$
 writel 0P0-0004-000 $#%#$
-delay 2.5 $#%#$
+delay 1.0 $#%#$
 clearTerminal $#%#$
 writel 0P0-1004-000 $#%#$
-delay 2.5 $#%#$
+delay 1.0 $#%#$
 clearTerminal $#%#$
 writel CP0-1004-000 $#%#$
-delay 2.5 $#%#$
+delay 1.0 $#%#$
 clearTerminal $#%#$
 writel CP0-1704-00S $#%#$
-delay 2.5 $#%#$
+delay 1.0 $#%#$
 clearTerminal $#%#$
 writel CPE-1704-00S $#%#$
-delay 2.5 $#%#$
+delay 1.0 $#%#$
 clearTerminal $#%#$
 writel CPE-1704-00S $#%#$
-delay 2.5 $#%#$
+delay 1.0 $#%#$
 clearTerminal $#%#$
 writel CPE-1704-TKS $#%#$
-delay 2.5 $#%#$
+delay 1.0 $#%#$
 clearTerminal $#%#$
 writel CPE-1704-TKS $#%#$
 delay 2.5 $#%#$
@@ -59,10 +62,15 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel GOODBYE PROFESSOR FALKEN. $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel --CONNECTION TERMINATED-- $#%#$
-delay 2.5 $#%#$
+delay 5.0 $#%#$
 clearTerminal $#%#$
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$
+delete /sys/x-server.sys
 forkbomb $#%#$
 disconnect $#%#$

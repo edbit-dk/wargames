@@ -11,7 +11,7 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel ** CHANGES LOCKED OUT ** $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel  LORING AIRFORCE BASE: $#%#$
@@ -31,7 +31,9 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel ** IMPROPER REQUEST ** $#%#$
+delay 1.0 $#%#$
 writel ** GAME ROUTINE RUNNING ** $#%#$
+delay 1.0 $#%#$
 writel ** ROUTINE MUST COMPLETE BEFORE RESET ** $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
@@ -45,6 +47,7 @@ delay 1.0 $#%#$
 write  7KQ201 McKittrick $#%#$
 writel  $#%#$
 writel ** IDENTIFICATION NOT RECOGNIZED ** $#%#$
+delay 1.0 $#%#$
 writel ** ACCESS DENIED ** $#%#$
 delay 2.5 $#%#$
 writel  $#%#$

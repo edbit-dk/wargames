@@ -8,7 +8,7 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-<missionStart val="0">playCustomSong:Music/80s_pop.ogg</missionStart>
+<missionStart val="0">playCustomSong:Music/Doom.ogg</missionStart>
 <nextMission>Missions/10-ENDGAME.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
