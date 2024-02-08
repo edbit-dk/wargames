@@ -73,6 +73,5 @@ writel  $#%#$
 writel  $#%#$
 writel --CONNECTION TERMINATED-- $#%#$
 delay 5.0 $#%#$
-clearTerminal $#%#$
 startMusic $#%#$
 disconnect $#%#$

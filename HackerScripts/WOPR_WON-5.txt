@@ -6,7 +6,8 @@ connect $#%#$
 clearTerminal $#%#$
 delay 1.0 $#%#$
 writel --CONNECTING-- $#%#$
-delay 1.0 $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
 writel 000-0000-000 $#%#$
 delay 1.0 $#%#$
 clearTerminal $#%#$
@@ -37,7 +38,7 @@ clearTerminal $#%#$
 writel CPE-1704-TKS $#%#$
 delay 2.5 $#%#$
 clearTerminal $#%#$
-writel INPUT LAUNCH CODE: $#%#$
+writel LAUNCH CODE: $#%#$
 delay 1.0 $#%#$
 write  CPE-1704-TKS $#%#$
 delay 2.5 $#%#$
@@ -71,6 +72,6 @@ clearTerminal $#%#$
 showNetMap $#%#$
 showRam $#%#$
 showDisplay $#%#$
-delete /sys/x-server.sys
+delete /sys/x-server.sys $#%#$
 forkbomb $#%#$
 disconnect $#%#$

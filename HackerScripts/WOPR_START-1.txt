@@ -18,7 +18,7 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel #BINARY# $#%#$
-delay 5.0 $#%#$
+delay 2.5 $#%#$
 clearTerminal $#%#$
 writel LAST LOGIN: 6/23/73 $#%#$
 delay 1.0 $#%#$
@@ -62,7 +62,7 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel AWAITING FIRST STRIKE COMMAND $#%#$
-writel ___________________________________ $#%#$
+writel __________________________________ $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$

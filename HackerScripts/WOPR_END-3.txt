@@ -39,12 +39,13 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel RUN COMMAND: RM /sys/passwd $#%#$
-delay 1.0 $#%#$
+delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel LOGON: $#%#$
 delay 1.0 $#%#$
 write  7KQ201 McKittrick $#%#$
+writel  $#%#$
 writel  $#%#$
 writel ** IDENTIFICATION NOT RECOGNIZED ** $#%#$
 delay 1.0 $#%#$
