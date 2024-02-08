@@ -16,7 +16,7 @@ type="1">
     <dlink target="techLab" />
 
   <file path="sys" name="passwd">
-  admin:12345678:0:0:/:/bin
+admin:12345678:0:0:/:/bin
   </file>
 
 </Computer>

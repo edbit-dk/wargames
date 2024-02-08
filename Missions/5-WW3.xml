@@ -2,15 +2,13 @@
 <mission id="5-WW3">
   <goals>
     <!-- Goals here -->
-    <goal type="delay" time="10.0"/>
 </goals>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-<missionStart val="5">changeSong</missionStart>
-<missionEnd val="1">playCustomSong:Music/Traced.ogg</missionEnd>
+<missionStart val="0">playCustomSong:Music/Traced.ogg</missionStart>
 <nextMission>Missions/6-NORAD.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
@@ -31,7 +29,8 @@ into the WOPR, phone numbers, printouts. Everything!
 
 Just when you think all is fine, the phone rings. 
 
-Reply back when read.
+
+Reply back when you have read this mail.
 </body>
     <attachments>
     </attachments>

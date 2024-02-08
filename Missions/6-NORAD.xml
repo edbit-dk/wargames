@@ -10,7 +10,7 @@
   missionEnd val="1">addRank</missionEnd> 
   -->
 <missionStart val="0">loadConditionalActions:Actions/6-NORADActions.xml</missionStart>
-<missionEnd val="6">changeSong</missionEnd>
+<missionStart val="0">playCustomSong:Music/80s_pop.ogg</missionStart>
 <nextMission>Missions/7-ESCAPE.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
@@ -35,7 +35,8 @@ You wonder if the "backdoor" to WOPR still works - so give it a try!
 
 But you have to hack the NORAD network first...
 
-Reply when done.
+
+Reply back when you have read this mail.
 </body>
     <attachments>
     </attachments>

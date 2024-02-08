@@ -5,24 +5,6 @@
   If you have lots of actions looping or in delay at once (more than 50, say) it might be worth moving them to be delay hosted on one of these instead if you encounter performance issues.-->
   <FastActionHost />
 
-<file path="home" name="CreditsData.txt">
-%---  Credits File  ---
-
-^Why this exists
-This file contains the credits for the credits daemon below!
-
-%Starting a line with % makes the text super big
-^And starting it with ^ makes is kind of big.
-Lines starting with anything else are normal
-
-^Location
-This file must be in home/CreditsData.txt
-for the credits daemon to find and use it.
-
-</file>
-
-<FastActionHost />
-
   <CreditsDaemon Title="Wargames Credits" ButtonText="Play credits" ConditionalActionSetToRunOnButtonPressPath="Actions/CREDITSActions.xml"/>
 
    <file path="home" name="CreditsData.txt">

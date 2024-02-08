@@ -15,8 +15,8 @@ type="3">
 
 
 <file path="sys" name="passwd">
-  admin:Lory:35:35:/:/bin
-  </file>
+admin:Lory:35:35:/:/bin
+</file>
 
 <dlink target="NORAD" />
   

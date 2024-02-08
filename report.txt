@@ -1,15 +1,4 @@
 Errors Found. Writing report to Extensions/WargamesExtension/report.txt
 
-
-START MISSION READ ERRORS:
-
-NextMission Tag for mission "Extensions/WargamesExtension/Missions/4-WOPR.xml" has nonexistent next mission path: loadConditionalActions:Actions/5-WW3Actions.xml
-Invalid Mission Path! : Extensions/WargamesExtension/loadConditionalActions:Actions/5-WW3Actions.xml
-Error Loading Extensions/WargamesExtension/loadConditionalActions:Actions/5-WW3Actions.xml
-System.NotSupportedException: The given path's format is not supported.
-   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
-   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
-   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
-   at System.IO.File.OpenRead(String path)
-   at Hacknet.ComputerLoader.readMission(String filename)
-   at Hacknet.Misc.TestSuite.TestMission(String missionName, Object os_obj)
+Mission Errors for Extensions/WargamesExtension/Missions/10-ENDGAME.xml:
+File contains missionEnd, but it's not being correctly parsed in. It might be out of order in the file.

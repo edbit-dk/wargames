@@ -2,14 +2,13 @@
 <mission id="9-ATTACK">
   <goals>
     <!-- Goals here -->
-    <goal type="delay" time="10.0"/>
 </goals>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-<missionStart val="9">changeSong</missionStart>
+<missionStart val="0">playCustomSong:Music/80s_pop.ogg</missionStart>
 <nextMission>Missions/10-ENDGAME.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
@@ -33,8 +32,8 @@ You decline, telling her that you never learned how to swim and that you thought
 you'd always have plenty of time. 
 
 Then you hear a chopper and the ground is lit up by search lights. 
-You assume that Falken has turned you in, but then you realise that 
-it is Falken piloting the chopper. Falken calls you on the PA and tells you to get in. 
+You assume that Falken has turned you in, but then you realise that it is Falken piloting the chopper. 
+Falken calls you on the PA and tells you to get in. 
 You then proceed to fly to NORAD. 
 
 You get to NORAD, but barely make it in time, before they 
@@ -46,7 +45,8 @@ a fantasy, a computer enhanced hallucination - and asks him to call it off.
 
 The General agrees to ride out the attack, before launching the missiles...
 
-Reply back when you have talked with the General.
+
+Reply back when you have read this mail.
 </body>
     <attachments>
     </attachments>

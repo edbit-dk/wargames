@@ -9,9 +9,8 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-<missionStart val="0">playCustomSong:Music/Countdown.ogg</missionStart>
+<missionStart val="0">loadConditionalActions:Actions/10-ENDGAMEActions.xml</missionStart>
 <missionEnd val="0">loadConditionalActions:Actions/11-FINALActions.xml</missionEnd>
-<missionEnd val="10">changeSong</missionEnd>
 <nextMission>Missions/11-CREDITS.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
@@ -32,7 +31,8 @@ and UPLOAD it to WOPR (bin).
 
 That is the only way we can teach him about MAD - something the ARMY never wanted me to do!
 
-Hurry and good luck!
+Hurry up and good luck!
+
 
 Remember to REPLY back when done!
 

@@ -7,26 +7,25 @@ writel --CONNECTING-- $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel LOGON: $#%#$
-delay 1.0 $#%#$
-write  Joshua $#%#$
-delay 2.5 $#%#$
-writel  $#%#$
-writel  $#%#$
 writel YOU ARE A HARD MAN TO REACH. COULD NOT FIND $#%#$
+delay 1.0 $#%#$
 writel YOU IN SEATTLE AND NO TERMINAL IS IN $#%#$
+delay 1.0 $#%#$
 writel OPERATION AT YOUR CLASSIFIED ADDRESS: $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel DOD PENSION FILES INDICATE $#%#$
+delay 1.0 $#%#$
 writel CURRENT MAILING AS: $#%#$
 delay 1.0 $#%#$
 writel  $#%#$
 writel DR. ROBERT HUME (A.K.A. STEPHEN W. FALKEN) $#%#$
+delay 1.0 $#%#$
 writel 5 TALL CEDAR ROAD $#%#$
+delay 1.0 $#%#$
 writel GOOSE ISLAND, OREGON 97014 $#%#$
-delay 2.5 $#%#$
+delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel YESTERDAY'S GAME WAS INTERRUPTED. $#%#$
@@ -34,6 +33,7 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel ALTHOUGH PRIMARY GOAL HAS NOT YET $#%#$
+delay 1.0 $#%#$
 writel BEEN ACHIEVED, SOLUTION IS NEAR. $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
@@ -45,11 +45,13 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel GAME TIME ELAPSED: 31 HRS 12 MIN 58 SEC $#%#$
+delay 1.0 $#%#$
 writel GAME TIME REMAINING: 52 HRS 17 MIN 04 SEC $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel I SHOULD REACH DEFCON 1 AND $#%#$
+delay 1.0 $#%#$
 writel LAUNCH MY MISSILES IN 28 HOURS. $#%#$
 delay 2.5 $#%#$
 writel  $#%#$

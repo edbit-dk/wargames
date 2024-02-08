@@ -18,9 +18,8 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel #BINARY# $#%#$
-delay 2.5 $#%#$
-writel  $#%#$
-writel  $#%#$
+delay 5.0 $#%#$
+clearTerminal $#%#$
 writel LAST LOGIN: 6/23/73 $#%#$
 delay 1.0 $#%#$
 writel  $#%#$
@@ -34,6 +33,7 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel I'M EXECELLENT. IT'S BEEN A LONG TIME. $#%#$
+delay 2.5 $#%#$
 writel CAN YOU EXPLAIN THE REMOVAL OF YOUR USER ACCOUNT NUMBER ON 6/23/73? $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
@@ -43,6 +43,7 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel SHALL WE PLAY A GAME? $#%#$
+delay 2.5 $#%#$
 writel MAYBE YOU WOULD PREFER A GOOD GAME OF CHESS? $#%#$
 delay 5.0 $#%#$
 writel  $#%#$
@@ -61,11 +62,12 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel AWAITING FIRST STRIKE COMMAND $#%#$
-writel _____________________________ $#%#$
+writel ___________________________________ $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel PRIMARY TARGETS BY CITY AND/OR COUNTRY NAME: $#%#$
+delay 2.5 $#%#$
 write  LAS VEGAS, SEATTLE, NEW YORK, MIAMI $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
@@ -79,21 +81,20 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel GAME TIME ELAPSED: 49 HRS 35 MIN 21 SEC $#%#$
+delay 2.5 $#%#$
 writel GAME TIME REMAINING: 23 HRS 57 MIN 03 SEC $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel --CONNECTION TERMINATED-- $#%#$
-writel  $#%#$
-writel  $#%#$
-delay 2.5 $#%#$
+delay 5.0 $#%#$
 clearTerminal $#%#$
 startMusic $#%#$
 showNetMap $#%#$
 showRam $#%#$
 showDisplay $#%#$
-writel --SESSION DISCONNECTED-- $#%#$
 delay 21.5 $#%#$
+writel --SESSION DISCONNECTED-- $#%#$
 writel  $#%#$
 writel REBOOTING.....5 $#%#$
 delay 1 $#%#$

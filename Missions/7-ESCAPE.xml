@@ -2,14 +2,13 @@
 <mission id="7-ESCAPE">
   <goals>
     <!-- Goals here -->
-    <goal type="delay" time="10.0"/>
 </goals>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-<missionStart val="7">changeSong</missionStart>
+<missionStart val="0">playCustomSong:Music/80s_pop.ogg</missionStart>
 <nextMission>Missions/8-FALKEN.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
@@ -46,7 +45,8 @@ you climb into a ventilation hatch. This then leads you out under the steps in t
 It is your good fortune that today they have a party of tourists, 
 so you mix in with them and manage to escape from NORAD undetected...
 
-Reply when you have escaped.
+
+Reply back when you have read this mail.
 </body>
     <attachments>
     </attachments>

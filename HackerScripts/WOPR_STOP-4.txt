@@ -6,11 +6,16 @@ connect $#%#$
 stopMusic $#%#$
 clearTerminal $#%#$
 delay 1.0 $#%#$
+writel --CONNECTING-- $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
 writel ANALYZING NEW GAME: "TIC_TAC_TOE.exe" $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel LOADING GAME: "TIC TAC TOE" $#%#$
+delay 1.0 $#%#$
 writel NUMBER OF PLAYERS?: $#%#$
 delay 1.0 $#%#$
 write  ZERO $#%#$
@@ -37,7 +42,7 @@ clearTerminal $#%#$
 writel  $#%#$
 writel  $#%#$
 writel NUMBER OF WINNERS: $#%#$
-delay 1.0 $#%#$
+delay 2.5 $#%#$
 write  NONE $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -70,7 +75,11 @@ delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel HOW ABOUT A NICE GAME OF CHESS? $#%#$
-delay 5.0 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel --CONNECTION TERMINATED-- $#%#$
+delay 21.5 $#%#$
+clearTerminal $#%#$
 startMusic $#%#$
 showNetMap $#%#$
 showRam $#%#$

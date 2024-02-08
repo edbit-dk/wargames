@@ -36,7 +36,7 @@ writel ** ROUTINE MUST COMPLETE BEFORE RESET ** $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel RUN COMMAND: RM /etc/passwd $#%#$
+writel RUN COMMAND: RM /sys/passwd $#%#$
 delay 1.0 $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -50,69 +50,6 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel LAUNCH TIME: >> AWAITING CODES << $#%#$
-delay 21.5 $#%#$
+delay 60.0 $#%#$
 clearTerminal $#%#$
-writel 000-0000-000 $#%#$
-delay 5.0 $#%#$
-clearTerminal $#%#$
-writel 000-0004-000 $#%#$
-delay 5.0 $#%#$
-clearTerminal $#%#$
-writel 0P0-0004-000 $#%#$
-delay 5.0 $#%#$
-clearTerminal $#%#$
-writel 0P0-1004-000 $#%#$
-delay 5.0 $#%#$
-clearTerminal $#%#$
-writel CP0-1004-000 $#%#$
-delay 5.0 $#%#$
-clearTerminal $#%#$
-writel CP0-1704-00S $#%#$
-delay 5.0 $#%#$
-clearTerminal $#%#$
-writel CPE-1704-00S $#%#$
-delay 5.0 $#%#$
-clearTerminal $#%#$
-writel CPE-1704-00S $#%#$
-delay 5.0 $#%#$
-clearTerminal $#%#$
-writel CPE-1704-TKS $#%#$
-delay 5.0 $#%#$
-clearTerminal $#%#$
-writel CPE-1704-TKS $#%#$
-delay 5.0 $#%#$
-clearTerminal $#%#$
-writel INPUT LAUNCH CODE: $#%#$
-delay 1.0 $#%#$
-write  CPE-1704-TKS $#%#$
-delay 2.5 $#%#$
-clearTerminal $#%#$
-writel LAUNCH TIME: 5 $#%#$
-delay 1.0 $#%#$
-write .4 $#%#$
-delay 1.0 $#%#$
-write .3 $#%#$
-delay 1.0 $#%#$
-write .2 $#%#$
-delay 1.0 $#%#$
-write .1 $#%#$
-delay 1.0 $#%#$
-write .0 $#%#$
-delay 10 $#%#$
-clearTerminal $#%#$
-writel  $#%#$
-writel  $#%#$
-writel PRIMARY GOAL: $#%#$
-delay 1.0 $#%#$
-write  COMPLETED $#%#$
-delay 2.5 $#%#$
-writel  $#%#$
-writel  $#%#$
-writel GOODBYE PROFESSOR FALKEN. $#%#$
-writel  $#%#$
-writel  $#%#$
-writel --CONNECTION TERMINATED-- $#%#$
-delay 10 $#%#$
-clearTerminal $#%#$
-forkbomb $#%#$
 disconnect $#%#$

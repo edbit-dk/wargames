@@ -11,7 +11,6 @@ type="3">
 <account username="McKittrick" password="7KQ201" type="0" />
 <account username="Beringer" password="2KFC49" type="0" />
 
-  <proxy time="1" />
   <firewall level="6" solution="defcon" additionalTime="0.5"/>
   <portRemap>ssh=34, smtp=53, web=94, ftp=75</portRemap>
   <portsForCrack val="4" />
@@ -40,11 +39,11 @@ by Stephen Falken, with John McKittrick
 CPE1704TKS
   </encryptedFile>
 
-   <file path="sys" name="passwd">
-  admin:00000000:0:0:/:/bin
-  McKittrick:7KQ201:0:0:/:/bin
-  Beringer:2KFC49:0:0:/:/bin
-  </file>
+<file path="sys" name="passwd">
+admin:00000000:0:0:/:/bin
+McKittrick:7KQ201:0:0:/:/bin
+Beringer:2KFC49:0:0:/:/bin
+</file>
 
   <dlink target="ispComp" />
   <dlink target="WOPR" />

@@ -1,6 +1,7 @@
 <ConditionalActions>
   
   <Instantly>
+      <RunFunction FunctionName="changeSong" FunctionValue="10" />
       <CancelScreenBleedEffect DelayHost="delayHost" Delay="2.5" />
       <LaunchHackScript Filepath="HackerScripts/WOPR_STOP-4.txt" DelayHost="delayHost" Delay="2.5" SourceComp="WOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
   </Instantly>

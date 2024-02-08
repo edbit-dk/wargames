@@ -2,7 +2,7 @@
   
   <Instantly>      
       <HideAllNodes DelayHost="delayHost" Delay="2.5"/>
-      <ShowNode DelayHost="delayHost" Delay="21.5" Target="NORAD" />
+      <ShowNode DelayHost="delayHost" Delay="5.0" Target="NORAD" />
   </Instantly>
 
 </ConditionalActions>
