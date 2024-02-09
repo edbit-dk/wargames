@@ -44,6 +44,7 @@ Remember to REPLY back when done!
 - CONNECT to Falken's terminal. 
 - DOWNLOAD (scp) "TIC_TAC_TOE.exe" game.
 - UPLOAD game to WOPR (bin). 
+- Reply back when done.
       </note>
     <account comp="falken" user="admin" pass="Lory" />
     </attachments>

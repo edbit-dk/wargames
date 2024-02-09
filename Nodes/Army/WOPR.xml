@@ -6,10 +6,11 @@ icon="chip"
 security="0" 
 type="empty">
 
- <!-- Accounts -->
-  <adminPass pass="Joshua" />
-  
+ <!-- Accounts --> 
+ <adminPass pass="Joshua" /> 
 <account username="help" password="games" type="1" />
+<account username="McKittrick" password="7KQ201" type="1" />
+<account username="Beringer" password="2KFC49" type="1" />
 
 <file path="home" name="HELP_GAMES.txt">
 'GAMES' REFERES TO MODELS, SIMULATIONS AND GAMES

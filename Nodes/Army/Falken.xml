@@ -13,6 +13,7 @@ type="3">
 
 <file path="bin" name="TIC_TAC_TOE.exe">#BINARY#</file>
 
+    <account username="guest" password="" type="1" />
 
 <file path="sys" name="passwd">
 admin:Lory:35:35:/:/bin

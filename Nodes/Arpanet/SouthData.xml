@@ -11,6 +11,8 @@ type="1">
   <ports>22, 21, 25</ports>
   <trace time="200" />
 
+      <account username="guest" password="" type="1" />
+
 <dlink target="unionBank" />
 <dlink target="medical" />
 

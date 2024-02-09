@@ -75,12 +75,13 @@ delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel HOW ABOUT A NICE GAME OF CHESS? $#%#$
+delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel --CONNECTION TERMINATED-- $#%#$
+startMusic $#%#$
 delay 21.5 $#%#$
 clearTerminal $#%#$
-startMusic $#%#$
 showNetMap $#%#$
 showRam $#%#$
 showDisplay $#%#$

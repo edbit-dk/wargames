@@ -20,7 +20,9 @@ type="3" >
 
   <account username="UNKNOWN" password="?" type="2" />
 
-    <account username="Falken" password="Joshua" type="2" />
+  <account username="Falken" password="Joshua" type="2" />
+
+  <account username="Jennifer" password="Mack" type="2" />
   
   <mailServer name="" color="50,237,212">
 

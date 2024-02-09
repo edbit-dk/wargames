@@ -9,9 +9,12 @@ type="1">
   <firewall level="5" solution="games" additionalTime="0.5"/>
   <portsForCrack val="3" />
   <ports>22, 21, 25</ports>
-  <trace time="300" />
+  <trace time="100" />
 
 <PointClicker />
+
+<account username="help" password="games" type="1" />
+<account username="guest" password="" type="1" />
 
  <file path="bin" name="DOOM.exe">
 Name: DOOM by id Software

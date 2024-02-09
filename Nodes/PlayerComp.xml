@@ -5,7 +5,7 @@ security="0"
 allowsDefaultBootModule="false" 
 type="2" >
 
-<adminPass pass="root" />
+<adminPass pass="000001" />
 <account username="#PLAYERNAME#" password="000001" type="0" />
 
   <account username="guest" password="" type="1" />
@@ -17,37 +17,33 @@ type="2" >
 <trace time="300" />
 
 
-  <file path="home" name="PASSWORD-LISTS.txt">
-This is a complete list of the most common usernames and passwords I have found different terminals use on the ARPANET. 
-Some give (backdoor) ADMIN access, some don't. Try at your own risk!
+<file path="home" name="PASSWORD-LISTS.txt">
+DATE: 6/1/1983
 
-USERNAMES:
-admin - (DEFAULT SUPERUSER)
-guest - (NO PASSWORD)
-help - (SYSTEM HELP)
-user - (DEFAULT ACCOUNT)
-root - (SYSTEMUSER)
-ftp - (UPLOADS)
+- This is a complete list of the most common usernames and passwords I have found different terminals use on the ARPANET. 
+- Some give (backdoor) ADMIN access, some don't. 
+- Try at your own risk (remember to delete logs, if you don't want to get hacked/traced)!
 
-PASSWORDS:
-000001 - (DEFAULT)
-games - (GAME SERVERS)
-root - (SYSTEMUSER)
-uploader - (FTP)
-password (STANDARD)
-admin - (SUPERUSER)
-12345678 - (BBS)
-webmaster - (WEBSERVERS)
-alpine - (FAX AND MAIL)
-00000000 - (ARMY)
+USERNAME:PASSWORD
+
+admin:admin - (DEFAULT SUPERUSER)
+admin:password - (STANDARD ADMIN)
+admin:000001 - (DEFAULT USER)
+guest: - (GUEST ACCOUNT)
+help:games - (GAME SERVERS)
+admin:alpine - (MAIL SERVERS)
+ftp:uploader - (FTP SERVERS)
 
 HINTS:
-Sometimes people use passwords with close relation to their family and loved ones to make the password more unique.
+1) If a system has -extra- security in place (like a firewall or proxy), you probaly cannot brute-force into the system
+using these usernames and password. Instead, you have to use our custom programs and tools on the FTP server!
+
+2) Sometimes people use passwords with close relation to their family and loved ones to make the password more unique.
 Try looking up their names in different databases, to find more info about them.
 
 - Malvin and Jim, 
 Seattle Tech Lab
-  </file>
+</file>
 
 <file path="home" name="Letter.txt">
 Dear Jennifer

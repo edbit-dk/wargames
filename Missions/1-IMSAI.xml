@@ -4,8 +4,8 @@
     <!-- Goals here -->
       <goal type="getadmin" target="academic"/>
       
-      <goal type="AddDegree" owner="Jennifer K. Mack" degree="S202 BIOLOGY 2" uni="Seattle" gpa="4.0"/>
-      <goal type="AddDegree" owner="David L. Lightman" degree="S202 BIOLOGY 2" uni="Seattle" gpa="4.0"/>
+      <goal type="AddDegree" owner="Jennifer Mack" degree="S202 BIOLOGY 2" uni="Seattle High School" gpa="4.0"/>
+      <goal type="AddDegree" owner="David Lightman" degree="S202 BIOLOGY 2" uni="Seattle High School" gpa="4.0"/>
   </goals>
   <!-- 
   Add your mission start and end items here
@@ -31,6 +31,7 @@ It is currently set to: Pencil
 
 
 Reply back when done.
+
 
 - UNKNOWN
 </body>

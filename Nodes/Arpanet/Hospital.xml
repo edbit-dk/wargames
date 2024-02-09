@@ -4,6 +4,8 @@ name="SOUTHWEST HOSPITAL"
 security="0" 
 type="1">
 
+    <account username="guest" password="" type="1" />
+    
   <admin type="progress" />
   <firewall level="8" solution="medicine" additionalTime="1.0"/>
   <portsForCrack val="3" />

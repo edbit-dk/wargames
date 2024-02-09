@@ -38,9 +38,8 @@ Reply back when you -think- you are done.
 <note title="HACKING">
 HACKING:
 1. SCAN the school network for other systems
-2. Use "PASSWORD-LISTS.txt" to brute-force computers
-3. Look for (LS/DIR) usefull programs on hacked systems with the ".exe" extension
-4. Get access to "SOUTHWEST DATACENTER" in California and reply back
+2. Use PROBE/NMAP to scan for security on connected system, and use the "PASSWORD-LISTS.txt" (on your computer) for help
+4. Get access to "SOUTHWEST DATACENTER" in California - and reply back
 5. If in doubt use the HELP program
 </note>
 <link comp="academic" />
