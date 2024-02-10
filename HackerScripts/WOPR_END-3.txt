@@ -4,8 +4,7 @@ clearTerminal $#%#$
 delay 1.0 $#%#$
 writel --CONNECTING-- $#%#$
 delay 2.5 $#%#$
-writel  $#%#$
-writel  $#%#$
+clearTerminal $#%#$
 writel ** MISSILES TARGETED AND READY ** $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
@@ -38,7 +37,7 @@ writel ** ROUTINE MUST COMPLETE BEFORE RESET ** $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel RUN COMMAND: RM /sys/passwd $#%#$
+writel RUN COMMAND: rm /sys/passwd $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -54,6 +53,6 @@ delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
 writel LAUNCH TIME: >> AWAITING CODES << $#%#$
-delay 60.0 $#%#$
+delay 5.0 $#%#$
 clearTerminal $#%#$
 disconnect $#%#$

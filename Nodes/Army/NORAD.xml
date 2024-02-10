@@ -45,7 +45,16 @@ McKittrick:7KQ201:0:0:/:/bin
 Beringer:2KFC49:0:0:/:/bin
 </file>
 
+  <file path="bin" name="FIGHTER_COMBAT.exe">#BINARY#</file>
+  <file path="bin" name="GUERRILLA_ENGAGEMENT.exe">#BINARY#</file>
+  <file path="bin" name="DESERT_WARFARE.exe">#BINARY#</file>
+  <file path="bin" name="AIR_TO_GROUND_ACTIONS.exe">#BINARY#</file>
+  <file path="bin" name="THEATERWIDE_TACTICAL_WARFARE.exe">#BINARY#</file>
+  <file path="bin" name="TEHATERWIDE_BIOTOXIC_AND_CHEMICAL_WARFARE.exe">#BINARY#</file>
+  <file path="bin" name="GLOBAL_THERMONUCLEAR_WAR.exe">#BINARY#</file>
+
   <dlink target="ispComp" />
+  <dlink target="falken" />
   <dlink target="WOPR" />
     
 </Computer>

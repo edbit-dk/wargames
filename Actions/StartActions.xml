@@ -11,11 +11,11 @@
       <LaunchHackScript Filepath="HackerScripts/WOPR_START-1.txt" DelayHost="delayHost" Delay="2" SourceComp="WOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
   </OnAdminGained>
 
-     <!-- triggered once the player gets admin access to the target machine -->
-  <OnAdminGained target="NORAD">
+     <!-- triggered once the player gets access to the target machine -->
+  <OnConnect needsMissionComplete="false" target="NORAD">
     <!--Actions here-->
-    <LaunchHackScript Filepath="HackerScripts/WOPR_GAME-2.txt" DelayHost="delayHost" Delay="21.5" SourceComp="WOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
-  </OnAdminGained>
+    <LaunchHackScript Filepath="HackerScripts/WOPR_GAME-2.txt" DelayHost="delayHost" Delay="7.0" SourceComp="WOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
+  </OnConnect>
 
   <OnAdminGained target="SoutData">
     <!--Actions here-->

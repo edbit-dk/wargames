@@ -62,4 +62,6 @@ GOOSE ISLAND, OREGON 97014
   <ports>22, 25, 80, 21</ports>
   <trace time="10" />
 
+  <positionNear target="NORAD" position="0" total="1" />
+
 </Computer>

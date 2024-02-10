@@ -5,8 +5,12 @@ stopMusic $#%#$
 delay 1.0 $#%#$
 writel --CONNECTING-- $#%#$
 delay 2.5 $#%#$
-writel  $#%#$
-writel  $#%#$
+clearTerminal $#%#$
+writel LOGON: $#%#$
+delay 1.0 $#%#$
+write  Joshua $#%#$
+delay 2.5 $#%#$
+clearTerminal $#%#$
 writel YOU ARE A HARD MAN TO REACH. COULD NOT FIND $#%#$
 delay 1.0 $#%#$
 writel YOU IN SEATTLE AND NO TERMINAL IS IN $#%#$
@@ -69,10 +73,8 @@ writel GAME OR REAL: $#%#$
 delay 1.0 $#%#$
 write  WHAT'S THE DIFFERENCE? $#%#$
 delay 2.5 $#%#$
-writel  $#%#$
-writel  $#%#$
-writel --CONNECTION TERMINATED-- $#%#$
 startMusic $#%#$
 delay 21.5 $#%#$
+writel --CONNECTION TERMINATED-- $#%#$
 clearTerminal $#%#$
 disconnect $#%#$

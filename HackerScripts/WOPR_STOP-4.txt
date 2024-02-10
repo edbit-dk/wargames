@@ -8,8 +8,7 @@ clearTerminal $#%#$
 delay 1.0 $#%#$
 writel --CONNECTING-- $#%#$
 delay 2.5 $#%#$
-writel  $#%#$
-writel  $#%#$
+clearTerminal $#%#$
 writel ANALYZING NEW GAME: "TIC_TAC_TOE.exe" $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
@@ -32,11 +31,7 @@ writel ..X......XOO......X.......XOX..... $#%#$
 delay 0.5 $#%#$
 writel ..X......XOO......X.......XOX..... $#%#$
 delay 0.5 $#%#$
-writel #BINARYSMALL# $#%#$
-writel #BINARYSMALL# $#%#$
-writel #BINARYSMALL# $#%#$
-writel #BINARYSMALL# $#%#$
-writel #BINARYSMALL# $#%#$
+writel #BINARY# $#%#$
 delay 2.5 $#%#$
 clearTerminal $#%#$
 writel  $#%#$

@@ -3,6 +3,8 @@
   <!-- this triggers immediately, as soon as this is finished loading! Actions will happen in the order they appear in this file.-->
   <Instantly>
     <!--Actions here-->
+  <ShowNode DelayHost="delayHost" Delay="2.5" Target="ispComp" />
+
   <AddAsset FileName="SQLBufferOverflow.exe" FileContents="#SQL_CRACK#" TargetComp="techLab" TargetFolderpath="FTP/Uploads" />
   <AddAsset FileName="WebServerWorm.exe" FileContents="#WEB_CRACK#" TargetComp="techLab" TargetFolderpath="FTP/Uploads" />
   </Instantly>

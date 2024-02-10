@@ -19,6 +19,13 @@ type="3">
 admin:Lory:35:35:/:/bin
 </file>
 
-<dlink target="NORAD" />
+  <file path="bin" name="FALKENS_MAZE.exe">#BINARY#</file>
+  <file path="bin" name="BLACK_JACK.exe">#BINARY#</file>
+  <file path="bin" name="GIN_RUMMY.exe">#BINARY#</file>
+  <file path="bin" name="HEARTS.exe">#BINARY#</file>
+  <file path="bin" name="BRIDGE.exe">#BINARY#</file>
+  <file path="bin" name="CHECKERS.exe">#BINARY#</file>
+  <file path="bin" name="CHESS.exe">#BINARY#</file>
+  <file path="bin" name="POKER.exe">#BINARY#</file>
   
 </Computer>

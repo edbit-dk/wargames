@@ -2,7 +2,8 @@
 <mission id="10-ENDGAME">
   <goals>
     <!-- Goals here -->
-      <goal type="fileupload" target="falken" file="TIC_TAC_TOE.exe" path="bin" destTarget="WOPR" destPath="bin"/>
+    <goal type="getadmin" target="NORAD"/>
+    <goal type="fileupload" target="falken" file="TIC_TAC_TOE.exe" path="bin" destTarget="WOPR" destPath="bin"/>
 </goals>
   <!-- 
   Add your mission start and end items here
@@ -26,12 +27,15 @@ He is trying to find the launch codes so he can launch the missiles himself...
 
 We have to STOP him before he does!
 
-CONNECT to my terminal and DOWNLOAD (scp) the "TIC_TAC_TOE.exe" game,
-and UPLOAD it to WOPR (bin). 
+1) Hack the NORAD SYSTEM and SCAN for my terminal.
+2) Login to my terminal - admin:Lory
+3) DOWNLOAD (scp) the "TIC_TAC_TOE.exe" game from my terminal.
+4) UPLOAD the game to WOPR (bin). 
+5) Reply back when done.
 
-That is the only way we can teach him about MAD - something the ARMY never wanted me to do!
+That is the only way we can teach Joshua about MAD - something the ARMY never wanted me to do!
 
-Hurry up and good luck!
+Hurry up - and good luck!
 
 
 Remember to REPLY back when done!
@@ -41,12 +45,12 @@ Remember to REPLY back when done!
 </body>
     <attachments>
       <note title="FINAL COUNTDOWN">
-- CONNECT to Falken's terminal. 
-- DOWNLOAD (scp) "TIC_TAC_TOE.exe" game.
-- UPLOAD game to WOPR (bin). 
-- Reply back when done.
+1) Hack the NORAD SYSTEM and SCAN for my terminal.
+2) Login to my terminal - admin:Lory
+3) DOWNLOAD (scp) the "TIC_TAC_TOE.exe" game from my terminal.
+4) UPLOAD the game to WOPR (bin). 
+5) Reply back when done.
       </note>
-    <account comp="falken" user="admin" pass="Lory" />
     </attachments>
   </email>
 </mission>

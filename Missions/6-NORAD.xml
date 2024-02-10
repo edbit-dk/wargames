@@ -2,7 +2,6 @@
 <mission id="6-NORAD">
   <goals>
     <!-- Goals here -->
-     <goal type="getadmin" target="NORAD"/>
 </goals>
   <!-- 
   Add your mission start and end items here
@@ -32,7 +31,7 @@ There is a terminal near you, flashing cursor beckoning.
 
 You wonder if the "backdoor" to WOPR still works - so give it a try!
 
-But you have to hack the NORAD network first...
+But you have to connect the NORAD network first...
 
 
 Reply back when you have talked with WOPR.

@@ -1,9 +1,12 @@
 <ConditionalActions>
   
   <Instantly>
+
+      <HideNode DelayHost="delayHost" Delay="2.5" TargetComp="falken" />
+      
       <RunFunction FunctionName="playCustomSong:Music/Countdown.ogg" />
       
-     <StartScreenBleedEffect AlertTitle="MISSILE LAUNCH COUNTDOWN" CompleteAction="Actions/STOPActions.xml" TotalDurationSeconds="60" DelayHost="delayHost" Delay="60">
+     <StartScreenBleedEffect AlertTitle="MISSILE LAUNCH COUNTDOWN" CompleteAction="Actions/STOPActions.xml" TotalDurationSeconds="120" DelayHost="delayHost" Delay="60">
     STOP WOPR BEFORE THE MISSILES LAUNCHES!
       </StartScreenBleedEffect>
     

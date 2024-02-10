@@ -48,7 +48,7 @@ Opens encrypted files, if correct password is given
   <file path="FTP/Uploads" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
   <file path="FTP/Uploads" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
 
-<file path="home" name="PASSWORD-LISTS.txt">
+<file path="home" name="PASSWORD-LISTS-2.txt">
 DATE: 10/2/1983
 
 - This is a complete list of the most common usernames and passwords I have found different terminals use on the ARPANET. 

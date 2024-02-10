@@ -7,7 +7,7 @@ clearTerminal $#%#$
 delay 1.0 $#%#$
 writel --CONNECTING-- $#%#$
 delay 2.5 $#%#$
-writel  $#%#$
+clearTerminal $#%#$
 writel 000-0000-000 $#%#$
 delay 1.0 $#%#$
 clearTerminal $#%#$

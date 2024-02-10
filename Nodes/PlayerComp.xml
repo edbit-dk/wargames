@@ -17,7 +17,7 @@ type="2" >
 <trace time="300" />
 
 
-<file path="home" name="PASSWORD-LISTS.txt">
+<file path="home" name="PASSWORD-LISTS-1.txt">
 DATE: 6/1/1983
 
 - This is a complete list of the most common usernames and passwords I have found different terminals use on the ARPANET. 

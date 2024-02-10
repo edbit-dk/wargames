@@ -9,14 +9,12 @@ stopMusic $#%#$
 delay 1.0 $#%#$
 writel --CONNECTING-- $#%#$
 delay 2.5 $#%#$
-writel  $#%#$
-writel  $#%#$
+clearTerminal $#%#$
 writel LOGON: $#%#$
 delay 1.0 $#%#$
 write  Joshua $#%#$
 delay 2.5 $#%#$
-writel  $#%#$
-writel  $#%#$
+clearTerminal $#%#$
 writel #BINARY# $#%#$
 delay 2.5 $#%#$
 clearTerminal $#%#$
@@ -89,12 +87,12 @@ writel  $#%#$
 writel --CONNECTION TERMINATED-- $#%#$
 delay 5.0 $#%#$
 clearTerminal $#%#$
+writel --SESSION DISCONNECTED-- $#%#$
 startMusic $#%#$
 showNetMap $#%#$
 showRam $#%#$
 showDisplay $#%#$
 delay 21.5 $#%#$
-writel --SESSION DISCONNECTED-- $#%#$
 writel  $#%#$
 writel REBOOTING.....5 $#%#$
 delay 1 $#%#$
