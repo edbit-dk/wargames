@@ -4,7 +4,7 @@ name="NIGHTOWL - BBS"
 security="0" 
 type="1">
 
-<adminPass pass="12345678" />
+<adminPass pass="" />
 
   <portsForCrack val="1" />
   <ports>22, 21, 25</ports>

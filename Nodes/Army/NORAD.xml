@@ -11,11 +11,9 @@ type="3">
 <account username="McKittrick" password="7KQ201" type="0" />
 <account username="Beringer" password="2KFC49" type="0" />
 
-  <firewall level="6" solution="defcon" additionalTime="0.5"/>
-  <portRemap>ssh=34, smtp=53, web=94, ftp=75</portRemap>
-  <portsForCrack val="4" />
-  <ports>22, 25, 80, 21</ports>
-  <trace time="300" />
+  <portsForCrack val="999" />
+  <ports></ports>
+  <trace time="10" />
 
  <file path="home" name="WAR_ROOM.txt">
 System manager: Mr. McKittrick
