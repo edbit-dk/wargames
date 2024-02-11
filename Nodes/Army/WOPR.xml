@@ -56,10 +56,10 @@ DR. ROBERT HUME (A.K.A. STEPHEN W. FALKEN)
 GOOSE ISLAND, OREGON 97014
  </file>  
   
-  <firewall level="6" solution="defcon" additionalTime="0.5"/>
-  <portRemap>ssh=34, smtp=53, web=94, ftp=75</portRemap>
-  <portsForCrack val="4" />
-  <ports>22, 25, 80, 21</ports>
+ <firewall level="6" solution="defcon" additionalTime="0.5"/>
+  <portRemap>ssh=34, smtp=53, ftp=75</portRemap>
+  <portsForCrack val="999" />
+  <ports>22, 25, 21</ports>
   <trace time="10" />
 
   <positionNear target="NORAD" position="0" total="1" />

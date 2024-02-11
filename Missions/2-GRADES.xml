@@ -2,6 +2,17 @@
 <mission id="2-GRADES">
   <goals>
     <!-- Goals here -->
+    <goal type="getadmin" target="techLab"/>
+
+    <goal type="filedownload" target="techLab" file="RootKit.exe" path="bin"/>
+    <goal type="filedownload" target="techLab" file="SSHCrack.exe" path="bin"/>
+    <goal type="filedownload" target="techLab" file="FTPBounce.exe" path="bin"/>
+    <goal type="filedownload" target="techLab" file="SMTPOverflow.exe" path="bin"/>
+    <goal type="filedownload" target="techLab" file="DECHead.exe" path="bin"/>
+    <goal type="filedownload" target="techLab" file="Decypher.exe" path="bin"/>
+
+    <goal type="filedownload" target="techLab" file="PASSWORD-LISTS-2.txt" path="home"/>
+
     <goal type="getadmin" target="southData"/>
 </goals>
   <!-- 
@@ -31,6 +42,8 @@ You are looking for ProtoVision in Sunnyvale (California) because you want to pl
 
 You have to find a way from Seattle to California by "hacking" your way through different systems on the ARPANET.
 
+If you need help, maybe take a look at Seattle Tech Lab.
+
 
 Reply back when you -think- you are done.
 </body>
@@ -38,7 +51,8 @@ Reply back when you -think- you are done.
 <note title="HACKING">
 HACKING:
 1. SCAN the school network for other systems
-2. Use PROBE/NMAP to scan for security on connected system, and use the "PASSWORD-LISTS.txt" (on your computer) for help
+2. Use PROBE/NMAP to scan for security on connected system, and use the "PASSWORD-LISTS-1.txt" (on your computer) for help
+3. Download (SCP) ANY helpful programs (.exe) and text-files (.txt) you find
 4. Get access to "SOUTHWEST DATACENTER" in California - and reply back
 5. If in doubt use the HELP program
 </note>

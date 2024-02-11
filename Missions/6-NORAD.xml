@@ -2,6 +2,7 @@
 <mission id="6-NORAD">
   <goals>
     <!-- Goals here -->
+    <goal type="getstring" target="Oregon" />
 </goals>
   <!-- 
   Add your mission start and end items here
@@ -31,12 +32,15 @@ There is a terminal near you, flashing cursor beckoning.
 
 You wonder if the "backdoor" to WOPR still works - so give it a try!
 
-But you have to connect the NORAD network first...
+But you have to CONNECT to the NORAD network first...
 
 
-Reply back when you have talked with WOPR.
+Talk with WOPR and reply back the current US STATE (like "Seattle") Falken is located in.
 </body>
     <attachments>
+<note title="NORAD">
+IP: 311.767.730.5
+</note>
     </attachments>
   </email>
 </mission>
