@@ -6,7 +6,6 @@
       <HideAllNodes DelayHost="delayHost" Delay="2.5"/>
       <ShowNode DelayHost="delayHost" Delay="2.5" Target="playerComp" />
       <ShowNode DelayHost="delayHost" Delay="5.0" Target="NORAD" />
-      <ShowNode DelayHost="delayHost" Delay="10.00" Target="WOPR" />
   </Instantly>
 
 </ConditionalActions>

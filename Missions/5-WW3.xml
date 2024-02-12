@@ -3,6 +3,7 @@
   <goals>
     <!-- Goals here -->
     <goal type="clearfolder" target="WOPR" path="log"/>
+    <goal type="clearfolder" target="playerComp" path="log"/>
 </goals>
   <!-- 
   Add your mission start and end items here
@@ -21,17 +22,14 @@
 The next day, your parents see a letter from the school with your grades. 
 Your father is very pleased! 
 
-You then see the news on TV, where they are reporting that someone 
-has hacked into NORAD and almost started WWIII. 
+You then see the news on TV, where they are reporting that someone has hacked into NORAD and almost started WWIII. 
 
-Was that someone you? Worried that it is you (almost sure in fact), 
-you go up to your room and throw away all traces that you hacked 
-into the WOPR, phone numbers, printouts. Everything! 
+Was that someone you? Worried that it is you (almost sure in fact), you go up to your room and throw away all traces that you hacked into the WOPR, phone numbers, printouts. Everything! 
 
 Just when you think all is fine, the phone rings. 
 
 
-Reply back when you have removed all traces (logs) from the WOPR computer.
+Reply back when you have removed all traces (logs) from YOUR computer AND the WOPR computer!
 </body>
     <attachments>
     <account comp="WOPR" user="admin" pass="Joshua" />

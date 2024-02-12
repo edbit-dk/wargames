@@ -24,8 +24,7 @@ You disconnect your computer, just in case the WOPR (Joshua) tries to call you a
 Then you venture out to the Mall. Whilst at the Mall, you spot a government car (you know the sort). 
 You try to walk away, but they already have you in their sights and arrest you. 
 
-They take you to NORAD, where initially you are locked in the infirmary, 
-but later you are met by Mr. McKittrick - the computer facility manager at NORAD. 
+They take you to NORAD, where initially you are locked in the infirmary, but later you are met by Mr. McKittrick - the computer facility manager at NORAD. 
 
 He takes you up to his office and questions you, but is called away - leaving you alone in his office. 
 There is a terminal near you, flashing cursor beckoning. 
@@ -38,8 +37,9 @@ But you have to CONNECT to the NORAD network first...
 Talk with WOPR and reply back the current US STATE (like "Seattle") Falken is located in.
 </body>
     <attachments>
-<note title="NORAD">
-IP: 311.767.730.5
+<note title="FALKEN">
+FALKEN
+Reply back the current US STATE (like "Seattle") WOPR said Falken is located in.
 </note>
     </attachments>
   </email>

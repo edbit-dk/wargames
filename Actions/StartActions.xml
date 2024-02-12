@@ -22,8 +22,7 @@
   <!-- triggered once the player gets access to the target machine -->
   <OnConnect needsMissionComplete="false" target="falken">
     <!--Actions here-->
-    <RunFunction FunctionName="playCustomSong:Music/Doom.ogg" />
-    <LoadMission MissionName="Missions/9-ATTACK.xml" />
+    <AddConditionalActions Filepath="Actions/9-ATTACKActions.xml" />
   </OnConnect>
 
   <OnAdminGained target="southData">

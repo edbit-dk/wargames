@@ -11,6 +11,8 @@
 
       <ShowNode DelayHost="delayHost" Delay="2.5" Target="NORAD" />
       <ShowNode DelayHost="delayHost" Delay="2.5" Target="WOPR" />
+
+      <LoadMission MissionName="Missions/9-ATTACK.xml" />
   </Instantly>
 
 </ConditionalActions>

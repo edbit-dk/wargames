@@ -65,6 +65,7 @@ write  1 $#%#$
 delay 1.0 $#%#$
 write  0 $#%#$
 delay 2.5 $#%#$
+writel  $#%#$
 writel >> LAUNCH << $#%#$
 delay 2.5 $#%#$
 clearTerminal $#%#$
