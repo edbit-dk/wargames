@@ -27,6 +27,7 @@
 
   <OnAdminGained target="southData">
     <!--Actions here-->
+    <RunFunction FunctionName="playCustomSong:Music/80s_synth.ogg" />
     <LoadMission MissionName="Missions/3-DIALER.xml" />
   </OnAdminGained>
 
