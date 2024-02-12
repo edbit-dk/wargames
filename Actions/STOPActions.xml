@@ -1,7 +1,6 @@
 <ConditionalActions>
   
   <Instantly>
-  <SaveGame DelayHost="delayHost" Delay="2.5"/>
       <RunFunction FunctionName="playCustomSong:Music/Doom.ogg" />
       <LaunchHackScript Filepath="HackerScripts/WOPR_WON-5.txt" DelayHost="delayHost" Delay="2.5" SourceComp="WOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
      <AddConditionalActions Filepath="Actions/12-ENDActions.xml" DelayHost="delayHost" Delay="2.5"/>
