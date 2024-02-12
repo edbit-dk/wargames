@@ -9,10 +9,9 @@ type="3">
   <portRemap>ssh=34, smtp=53, ftp=75</portRemap>
   <portsForCrack val="999" />
   <ports>22, 25, 21</ports>
-  <trace time="10" />
 
 
-<file path="bin" name="TIC_TAC_TOE.exe">#BINARY#</file>
+<file path="bin" name="TIC-TAC-TOE.exe">#BINARY#</file>
 
     <account username="guest" password="" type="1" />
 
@@ -20,9 +19,9 @@ type="3">
 admin:Lory:35:35:/:/bin
 </file>
 
-  <file path="bin" name="FALKENS_MAZE.exe">#BINARY#</file>
-  <file path="bin" name="BLACK_JACK.exe">#BINARY#</file>
-  <file path="bin" name="GIN_RUMMY.exe">#BINARY#</file>
+  <file path="bin" name="FALKENS-MAZE.exe">#BINARY#</file>
+  <file path="bin" name="BLACK-JACK.exe">#BINARY#</file>
+  <file path="bin" name="GIN-RUMMY.exe">#BINARY#</file>
   <file path="bin" name="HEARTS.exe">#BINARY#</file>
   <file path="bin" name="BRIDGE.exe">#BINARY#</file>
   <file path="bin" name="CHECKERS.exe">#BINARY#</file>

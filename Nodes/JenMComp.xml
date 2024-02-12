@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="jenMComp" 
-name="APPLE MACINTOSH"
+name="JENNIFERS IBM PC"
 security="0" 
 allowsDefaultBootModule="false" 
 type="empty" >
@@ -28,5 +28,7 @@ admin:000001:0:0:/:/bin
 </file>
 
 <dlink target="jmail" />
+
+<dlink target="colorado" />
 
 </Computer>

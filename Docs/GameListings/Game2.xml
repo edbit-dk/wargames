@@ -4,8 +4,8 @@
   </goals>
   <nextMission>NONE</nextMission>
   <posting title="TACTICAL GAMES">
-/bin/BLACK_JACK.exe
-/bin/GIN_RUMMY.exe
+/bin/BLACK-JACK.exe
+/bin/GIN-RUMMY.exe
 /bin/HEARTS.exe
 /bin/BRIDGE.exe
 /bin/CHECKERS.exe

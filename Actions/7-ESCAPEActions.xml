@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+  <Instantly>
+  <SaveGame DelayHost="delayHost" Delay="2.5"/>
+      <HideNode DelayHost="delayHost" Delay="2.5" TargetComp="NORAD" />
+      <HideNode DelayHost="delayHost" Delay="2.5" TargetComp="WOPR" />
+  </Instantly>
+
+</ConditionalActions>

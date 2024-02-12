@@ -20,21 +20,21 @@ WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
 
  <variableMissionListingServer name="Games" iconPath="Docs/GameListings/Logo.jpg" articleFolderPath="Docs/GameListings" color="84,165,212" assigner="false" public="false" title="W.O.P.R"/>
 
-  <file path="bin" name="FALKENS_MAZE.exe">#BINARY#</file>
-  <file path="bin" name="BLACK_JACK.exe">#BINARY#</file>
-  <file path="bin" name="GIN_RUMMY.exe">#BINARY#</file>
+  <file path="bin" name="FALKENS-MAZE.exe">#BINARY#</file>
+  <file path="bin" name="BLACK-JACK.exe">#BINARY#</file>
+  <file path="bin" name="GIN-RUMMY.exe">#BINARY#</file>
   <file path="bin" name="HEARTS.exe">#BINARY#</file>
   <file path="bin" name="BRIDGE.exe">#BINARY#</file>
   <file path="bin" name="CHECKERS.exe">#BINARY#</file>
   <file path="bin" name="CHESS.exe">#BINARY#</file>
   <file path="bin" name="POKER.exe">#BINARY#</file>
-  <file path="bin" name="FIGHTER_COMBAT.exe">#BINARY#</file>
-  <file path="bin" name="GUERRILLA_ENGAGEMENT.exe">#BINARY#</file>
-  <file path="bin" name="DESERT_WARFARE.exe">#BINARY#</file>
-  <file path="bin" name="AIR_TO_GROUND_ACTIONS.exe">#BINARY#</file>
-  <file path="bin" name="THEATERWIDE_TACTICAL_WARFARE.exe">#BINARY#</file>
-  <file path="bin" name="TEHATERWIDE_BIOTOXIC_AND_CHEMICAL_WARFARE.exe">#BINARY#</file>
-  <file path="bin" name="GLOBAL_THERMONUCLEAR_WAR.exe">#BINARY#</file>
+  <file path="bin" name="FIGHTER-COMBAT.exe">#BINARY#</file>
+  <file path="bin" name="GUERRILLA-ENGAGEMENT.exe">#BINARY#</file>
+  <file path="bin" name="DESERT-WARFARE.exe">#BINARY#</file>
+  <file path="bin" name="AIR-TO-GROUND-ACTIONS.exe">#BINARY#</file>
+  <file path="bin" name="THEATERWIDE-TACTICAL-WARFARE.exe">#BINARY#</file>
+  <file path="bin" name="TEHATERWIDE-BIOTOXIC-AND-CHEMICAL-WARFARE.exe">#BINARY#</file>
+  <file path="bin" name="GLOBAL-THERMONUCLEAR-WAR.exe">#BINARY#</file>
 
   <file path="sys" name="VT100.exe">#BINARY#</file>
   <file path="sys" name="UNIX.exe">#BINARY#</file>
@@ -48,7 +48,7 @@ McKittrick:7KQ201:0:0:/:/bin
 Beringer:2KFC49:0:0:/:/bin
 </file>
 
-  <file path="home" name="DOD_PENSION_FILES.txt">
+  <file path="home" name="DOD-PENSION-FILES.txt">
 CURRENT MAILING:
 
 DR. ROBERT HUME (A.K.A. STEPHEN W. FALKEN)

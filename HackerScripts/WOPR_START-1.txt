@@ -46,7 +46,7 @@ writel MAYBE YOU WOULD PREFER A GOOD GAME OF CHESS? $#%#$
 delay 5.0 $#%#$
 writel  $#%#$
 writel  $#%#$
-writel ANALYZING NEW GAME: "GLOBAL_THERMONUCLEAR_WAR.exe" $#%#$
+writel ANALYZING NEW GAME: "GLOBAL-THERMONUCLEAR-WAR.exe" $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$

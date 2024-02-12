@@ -3,7 +3,7 @@
   <goals>
     <!-- Goals here -->
     <goal type="getadmin" target="NORAD"/>
-    <goal type="fileupload" target="falken" file="TIC_TAC_TOE.exe" path="bin" destTarget="WOPR" destPath="bin"/>
+    <goal type="fileupload" target="falken" file="TIC-TAC-TOE.exe" path="bin" destTarget="WOPR" destPath="bin"/>
 </goals>
   <!-- 
   Add your mission start and end items here
@@ -27,13 +27,7 @@ He is trying to find the launch codes so he can launch the missiles himself...
 
 We have to STOP him before he does!
 
-1) Hack the NORAD SYSTEM and SCAN for my terminal.
-2) Login to my terminal - admin:Lory
-3) DOWNLOAD (scp) the "TIC_TAC_TOE.exe" game from my terminal.
-4) UPLOAD the game to WOPR (bin). 
-5) Reply back when done.
-
-That is the only way we can teach Joshua about MAD - something the ARMY never wanted me to do!
+Let him play TIC TAC TOE - that is the only way we can teach Joshua about futility in a nuclear war!
 
 Hurry up - and good luck!
 
@@ -45,6 +39,7 @@ Remember to REPLY back when done!
 </body>
     <attachments>
       <note title="FINAL COUNTDOWN">
+FINAL COUNTDOWN
 1) Hack the NORAD SYSTEM and SCAN for my terminal.
 2) Login to my terminal - admin:Lory
 3) DOWNLOAD (scp) the "TIC_TAC_TOE.exe" game from my terminal.

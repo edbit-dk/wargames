@@ -1,9 +1,7 @@
 <ConditionalActions>
   
-  <Instantly>
-
-      <HideNode DelayHost="delayHost" Delay="2.5" TargetComp="falken" />
-      
+  <Instantly> 
+  <SaveGame DelayHost="delayHost" Delay="2.5"/>     
       <RunFunction FunctionName="playCustomSong:Music/Countdown.ogg" />
       
      <StartScreenBleedEffect AlertTitle="MISSILE LAUNCH COUNTDOWN" CompleteAction="Actions/STOPActions.xml" TotalDurationSeconds="120" DelayHost="delayHost" Delay="60">

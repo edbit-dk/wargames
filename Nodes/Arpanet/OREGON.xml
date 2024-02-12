@@ -1,10 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="colorado" 
-name="GRAND JUNCTION - COLORADO BBS"
+<Computer id="oregon" 
+name="OREGON AIRPORT"
 security="0" 
 type="1">
 
-  <portsForCrack val="1" />
+  <portsForCrack val="2" />
   <ports>22, 21, 25</ports>
   <trace time="-1" />
   
@@ -16,6 +16,6 @@ type="1">
 admin::0:0:/:/bin
   </file>
 
-  <dlink target="oregon" />
+  <dlink target="falken" />
 
 </Computer>

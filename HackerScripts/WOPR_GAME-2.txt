@@ -15,7 +15,7 @@ writel YOU ARE A HARD MAN TO REACH. COULD NOT FIND $#%#$
 delay 1.0 $#%#$
 writel YOU IN SEATTLE AND NO TERMINAL IS IN $#%#$
 delay 1.0 $#%#$
-writel OPERATION AT YOUR CLASSIFIED ADDRESS: $#%#$
+writel OPERATION AT YOUR CLASSIFIED ADDRESS. $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$
@@ -29,7 +29,8 @@ delay 1.0 $#%#$
 writel 5 TALL CEDAR ROAD $#%#$
 delay 1.0 $#%#$
 writel GOOSE ISLAND, OREGON 97014 $#%#$
-delay 5.0 $#%#$
+delay 10.0 $#%#$
+clearTerminal $#%#$
 writel  $#%#$
 writel  $#%#$
 writel YESTERDAY'S GAME WAS INTERRUPTED. $#%#$
@@ -73,8 +74,10 @@ writel GAME OR REAL: $#%#$
 delay 1.0 $#%#$
 write  WHAT'S THE DIFFERENCE? $#%#$
 delay 2.5 $#%#$
-startMusic $#%#$
-delay 21.5 $#%#$
+writel  $#%#$
+writel  $#%#$
 writel --CONNECTION TERMINATED-- $#%#$
+startMusic $#%#$
+delay 2.5 $#%#$
 clearTerminal $#%#$
 disconnect $#%#$

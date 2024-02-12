@@ -1,8 +1,0 @@
-<ConditionalActions>
-  
-  <Instantly>
-      <ShowNode DelayHost="delayHost" Delay="2.5" Target="falken" />
-      <ShowNode DelayHost="delayHost" Delay="2.5" Target="playerComp" />
-  </Instantly>
-
-</ConditionalActions>

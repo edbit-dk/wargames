@@ -1,0 +1,16 @@
+<ConditionalActions>
+  
+  <Instantly>
+  <SaveGame DelayHost="delayHost" Delay="2.5"/>
+      <RunFunction FunctionName="playCustomSong:Music/Doom.ogg" />
+
+      <HideNode DelayHost="delayHost" Delay="2.5" TargetComp="falken" />
+      <HideNode DelayHost="delayHost" Delay="2.5" TargetComp="oregon" />
+      <HideNode DelayHost="delayHost" Delay="2.5" TargetComp="colorado" />
+      <HideNode DelayHost="delayHost" Delay="2.5" TargetComp="jenMComp" />
+
+      <ShowNode DelayHost="delayHost" Delay="2.5" Target="NORAD" />
+      <ShowNode DelayHost="delayHost" Delay="2.5" Target="WOPR" />
+  </Instantly>
+
+</ConditionalActions>

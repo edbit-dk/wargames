@@ -27,9 +27,10 @@ DATE: 6/1/1983
 USERNAME:PASSWORD
 
 admin:admin - (DEFAULT SUPERUSER)
-admin:password - (STANDARD ADMIN)
 admin:000001 - (DEFAULT USER)
 guest: - (GUEST ACCOUNT)
+
+admin:password - (BBS servers)
 help:games - (GAME SERVERS)
 admin:alpine - (MAIL SERVERS)
 ftp:uploader - (FTP SERVERS)

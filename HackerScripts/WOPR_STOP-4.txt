@@ -9,7 +9,7 @@ delay 1.0 $#%#$
 writel --CONNECTING-- $#%#$
 delay 2.5 $#%#$
 clearTerminal $#%#$
-writel ANALYZING NEW GAME: "TIC_TAC_TOE.exe" $#%#$
+writel ANALYZING NEW GAME: "TIC-TAC-TOE.exe" $#%#$
 delay 2.5 $#%#$
 writel  $#%#$
 writel  $#%#$

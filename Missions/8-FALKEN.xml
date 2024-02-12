@@ -2,14 +2,14 @@
 <mission id="8-FALKEN">
   <goals>
     <!-- Goals here -->
+    <goal type="getadmin" target="oregon"/>
 </goals>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-<missionStart val="0">loadConditionalActions:Actions/8-FALKENActions.xml</missionStart> 
-<missionStart val="0">playCustomSong:Music/80s_pop.ogg</missionStart>
+<missionStart val="0">playCustomSong:Music/80s_disco.ogg</missionStart>
 <nextMission>Missions/9-ATTACK.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
@@ -39,9 +39,11 @@ The man asks you to leave his land, but then you ask him if he's Stephen Falken
 - and tell him you've come because of Joshua...
 
 
-Reply back when you have talked with the man.
+Use Jennifers computer to find your way to Falken.
+Reply back when you have found his terminal.
 </body>
     <attachments>
+        <account comp="jenMComp" user="admin" pass="000001" />
     </attachments>
   </email>
 </mission>

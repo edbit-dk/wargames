@@ -2,7 +2,7 @@
 <mission id="5-WW3">
   <goals>
     <!-- Goals here -->
-    <goal type="clearfolder" target="playerComp" path="logs"/>
+    <goal type="clearfolder" target="WOPR" path="log"/>
 </goals>
   <!-- 
   Add your mission start and end items here
@@ -31,9 +31,10 @@ into the WOPR, phone numbers, printouts. Everything!
 Just when you think all is fine, the phone rings. 
 
 
-Reply back when you have removed all traces (logs) from your system.
+Reply back when you have removed all traces (logs) from the WOPR computer.
 </body>
     <attachments>
+    <account comp="WOPR" user="admin" pass="Joshua" />
     </attachments>
   </email>
 </mission>

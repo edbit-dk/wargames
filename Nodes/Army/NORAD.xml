@@ -13,7 +13,7 @@ type="3">
 
   <firewall level="6" solution="defcon" additionalTime="0.5"/>
   <portRemap>ssh=34, smtp=53, ftp=75</portRemap>
-  <portsForCrack val="4" />
+  <portsForCrack val="3" />
   <ports>22, 25, 21</ports>
   <trace time="100" />
 
@@ -22,18 +22,6 @@ System manager: Mr. McKittrick
 Personal assistant: Miss. Pat Healy
 Command: General Beringer
  </file>  
-
-   <encryptedFile path="home" name="TOP_SECRET.dec" extension=".txt" ip="armyNORAD" header="Stephen Falken">
-FALKEN'S MAZE: Teaching a Machine to Think
-
-POKER AND ARMAGEDDON: THE ROLE OF BLUFFING IN A NUCLEAR STANDOFF 
-by Stephen Falken, with John McKittrick
-
------- INFORMATION CLASSIFIED ----------
------- INFORMATION CLASSIFIED ----------
------- INFORMATION CLASSIFIED ----------
-  </encryptedFile>
-
 
   <encryptedFile path="home" name="LAUNCH_CODES.dec" extension=".txt" ip="311.767.730.5" header="DOD" pass="00000000">
 CPE1704TKS
@@ -45,13 +33,32 @@ McKittrick:7KQ201:0:0:/:/bin
 Beringer:2KFC49:0:0:/:/bin
 </file>
 
-  <file path="bin" name="FIGHTER_COMBAT.exe">#BINARY#</file>
-  <file path="bin" name="GUERRILLA_ENGAGEMENT.exe">#BINARY#</file>
-  <file path="bin" name="DESERT_WARFARE.exe">#BINARY#</file>
-  <file path="bin" name="AIR_TO_GROUND_ACTIONS.exe">#BINARY#</file>
-  <file path="bin" name="THEATERWIDE_TACTICAL_WARFARE.exe">#BINARY#</file>
-  <file path="bin" name="TEHATERWIDE_BIOTOXIC_AND_CHEMICAL_WARFARE.exe">#BINARY#</file>
-  <file path="bin" name="GLOBAL_THERMONUCLEAR_WAR.exe">#BINARY#</file>
+   <encryptedFile path="home" name="TOP-SECRET.dec" extension=".txt" ip="311.767.730.5" header="NORAD" pass="00000000">
+POKER AND ARMAGEDDON: THE ROLE OF BLUFFING IN A NUCLEAR STANDOFF 
+by Stephen Falken, with John McKittrick
+
+------ INFORMATION CLASSIFIED ----------
+------ INFORMATION CLASSIFIED ----------
+------ INFORMATION CLASSIFIED ----------
+
+CURRENT MAILING:
+
+DR. ROBERT HUME (A.K.A. STEPHEN W. FALKEN)
+5 TALL CEDAR ROAD
+GOOSE ISLAND, OREGON 97014
+
+FAMILY STATUS:
+- Son, Joshua (dead)
+- Wife, Lory (dead)
+  </encryptedFile>
+
+  <file path="bin" name="FIGHTER-COMBAT.exe">#BINARY#</file>
+  <file path="bin" name="GUERRILLA-ENGAGEMENT.exe">#BINARY#</file>
+  <file path="bin" name="DESERT-WARFARE.exe">#BINARY#</file>
+  <file path="bin" name="AIR-TO-GROUND-ACTIONS.exe">#BINARY#</file>
+  <file path="bin" name="THEATERWIDE-TACTICAL-WARFARE.exe">#BINARY#</file>
+  <file path="bin" name="TEHATERWIDE-BIOTOXIC-AND-CHEMICAL-WARFARE.exe">#BINARY#</file>
+  <file path="bin" name="GLOBAL-THERMONUCLEAR-WAR.exe">#BINARY#</file>
 
   <dlink target="ispComp" />
   <dlink target="falken" />

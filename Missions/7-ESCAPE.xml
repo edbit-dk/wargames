@@ -8,6 +8,7 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
+<missionStart val="0">loadConditionalActions:Actions/7-ESCAPEActions.xml</missionStart>
 <nextMission>Missions/8-FALKEN.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>

@@ -12,7 +12,7 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   missionEnd val="1">addRank</missionEnd> 
   -->
-<missionStart val="0">playCustomSong:Music/80s_pop.ogg</missionStart>
+<missionEnd val="0">playCustomSong:Music/80s_pad.ogg</missionEnd>  
 <nextMission>Missions/2-GRADES.xml</nextMission>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
@@ -36,9 +36,25 @@ Reply back when done.
 - UNKNOWN
 </body>
     <attachments>
+<note title="HELP">
+HELP
+1) Programs/commands like "CONNECT" are run by typing them in the "TERMINAL"-window (with the blinking cursor).
+2) Note that you do not need to type commands in all-caps - like "CONNECT" vs "connect".
+3) Type "?" or "HELP" to get a list of available commands.
+4) In help messages, "[]" signifies arguments to commands - like "CONNECT [ip]".
+5) Type "CLEAR" to clear terminal. 
+</note>
+<note title="TIPS">
+TIPS
+1) Have a pen and paper beside you, when you need to write things down!
+2) Read/download everything you can. Maybe it will become useful later!
+3) Remember to clear your traces by removing ALL logs (rm *) from connected systems. You can stop an active trace by disconnecting!
+4) When hacking systems you can run multiple programs at once as long you don't run out of RAM!
+5) Take your time to read articles about security to understand them better!
+</note>
 <note title="SCHOOL COMPUTER">
 SCHOOL COMPUTER
-IP: 206.767.339.5
+IP-address: 206.767.339.5
 Username: admin
 Password: Pencil
 GPA grade: 4.0

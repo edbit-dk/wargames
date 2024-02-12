@@ -43,7 +43,17 @@ delay 1.0 $#%#$
 write  CPE-1704-TKS $#%#$
 delay 2.5 $#%#$
 clearTerminal $#%#$
-writel LAUNCH TIME: 5 $#%#$
+writel LAUNCH TIME: T-MINUS 10 $#%#$
+delay 1.0 $#%#$
+write  9 $#%#$
+delay 1.0 $#%#$
+write  8 $#%#$
+delay 1.0 $#%#$
+write  7 $#%#$
+delay 1.0 $#%#$
+write  6 $#%#$
+delay 1.0 $#%#$
+write  5 $#%#$
 delay 1.0 $#%#$
 write  4 $#%#$
 delay 1.0 $#%#$
@@ -54,6 +64,8 @@ delay 1.0 $#%#$
 write  1 $#%#$
 delay 1.0 $#%#$
 write  0 $#%#$
+delay 2.5 $#%#$
+writel >> LAUNCH << $#%#$
 delay 2.5 $#%#$
 clearTerminal $#%#$
 writel PRIMARY GOAL: $#%#$
@@ -72,6 +84,4 @@ clearTerminal $#%#$
 showNetMap $#%#$
 showRam $#%#$
 showDisplay $#%#$
-delete /sys/x-server.sys $#%#$
-forkbomb $#%#$
 disconnect $#%#$
