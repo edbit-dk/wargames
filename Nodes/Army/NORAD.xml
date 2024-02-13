@@ -17,13 +17,13 @@ type="3">
   <ports>22, 25, 21</ports>
   <trace time="100" />
 
- <file path="home" name="WAR_ROOM.txt">
+ <file path="home" name="WAR-ROOM.txt">
 System manager: Mr. McKittrick
 Personal assistant: Miss. Pat Healy
 Command: General Beringer
  </file>  
 
-  <encryptedFile path="home" name="LAUNCH_CODES.dec" extension=".txt" ip="311.767.730.5" header="DOD" pass="00000000">
+  <encryptedFile path="home" name="LAUNCH-CODES.dec" extension=".txt" ip="311.767.730.5" header="DOD" pass="00000000">
 CPE1704TKS
   </encryptedFile>
 
