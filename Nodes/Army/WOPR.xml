@@ -12,7 +12,7 @@ type="empty">
 <account username="McKittrick" password="7KQ201" type="1" />
 <account username="Beringer" password="2KFC49" type="1" />
 
-<file path="home" name="HELP_GAMES.txt">
+<file path="home" name="HELP-GAMES.txt">
 'GAMES' REFERES TO MODELS, SIMULATIONS AND GAMES
 WHICH HAVE TACTICAL AND STRATEGIC APPLICATIONS.
 </file>
