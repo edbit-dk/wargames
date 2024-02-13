@@ -20,9 +20,9 @@ type="2" >
 <file path="home" name="PASSWORD-LISTS-1.txt">
 DATE: 6/1/1983
 
-- This is a complete list of the most common usernames and passwords I have found different terminals use on the ARPANET. 
-- Some give (backdoor) ADMIN access, some don't. 
-- Try at your own risk (remember to delete logs, if you don't want to get hacked/traced)!
+This is a complete list of the most common usernames and passwords I have found different terminals use on the ARPANET.
+Some give (backdoor) ADMIN access, some don't.
+Try at your own risk (remember to delete logs, if you don't want to get hacked/traced)!
 
 USERNAME:PASSWORD
 
