@@ -1,5 +1,5 @@
 # Hacknet Extension: WarGames
- Hacknet Extension with inpiration taken for the 1983 movie "WarGames"
+ Hacknet (https://hacknet-os.com/) Extension with inpiration taken for the 1983 movie "WarGames"
 
 # Plot
 A story set in 1983 with inspiration taken from the movie "WarGames". 
